@@ -1,0 +1,793 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T06:11:00+09:00",
+  "coverage": [
+    {
+      "title": "원문 확인 범위",
+      "status": "기록 보강",
+      "note": "33개 출처에 실제 열람 기록 반영. 본문·초록·서지·정책 페이지를 Source.note에 구분했다. 출처 수는 주장별 독립 입증이나 자산 사용권을 뜻하지 않는다.",
+      "url": "https://apod.nasa.gov/apod/ap260907.html"
+    },
+    {
+      "title": "Google Trends",
+      "status": "HOLD",
+      "note": "화면·RSS·30일 비교 분리. 저검색량·혼합 검색 의도로 후보 수요 근거 사용 금지.",
+      "url": "https://trends.google.com/trending?geo=KR"
+    },
+    {
+      "title": "공개물 중복 기준",
+      "status": "검토 중",
+      "note": "전일 두 회차 및 published와 핵심 중복 최종 판정은 전략 단계. 원문·이미지 링크는 제작 자산 사용권이 아니다.",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1QVLqr4m0yIavqjARigMow"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "shorts-mount-michael-infrared",
+      "format": "shorts",
+      "category": "과학 관측",
+      "title": "위성 사진의 빨간 점, 눈으로 봐도 빨갈까?",
+      "summary": "NASA가 9월 7일 공개한 8월 24일 Landsat 8 영상은 자연색 위에 적외선 7-6-5 신호를 빨강으로 겹쳐 정상부의 지속적 용암호 열을 보여 준다. 9월 1일 Landsat 9 영상의 파동 구름은 별도 관측이다.",
+      "whyNow": "9월 7일 공개된 자료로 8월 24일 열 관측과 9월 1일 구름 영상을 구분해 설명할 계기다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "과학 쇼츠 시청자가 합성 사진의 색을 실제 눈에 보이는 색으로 오해하지 않도록 돕는다.",
+      "signal": "채널 적합",
+      "duration": "45~60초",
+      "hook": "사진의 빨강은 적외선 신호를 나타내도록 입힌 색입니다.",
+      "outline": [
+        "자연색과 적외선 합성을 구분한다",
+        "8월 24일 정상부 열 신호를 설명한다",
+        "9월 1일 파동 구름과 별도 관측임을 짚는다"
+      ],
+      "keywords": [
+        "마운트 마이클",
+        "적외선",
+        "용암호"
+      ],
+      "sources": [
+        {
+          "title": "A Bright Spot at Mount Michael - NASA Science",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-bright-spot-at-mount-michael/",
+          "publisher": "science.nasa.gov",
+          "kind": "primary",
+          "publishedAt": "2026-09-07",
+          "checkedAt": "2026-09-08T05:13:48.307+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 관련 본문 구간 재열람 성공. 뒤의 재접근 실패보다 마지막 성공 기록을 사용. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Evidence for a lava lake on Mt. Michael volcano, Saunders Island (South Sandwich Islands) from Landsat, Sentinel-2 and ASTER satellite imagery",
+          "url": "https://nora.nerc.ac.uk/id/eprint/523285/",
+          "publisher": "nora.nerc.ac.uk",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:09:15+09:00",
+          "note": "PDF는 도구 용량 제한으로 미열람. 대신 공식 저장소의 제목·서지·초록 구간을 직접 확인했다. 2019년 연구 배경이며 2026년 개별 관측을 독립 입증하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 shorts-arctic-zero-curtain은 토양 동결, shorts-pluto-liquid는 지하 액체 추론이다. 본 후보는 적외선 표시 방식과 용암호 관측으로 질문을 제한한다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "`오늘 분화`, `육안으로 빨간 용암`, `화산 검색 5천+가 이 사건 수요`라고 말할 수 없다. 이미지별 사용 조건을 따로 확인해야 한다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "sage"
+    },
+    {
+      "id": "shorts-pelican-nebula-25h",
+      "format": "shorts",
+      "category": "과학 관측",
+      "title": "성운 사진 한 장에 왜 25시간이 필요했을까?",
+      "summary": "NASA APOD 9월 7일 페이지는 25시간 노출과 전리 전선을 설명한다.",
+      "whyNow": "9월 7일 APOD에 명시된 25시간 노출을 관측 조건 설명의 출발점으로 삼는다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "한 장의 우주 사진이 만들어지는 과정을 짧게 설명하는 시각형 과학 기획이다.",
+      "signal": "채널 적합",
+      "duration": "45~60초",
+      "hook": "이 성운 사진에는 25시간의 노출이 담겼습니다.",
+      "outline": [
+        "장시간 노출이라는 관측 조건을 소개한다",
+        "전리 전선이 드러내는 구조를 설명한다",
+        "육안 관측과 사진을 구분하고 이미지 크레딧을 밝힌다"
+      ],
+      "keywords": [
+        "펠리컨 성운",
+        "장시간 노출",
+        "전리 전선"
+      ],
+      "sources": [
+        {
+          "title": "APOD: 2026 September 7 – The Pelican Nebula in Gas, Dust, and Stars",
+          "url": "https://apod.nasa.gov/apod/ap260907.html",
+          "publisher": "apod.nasa.gov",
+          "kind": "primary",
+          "publishedAt": "2026-09-07",
+          "checkedAt": "2026-09-08T06:09:23+09:00",
+          "note": "기존 Science URL 접근 실패 후 공식 APOD 본문 직접 확인. 25시간 노출·전리 전선·Mark Killion 저작권 표기를 읽었다. 이미지 사용 허가 아님."
+        },
+        {
+          "title": "Guidelines for using NASA Images and Media Guidelines",
+          "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "publisher": "www.nasa.gov",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:08:55+09:00",
+          "note": "공식 미디어 지침 페이지 직접 열람. 제3자 저작물의 개별 권리를 대신 허가하지 않으며 과학 주장 입증 출처가 아니다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 shorts-september-sky는 관측 날짜와 천체 위치 안내다. 본 후보는 사진 노출과 전리 전선이며 관측 일정 안내를 반복하지 않는다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "사진 저작권자는 Mark Killion이다. NASA 페이지에 있다는 이유로 자유사용, NASA 제작 사진이라고 단정할 수 없다. 자산 권리 확인 전 제작 HOLD. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "sage"
+    },
+    {
+      "id": "shorts-saturn-south-decagon",
+      "format": "shorts",
+      "category": "과학 관측",
+      "title": "토성 남극에서 관측된 10각형, 얼마나 오래 갈까?",
+      "summary": "NASA 9월 2일 기사와 2023~2025 Hubble 관측은 남극 제트의 거대하고 진화 중인 10각 대기파를 설명한다. 여러 파장에서 고도가 다른 층까지 보였다.",
+      "whyNow": "9월 2일 기사로 2023~2025년 토성 남극 관측 결과를 소개한다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "익숙한 행성의 낯선 모양을 질문으로 삼되 원인 미확정을 함께 보여 준다.",
+      "signal": "채널 적합",
+      "duration": "45~60초",
+      "hook": "2023~2025년 관측에서 남극의 10각 대기파가 포착됐습니다.",
+      "outline": [
+        "관측 기간과 남극 위치를 소개한다",
+        "파장별로 본 대기층을 설명한다",
+        "형성 원인과 수명은 아직 모른다고 마무리한다"
+      ],
+      "keywords": [
+        "토성",
+        "남극",
+        "대기파"
+      ],
+      "sources": [
+        {
+          "title": "NASA's Hubble Tracks New Decagon Encircling Saturn’s South Pole - NASA Science",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+          "publisher": "science.nasa.gov",
+          "kind": "primary",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-08T05:19:59.928+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 기사 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "University of Leicester observations help reveal mysterious shape in Saturn’s clouds",
+          "url": "https://le.ac.uk/news/2026/august/observations-mysterious-shape-saturn-clouds",
+          "publisher": "le.ac.uk",
+          "kind": "reference",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-08T06:09:43+09:00",
+          "note": "논문 DOI 접근 실패 후 연구 참여 대학의 9월 2일 발표 본문 직접 확인. 2023~2025 관측·대기층·지속기간 미확정을 확인. 논문 전문 열람은 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 shorts-pluto-liquid의 액체 추론 및 shorts-september-sky의 관측 일정과 달리 남극 대기파의 모양·변화를 설명한다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "형성 원인과 지속 기간은 미확인이다. `완전히 새로 생겼다`, `영구 구조`, `북극 육각형과 같은 원리`로 단정하지 않는다. 이미지 권리 확인 필요. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "sage"
+    },
+    {
+      "id": "shorts-sporadic-e-five-probes",
+      "format": "shorts",
+      "category": "과학 관측",
+      "title": "보이지 않는 전리층을 다섯 지점에서 재면?",
+      "summary": "NASA 9월 2일 기사는 2022 SpEED Demon 본체와 4개 dropsonde가 sporadic E 층을 동시에 다섯 지점에서 측정한 최초 사례를 설명한다. 층은 평평하지 않고 불균일했다.",
+      "whyNow": "9월 2일 결과 소개를 계기로 2022년 실험의 다지점 측정 방식을 설명한다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "보이지 않는 전리층을 어떻게 측정하는지 장비 배치와 관측 차이로 쉽게 풀 수 있다.",
+      "signal": "채널 적합",
+      "duration": "45~60초",
+      "hook": "로켓 본체와 네 탐사체가 같은 층을 함께 측정했습니다.",
+      "outline": [
+        "2022년 실험과 이번 결과 발표를 구분한다",
+        "본체와 네 dropsonde의 동시 측정을 설명한다",
+        "불균일한 층 관측과 원인 가설을 나눈다"
+      ],
+      "keywords": [
+        "전리층",
+        "SpEED Demon",
+        "동시 관측"
+      ],
+      "sources": [
+        {
+          "title": "NASA Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds - NASA Science",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
+          "publisher": "science.nasa.gov",
+          "kind": "primary",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-08T05:20:15.082+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 관련 본문 구간 재열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Simultaneous Multi-Point In Situ Plasma Density Measurements of a Mid-Latitude Sporadic E Layer",
+          "url": "https://portfolio.erau.edu/en/publications/simultaneous-multi-point-in-situ-plasma-density-measurements-of-a/",
+          "publisher": "portfolio.erau.edu",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:09:15+09:00",
+          "note": "DOI 접근 실패 후 저자 소속 대학의 논문 서지 페이지 직접 확인. 제목·저자·논문 식별 자료이며 논문 본문이나 원인 가설의 독립 검증 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 shorts-x59-noise는 비행체 소음 시험이다. 본 후보는 전리층의 공간 불균일성을 본체와 네 탐사체로 측정한 방법이다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "Kelvin–Helmholtz billow는 현지 바람·전기장을 직접 측정하지 못해 `가능한 설명`이다. 2026년 발사가 아니라 2022년 기술실증 결과다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "sage"
+    },
+    {
+      "id": "shorts-n44-superbubble-census",
+      "format": "shorts",
+      "category": "과학 관측",
+      "title": "N44의 거대한 빈 공간은 블랙홀일까?",
+      "summary": "NASA 9월 3일 기사에서 N44 superbubble은 약 210×140광년이며 HST 프로그램 14689는 약 50만 개 별과 약 3만 개 전주계열성을 목록화했다.",
+      "whyNow": "9월 3일 Hubble 기사에서 거품 구조와 항성 목록을 구분해 소개한다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "빈 공간처럼 보이는 천체 구조를 블랙홀로 혼동하지 않도록 돕는 과학 쇼츠다.",
+      "signal": "채널 적합",
+      "duration": "45~60초",
+      "hook": "이곳의 거대한 구조는 슈퍼버블로 불립니다.",
+      "outline": [
+        "약 210×140광년 구조를 소개한다",
+        "항성 목록과 거품 구조를 별개 결과로 설명한다",
+        "새 기사와 새로운 천체 발견을 구분한다"
+      ],
+      "keywords": [
+        "N44",
+        "슈퍼버블",
+        "항성 목록"
+      ],
+      "sources": [
+        {
+          "title": "NASA's Hubble Spies Superbubble Scene - NASA Science",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
+          "publisher": "science.nasa.gov",
+          "kind": "primary",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-08T05:20:15.082+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 관련 본문 구간 재열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Proposal Search",
+          "url": "https://archive.stsci.edu/proposal_search.php?id=14689&mission=hst",
+          "publisher": "archive.stsci.edu",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:20:23.804+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. STScI 제안서 목록 페이지 열람 성공. 논문 본문 범위는 아님. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 우주 후보는 지하 액체 추론과 하늘 관측 일정이다. 본 후보는 N44 구조와 항성 목록이며 새 천체 발견으로 바꾸지 않는다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "새 기사·새 이미지 공개를 `새로운 성운 발견`으로 말하지 않는다. 이미지 크레딧과 상업 사용 범위를 별도 확인한다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "sage"
+    },
+    {
+      "id": "youtube-methane-map-confidence",
+      "format": "youtube",
+      "category": "AI 연구 해설",
+      "title": "AI가 찾은 메탄 지도, 검출과 확인은 어떻게 다를까?",
+      "summary": "Google Research 9월 1일 MAPL-EMIT는 전문가 주석 plume의 84%를 찾았고 약 1,100 EMIT granule에서 약 50% 더 많은 `plausible` plume을 보고했다. 360만 합성 plume을 실제 장면에 주입해 훈련했다.",
+      "whyNow": "9월 1일 MAPL-EMIT 발표의 검출 결과와 데이터 신뢰도 설명을 함께 읽는다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "AI 결과를 무조건 믿거나 버리기보다 재현율과 거짓 양성을 구분하는 사례를 제공한다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "전문가 주석의 84%를 찾았다는 말은 모든 점이 진짜라는 뜻일까요?",
+      "outline": [
+        "합성 plume 훈련과 EMIT 관측을 설명한다",
+        "재현율과 거짓 양성을 별개 지표로 읽는다",
+        "신뢰도·구름·관측 범위의 한계로 지도를 해석한다"
+      ],
+      "keywords": [
+        "메탄",
+        "MAPL-EMIT",
+        "거짓 양성"
+      ],
+      "sources": [
+        {
+          "title": "Mapping global methane emissions from space with deep learning",
+          "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+          "publisher": "research.google",
+          "kind": "primary",
+          "publishedAt": "2026-09-01",
+          "checkedAt": "2026-09-08T05:21:31.758+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "MAPL-EMIT: Modeled Methane Plumes | Earth Engine Data Catalog | Google for Developers",
+          "url": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_ghg_emit_mapl_emit_plumes_v1_0",
+          "publisher": "developers.google.com",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:21:38.948+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 데이터 카탈로그 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 shorts-coastal-carbon은 해안 침식과 탄소 이동이다. 본 후보는 위성 메탄 검출의 신뢰도와 관측 사각지대다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "모든 검출이 확인된 배출원이 아니다. 중간 신뢰도 표본은 문서상 거짓 양성률 약 50~55%이고 EMIT 관측 범위·구름·어두운 표면 제약이 있다. `전 세계 배출 완전 지도` 금지. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "blue"
+    },
+    {
+      "id": "youtube-genomic-transfer-crossover",
+      "format": "youtube",
+      "category": "AI 연구 해설",
+      "title": "다른 집단의 유전체 데이터는 언제 도움이 될까?",
+      "summary": "Google Research 9월 3일 연구는 UK Biobank 유럽계 자료를 Biobank Japan 예측에 옮겼다. 표적 집단 표본이 작을 때는 도움이 됐지만 커지면 효과가 줄거나 정확도가 하락했고 교차점은 형질별로 달랐다.",
+      "whyNow": "9월 3일 연구를 계기로 표적집단 표본 크기에 따른 전이학습 효과를 설명한다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "AI 데이터가 많으면 항상 좋다는 단순한 생각을 구체적 연구 범위 안에서 점검한다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "이 연구에서는 표적집단 표본 크기에 따라 전이학습 효과가 달랐습니다.",
+      "outline": [
+        "UKB에서 BBJ로 옮긴 연구 설정을 소개한다",
+        "표본 크기와 형질별 교차점을 설명한다",
+        "여덟 형질의 연구를 임상 판단으로 확대하지 않는다"
+      ],
+      "keywords": [
+        "유전체",
+        "전이학습",
+        "표본 크기"
+      ],
+      "sources": [
+        {
+          "title": "Transfer learning for genomic prediction in underrepresented populations",
+          "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+          "publisher": "research.google",
+          "kind": "primary",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-08T05:21:31.758+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Polygenic Risk Scores",
+          "url": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+          "publisher": "www.genome.gov",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:21:38.948+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 설명 페이지 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "BioBank Japan",
+          "url": "https://biobankjp.org/en/",
+          "publisher": "biobankjp.org",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:21:38.948+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 공식 소개 페이지 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 AI 후보의 코딩·업무 채택과 달리 두 biobank 간 예측 전이와 형질별 차이가 핵심이다. 개인 건강 판단으로 확대하지 않는다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "여덟 형질·두 biobank의 연구다. 모든 전이학습·모든 인구집단·임상 진단으로 일반화하지 않는다. 건강 조언이나 개인 위험 예측을 제공하지 않는다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "blue"
+    },
+    {
+      "id": "youtube-proactive-writing-control",
+      "format": "youtube",
+      "category": "AI 연구 해설",
+      "title": "먼저 말 거는 글쓰기 AI, 언제 방해가 될까?",
+      "summary": "DeepMind 9월 1일 연구는 16명이 1주 동안 역할·타이밍을 설정하는 proactive writing partner를 사용했다. 맥락 정렬, 현재 의도 존중, 사용자 통제가 핵심으로 보고됐다.",
+      "whyNow": "9월 1일 공개된 16명·1주 탐색으로 선제 제안의 타이밍을 살핀다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "글을 쓰는 독자가 AI 제안의 개입 시점과 거절 권한을 설계할 질문을 얻는다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "제안 내용만큼 제안하는 타이밍과 거절할 권한이 중요합니다.",
+      "outline": [
+        "16명·1주 탐색의 범위를 설명한다",
+        "역할·타이밍·통제에 대한 관찰을 읽는다",
+        "직접 체험 대신 사용자가 설정할 질문을 제안한다"
+      ],
+      "keywords": [
+        "글쓰기 AI",
+        "선제 제안",
+        "사용자 통제"
+      ],
+      "sources": [
+        {
+          "title": "Designing Proactive Thought Partners for Writing — Google DeepMind",
+          "url": "https://deepmind.google/research/publications/265605/",
+          "publisher": "deepmind.google",
+          "kind": "primary",
+          "publishedAt": "2026-09-01",
+          "checkedAt": "2026-09-08T05:13:07.469+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 공개 페이지와 초록 구간 확인 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Designing Proactive Thought Partners for Writing",
+          "url": "https://arxiv.org/abs/2609.01588",
+          "publisher": "arxiv.org",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:09:15+09:00",
+          "note": "arXiv 초록·제출 이력 직접 열람. 16명·1주 탐색과 제안 방식 설명을 확인. 논문 전문·실험 재현 미실행."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 youtube-assistance-to-execution은 실행형 에이전트 전환이다. 본 후보는 글쓰기 중 제안 시점·현재 의도·사용자 통제로 범위를 좁힌다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "소규모 기술 탐색이며 생산성·품질 향상 인과를 입증하지 않는다. 실제 사용 경험처럼 쓰지 않고 연구 소개형으로 쓴다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "blue"
+    },
+    {
+      "id": "youtube-agentic-video-selective-watch",
+      "format": "youtube",
+      "category": "AI 연구 해설",
+      "title": "AI가 긴 영상의 필요한 구간만 찾는다면?",
+      "summary": "Google 9월 1일 공개는 Gemini 3.7/3.6 Flash와 3.5 Flash-Lite의 agentic video understanding이 구간을 동적으로 탐색한다고 설명한다. 자체 벤치마크에서 토큰 최대 88%, 비용 최대 66% 감소, 정확도 최대 7% 개선을 보고했다.",
+      "whyNow": "9월 1일 구간 탐색 발표를 계기로 영상 분석 방식과 공급사 최대 절감치를 분리해 읽는다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "영상 제작자가 긴 영상 분석의 처리 범위와 비용 조건을 판단하는 데 연결된다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "구간 탐색 방식이 자원을 줄였다는 공급사 발표를 읽어봅니다.",
+      "outline": [
+        "동적 구간 탐색과 전체 처리의 차이를 설명한다",
+        "토큰·비용 감소 최대치와 시험 조건을 함께 읽는다",
+        "우리 영상에서의 결과는 별도 실험이 필요함을 밝힌다"
+      ],
+      "keywords": [
+        "영상 이해",
+        "구간 탐색",
+        "토큰"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Agentic Video in Gemini",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+          "publisher": "blog.google",
+          "kind": "primary",
+          "publishedAt": "2026-09-01",
+          "checkedAt": "2026-09-08T05:19:00.241+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 관련 본문 구간 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Video understanding | Gemini API | Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/video-understanding",
+          "publisher": "ai.google.dev",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:22:13.534+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 문서 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 youtube-views-experiment는 조회수 비교의 조건이다. 본 후보는 모델의 영상 구간 탐색 방식이며 조회수 성장 기획을 반복하지 않는다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "모두 `최대` 값이며 Google 발표·시험 조건이다. 모든 영상, 모든 모델, 실제 Content Hub 비용에 그대로 적용된다고 말하지 않는다. 우리가 직접 시험한 결과가 아니다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "blue"
+    },
+    {
+      "id": "youtube-weathernext3-resolution-vs-certainty",
+      "format": "youtube",
+      "category": "AI 연구 해설",
+      "title": "날씨 AI의 격자가 촘촘해지면 무엇이 달라질까?",
+      "summary": "Google 9월 3일 WeatherNext 3는 위성 관측을 넣어 매시간 예보하고 일부 지표를 5km 격자로 제공한다. 논문과 독립 live leaderboard가 연결되어 있다.",
+      "whyNow": "9월 3일 WeatherNext 3 발표의 매시간 예보와 일부 5km 격자를 설명한다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "AI 성능을 읽는 독자가 공간 해상도와 예측 정확도를 구분할 수 있다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "5배 촘촘하다는 말은 5배 정확하다는 뜻이 아닙니다.",
+      "outline": [
+        "위성 입력·매시간 예보·일부 5km 격자를 설명한다",
+        "해상도와 변수별 예측 성능을 구분한다",
+        "공식 경보 우선 원칙과 비교 근거의 범위를 적는다"
+      ],
+      "keywords": [
+        "WeatherNext 3",
+        "격자 해상도",
+        "예보"
+      ],
+      "sources": [
+        {
+          "title": "WeatherNext 3: Our most advanced global weather AI model",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+          "publisher": "blog.google",
+          "kind": "primary",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-08T05:19:24.752+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "[2609.03582] WeatherNext 3: Increasing resolution and performance of global weather models with raw observations",
+          "url": "https://arxiv.org/abs/2609.03582",
+          "publisher": "arxiv.org",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:22:13.534+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. arXiv 초록 페이지 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Operational WeatherBench | AI Weather Forecast Leaderboard",
+          "url": "https://owb.brightband.com/",
+          "publisher": "owb.brightband.com",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:22:13.534+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 시작 페이지 열람 성공. 반환은 7줄뿐이라 세부 성능 검증 범위는 아님. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 shorts-september-sky의 관측 일정이나 family-fall-ai의 나들이 계획과 달리 기상 모델 격자와 예측 불확실성을 설명한다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "5배는 이전 모델의 공간 격자 비교이지 모든 지역·모든 변수의 정확도 5배가 아니다. 재난·생활 판단은 현지 기상청 공식 경보를 따르라는 원문 고지를 유지한다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "blue"
+    },
+    {
+      "id": "blog-fermat-formalization-verification",
+      "format": "blog",
+      "category": "AI와 수학",
+      "title": "AI가 페르마의 정리를 다시 증명했다는 말, 무엇이 새로웠나?",
+      "summary": "Anthropic의 9월 4일 발표는 기존 페르마의 마지막 정리 증명을 Lean으로 형식화한 작업을 설명한다. 새로운 정리 발견과 형식화, 공개 산출물과 독립 재현을 구분하는 기획이다.",
+      "whyNow": "9월 4일 발표와 공개 증명 산출물을 함께 읽을 수 있는 최근 7일 기획이다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "비개발자가 발견·형식화·기계검사·독립 재현을 구분하도록 구체적인 수학 사례로 설명한다.",
+      "signal": "채널 적합",
+      "duration": "5~7분 읽기",
+      "hook": "새 정리를 발견한 것이 아니라, 기존 증명을 컴퓨터가 검사할 수 있는 형식으로 옮겼다는 발표입니다.",
+      "outline": [
+        "기존 Wiles 증명과 Lean 형식화를 구분한다",
+        "공개 저장소의 검사 절차 설명과 실제 검사 실행을 구분한다",
+        "사람이 이해하는 설명과 독립 재현이 남는 경계를 정리한다"
+      ],
+      "keywords": [
+        "페르마의 마지막 정리",
+        "Lean",
+        "형식화"
+      ],
+      "sources": [
+        {
+          "title": "Formalizing Fermat's Last Theorem",
+          "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+          "publisher": "Anthropic",
+          "kind": "primary",
+          "publishedAt": "2026-09-04",
+          "checkedAt": "2026-09-08T06:00:42+09:00",
+          "note": "전략 조사자의 세 URL 실제 일괄 재열람 완료시각을 인계받아 기록. 편집자의 재열람 시각이 아니며 저장소 빌드·독립 재현은 미실행. 공급사 설명과 독립 재현을 구분한다."
+        },
+        {
+          "title": "Fermat's Last Theorem in Lean 4",
+          "url": "https://github.com/anthropics/fermats-last-theorem",
+          "publisher": "Anthropic / GitHub",
+          "kind": "primary",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:00:42+09:00",
+          "note": "전략 조사자의 세 URL 실제 일괄 재열람 완료시각을 인계받아 기록. 편집자의 재열람 시각이 아니며 저장소 빌드·독립 재현은 미실행. 공급사 설명과 독립 재현을 구분한다."
+        },
+        {
+          "title": "Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
+          "url": "https://arxiv.org/abs/2608.28433",
+          "publisher": "arXiv",
+          "kind": "primary",
+          "publishedAt": "2026-08-31",
+          "checkedAt": "2026-09-08T06:00:42+09:00",
+          "note": "전략 조사자의 세 URL 실제 일괄 재열람 완료시각을 인계받아 기록. 편집자의 재열람 시각이 아니며 저장소 빌드·독립 재현은 미실행. 발행일은 v2 기준."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 blog-agent-chat-verification은 에이전트 실제 응답·도구 로그 확인이다. 본 후보는 수학 명제 형식화와 kernel 검사·독립 재현의 구분이다. 전략본부의 전일 30건·published 36건 대조 보고에서는 해당 핵심 중복이 확인되지 않았다."
+      },
+      "guardrail": "Claude가 정리를 새로 발견하거나 최초 증명했다고 표현하지 않는다. 11일·1,300만 줄·30,300개 정리는 공급사 보고 수치이며 독립 검증으로 격상하지 않는다. 저장소 빌드·comparator·두 번째 kernel을 실행한 것으로 주장하지 않는다. 형식증명이 사람의 이해를 대체한다고 단정하지 않는다. 직접 경험이 아닌 원문 기반 기획이다.",
+      "accent": "lavender"
+    },
+    {
+      "id": "blog-ai-useful-yield-metric",
+      "format": "blog",
+      "category": "AI 자료 읽기",
+      "title": "AI의 유용한 산출물, 무엇을 한 건으로 셀까?",
+      "summary": "Microsoft 9월 1일 전략 글은 칩·토큰이 아니라 유용한 산출물을 `yield`로 보자고 주장하며 메모리·네트워크·전력을 전체 시스템 관점에서 설명한다.",
+      "whyNow": "9월 1일 전략 에세이의 yield 제안을 계기로 유용한 산출물의 측정 단위를 생각한다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "임원 독자가 토큰 사용량과 검수된 결과물 수를 구분해 목표를 정하는 데 연결된다.",
+      "signal": "채널 적합",
+      "duration": "5~7분 읽기",
+      "hook": "토큰이 늘었다는 사실만으로 유용한 결과를 셀 수는 없습니다.",
+      "outline": [
+        "Microsoft의 yield 제안을 전략 관점으로 소개한다",
+        "유용한 산출물의 단위와 검수 조건을 제안한다",
+        "미검증 수치는 빼고 측정 전 합의할 질문을 남긴다"
+      ],
+      "keywords": [
+        "AI 산출물",
+        "yield",
+        "측정 단위"
+      ],
+      "sources": [
+        {
+          "title": "The yield imperative: Turning AI infrastructure into useful intelligence - The Official Microsoft Blog",
+          "url": "https://blogs.microsoft.com/blog/2026/09/01/the-yield-imperative-turning-ai-infrastructure-into-useful-intelligence/",
+          "publisher": "blogs.microsoft.com",
+          "kind": "primary",
+          "publishedAt": "2026-09-01",
+          "checkedAt": "2026-09-08T05:21:55.201+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 전략 글 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Global AI Diffusion - Q1 2026 Trends and Insights",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/Microsoft-AI-Diffusion-Report-2026-Q1.pdf",
+          "publisher": "www.microsoft.com",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:08:55+09:00",
+          "note": "PDF 본문 1~2쪽의 AI 확산 지표 정의와 한계를 직접 확인. 사용 비율은 유용한 산출물 지표와 다르며 yield 전략의 독립 입증 자료가 아니다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 blog-agent-chat-verification은 실행 여부 증거이고 blog-customer-change-design은 고객 변화다. 본 후보는 유용한 산출물 한 건의 정의와 측정 분모를 제안한다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "Microsoft 임원의 전략 에세이다. 18%·3,400배 수치는 정의·분모·비교 조건을 확인하지 않고 독립 사실처럼 재사용하지 않는다. `yield`는 보편 합의 지표가 아니다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "lavender"
+    },
+    {
+      "id": "blog-gemini38-benchmark-reading",
+      "format": "blog",
+      "category": "AI 자료 읽기",
+      "title": "Gemini 3.8 Flash 성능표와 모델 카드를 함께 읽기",
+      "summary": "Google 9월 2일 Gemini 3.8 Flash 공개와 모델 카드는 코딩·에이전트 평가, 노력 수준, 토큰 사용, 지식 기준, 환각·지연·타임아웃 한계를 함께 제시한다.",
+      "whyNow": "9월 2일 일반 Flash 발표와 모델 카드를 함께 읽어 점수의 조건을 살핀다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "새 모델을 검토하는 독자에게 지연·환각·노력 수준을 함께 비교할 질문을 제안한다.",
+      "signal": "채널 적합",
+      "duration": "5~7분 읽기",
+      "hook": "높은 점수 옆의 지연과 환각 조건도 함께 읽어봅니다.",
+      "outline": [
+        "일반 Flash 평가의 조건을 확인한다",
+        "노력 수준·토큰·지식 시점·지연 한계를 비교한다",
+        "우리 업무 적용 판단은 미실험 상태로 남긴다"
+      ],
+      "keywords": [
+        "Gemini 3.8 Flash",
+        "모델 카드",
+        "평가 조건"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "publisher": "blog.google",
+          "kind": "primary",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-08T05:18:54.256+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 출시 글 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Gemini 3.8 Flash - Model Card — Google DeepMind",
+          "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+          "publisher": "deepmind.google",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T06:08:55+09:00",
+          "note": "모델 카드 페이지 직접 열람. 모델 설명과 노력 수준에 따른 품질·비용·지연 조절을 확인. 공급사 문서이며 독립 성능 측정 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 youtube-ai-access-control의 고위험 능력·접근 통제 축을 제외한다. 일반 Flash 평가 조건과 지연·지식 시점에 집중한다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "Google·파트너·특정 벤치마크 결과이며 우리 업무 성능이나 독립 종합 우승을 뜻하지 않는다. 가격은 도입 가격과 이후 가격을 구분한다. Cyber 접근은 신뢰된 방어자 프로그램으로 제한된다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "lavender"
+    },
+    {
+      "id": "blog-alien-mind-viewpoint-vs-evidence",
+      "format": "blog",
+      "category": "AI 자료 읽기",
+      "title": "AI 연구자의 에세이에서 관측과 전망을 나누는 법",
+      "summary": "OpenAI 수석과학자 Jakub Pachocki의 9월 6일 에세이는 정렬·모니터링, 개발 속도 조절, 국제 공조에 대한 저자의 견해와 OpenAI 내부 기대를 제시한다.",
+      "whyNow": "9월 6일 에세이를 계기로 저자의 관측·내부 결과·전망을 분리해 읽는다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "AI 관련 강한 주장을 접하는 비개발자에게 글의 주장 유형을 구분하는 읽기 방법을 준다.",
+      "signal": "채널 적합",
+      "duration": "5~7분 읽기",
+      "hook": "한 글 안에서도 관측·내부 결과·저자 전망의 무게는 다릅니다.",
+      "outline": [
+        "에세이의 저자 관점과 글의 성격을 명시한다",
+        "정렬·모니터링·속도 조절 주장을 유형별로 읽는다",
+        "업계 합의로 확대하지 않고 남은 질문을 정리한다"
+      ],
+      "keywords": [
+        "AI 에세이",
+        "주장 유형",
+        "전망"
+      ],
+      "sources": [
+        {
+          "title": "An Alien Mind | OpenAI",
+          "url": "https://openai.com/index/an-alien-mind/",
+          "publisher": "openai.com",
+          "kind": "primary",
+          "publishedAt": "2026-09-06",
+          "checkedAt": "2026-09-08T05:20:43.509+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 에세이 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Safety & responsibility | OpenAI",
+          "url": "https://openai.com/safety/",
+          "publisher": "openai.com",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:26:40.472+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. preparedness URL에서 safety 페이지로 리디렉션된 본문 열람 성공. 에세이 주장의 독립 입증 자료는 아님. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 blog-news-date-literacy는 발행일·사건일 구분이다. 본 후보는 에세이의 주장 유형이며 날짜 판별이나 위험 접근 통제 설명을 반복하지 않는다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "동료심사 연구나 업계 합의가 아니라 저자 관점과 내부 결과가 섞인 에세이다. `모든 연구소가 인정`, `감시 실패 확정`, `자발적 감속 합의`라고 쓰지 않는다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "lavender"
+    },
+    {
+      "id": "blog-ukraine-newsroom-pilot-boundary",
+      "format": "blog",
+      "category": "AI 자료 읽기",
+      "title": "작은 뉴스룸의 AI 교육, 시작 전에 정할 일은?",
+      "summary": "OpenAI·WAN-IFRA·AIRPPU 9월 7일 공동 발표는 masterclass와 10개 우크라이나 뉴스 조직의 catalyst/pilot 지원을 설명한다. Catalyst 시작 예정일은 9월 17일이다.",
+      "whyNow": "9월 7일 발표와 9월 17일 예정 시작일 사이에 시범 운영 전 질문을 정리하는 기획이다. Trends 수요 근거는 사용하지 않는다.",
+      "fit": "AI 교육을 준비하는 독자가 목표 업무·검수 책임·앞으로 측정할 성과를 나눠 생각하게 한다.",
+      "signal": "채널 적합",
+      "duration": "5~7분 읽기",
+      "hook": "지원 계획을 읽고 시범 운영에서 확인할 질문을 설계합니다.",
+      "outline": [
+        "10개 조직 지원과 9월 17일 시작 계획을 소개한다",
+        "뉴스룸 업무별 교육 목표와 검수 책임을 제안한다",
+        "성과 지표는 앞으로 확인할 항목으로 남긴다"
+      ],
+      "keywords": [
+        "뉴스룸",
+        "AI 교육",
+        "시범 운영"
+      ],
+      "sources": [
+        {
+          "title": "Supporting independent journalism in Ukraine | OpenAI",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine/",
+          "publisher": "openai.com",
+          "kind": "primary",
+          "publishedAt": "2026-09-07",
+          "checkedAt": "2026-09-08T05:26:11.605+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 발표 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        },
+        {
+          "title": "Newsroom AI Catalyst Ukraine - WAN-IFRA",
+          "url": "https://wan-ifra.org/events/newsroom-ai-catalyst-ukraine/",
+          "publisher": "wan-ifra.org",
+          "kind": "reference",
+          "publishedAt": null,
+          "checkedAt": "2026-09-08T05:26:11.605+09:00",
+          "note": "조사자의 실제 성공 열람 기록을 반영. 공식 행사 페이지 본문 열람 성공. 편집자의 재열람 또는 독립 재현을 뜻하지 않는다."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "전일 blog-customer-change-design은 Content Hub의 고객 변화 설계다. 본 후보는 분쟁 지역 소규모 뉴스룸 교육의 사전 목표·책임에 한정한다. 기존 후보와 구분하는 편집 범위다."
+      },
+      "guardrail": "교육·API credit·시범 계획 발표다. 이미 효율·매출·저널리즘 품질이 개선됐다고 쓸 수 없다. 전쟁 관련 검색 관심을 프로그램 관심으로 귀속하지 않는다. 공개 원문 기반 기획이며 직접 사용·실험·성과를 주장하지 않는다.",
+      "accent": "lavender"
+    }
+  ],
+  "topIds": [
+    "shorts-mount-michael-infrared",
+    "youtube-agentic-video-selective-watch",
+    "blog-fermat-formalization-verification"
+  ]
+}
