@@ -1,0 +1,543 @@
+{
+  "checkedAt": "2026-09-08T08:27:31+09:00",
+  "region": "대한민국",
+  "summary": "구글의 급상승 검색어, 네이버의 쇼핑 관심, 유튜브의 음악 차트를 살펴보고 다음 콘텐츠의 실마리를 찾아보세요.",
+  "platforms": [
+    {
+      "id": "google",
+      "name": "Google 트렌드",
+      "color": "#4285F4",
+      "status": "available",
+      "metricLabel": "급상승 검색량 · 근사치",
+      "description": "Google Trends 대한민국 일일 검색 트렌드 RSS의 최근 급상승 검색어입니다.",
+      "period": "2026.09.08 · 06:40–07:20 KST",
+      "sourceUrl": "https://trends.google.com/trending/rss?geo=KR",
+      "sourceLabel": "Google Trends Daily Search Trends RSS",
+      "checkedAt": "2026-09-08T08:27:31+09:00",
+      "notes": [
+        "RSS 피드 순서는 급상승 순위가 아니라 최근 pubDate 시간순이므로 rank는 null입니다.",
+        "approx traffic의 '+' 표기는 Google이 제공한 하한 표기이며 실제 검색 건수로 해석하지 않습니다.",
+        "RSS 항목 링크는 피드 URL이므로 제목별 탐색 링크를 사용합니다.",
+        "표시 항목은 확인 시점 RSS의 최근 10개입니다. 각 항목의 집계 기간이 다를 수 있습니다."
+      ],
+      "items": [
+        {
+          "id": "google-1",
+          "title": "오상진",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 200,
+          "valueLabel": "200+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%98%A4%EC%83%81%EC%A7%84",
+          "publishedAt": "2026-09-08T07:20:00+09:00",
+          "angle": "검색 관심이 높아진 배경을 원문 뉴스로 확인하기"
+        },
+        {
+          "id": "google-2",
+          "title": "왕 옌청",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 500,
+          "valueLabel": "500+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%99%95%20%EC%98%8C%EC%B2%AD",
+          "publishedAt": "2026-09-08T07:20:00+09:00",
+          "angle": "검색 관심이 높아진 배경을 원문 뉴스로 확인하기"
+        },
+        {
+          "id": "google-3",
+          "title": "주식",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 5000,
+          "valueLabel": "5000+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%A3%BC%EC%8B%9D",
+          "publishedAt": "2026-09-08T07:10:00+09:00",
+          "angle": "주식 변동을 설명하는 AI 금융 기초"
+        },
+        {
+          "id": "google-4",
+          "title": "엄태웅",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 1000,
+          "valueLabel": "1000+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%97%84%ED%83%9C%EC%9B%85",
+          "publishedAt": "2026-09-08T07:00:00+09:00",
+          "angle": "인물 검색 급증 원인 추적"
+        },
+        {
+          "id": "google-5",
+          "title": "수원남문시장",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 200,
+          "valueLabel": "200+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%88%98%EC%9B%90%EB%82%A8%EB%AC%B8%EC%8B%9C%EC%9E%A5",
+          "publishedAt": "2026-09-08T07:00:00+09:00",
+          "angle": "전통시장 속 과학·생활 관찰"
+        },
+        {
+          "id": "google-6",
+          "title": "아이유",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 2000,
+          "valueLabel": "2000+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%95%84%EC%9D%B4%EC%9C%A0",
+          "publishedAt": "2026-09-08T06:50:00+09:00",
+          "angle": "음악과 음향 과학 설명"
+        },
+        {
+          "id": "google-7",
+          "title": "박지윤",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 1000,
+          "valueLabel": "1000+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EB%B0%95%EC%A7%80%EC%9C%A4",
+          "publishedAt": "2026-09-08T06:50:00+09:00",
+          "angle": "인물 이슈의 사실 확인"
+        },
+        {
+          "id": "google-8",
+          "title": "화장품",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 1000,
+          "valueLabel": "1000+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%ED%99%94%EC%9E%A5%ED%92%88",
+          "publishedAt": "2026-09-08T06:50:00+09:00",
+          "angle": "화장품 성분과 피부 과학"
+        },
+        {
+          "id": "google-9",
+          "title": "전도연",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 100,
+          "valueLabel": "100+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%A0%84%EB%8F%84%EC%97%B0",
+          "publishedAt": "2026-09-08T06:50:00+09:00",
+          "angle": "배우 작품 속 과학 장면 해설"
+        },
+        {
+          "id": "google-10",
+          "title": "교사",
+          "category": "급상승 검색어",
+          "rank": null,
+          "value": 200,
+          "valueLabel": "200+",
+          "url": "https://trends.google.com/trends/explore?geo=KR&q=%EA%B5%90%EC%82%AC",
+          "publishedAt": "2026-09-08T06:40:00+09:00",
+          "angle": "AI 수업 준비 실험"
+        }
+      ],
+      "series": []
+    },
+    {
+      "id": "naver",
+      "name": "네이버 데이터랩",
+      "color": "#03C75A",
+      "status": "available",
+      "metricLabel": "쇼핑 클릭 인기검색어 · 순위",
+      "description": "네이버 데이터랩 쇼핑인사이트 패션의류 카테고리의 일별 인기검색어입니다.",
+      "period": "패션의류 · 2026.08.26–09.06",
+      "sourceUrl": "https://datalab.naver.com/",
+      "sourceLabel": "네이버 데이터랩 공식 홈 (쇼핑인사이트 표)",
+      "checkedAt": "2026-09-08T08:27:31+09:00",
+      "notes": [
+        "패션의류 분야의 쇼핑 클릭 기반 인기검색어입니다. 네이버 전체 검색량이나 블로그 순위가 아닙니다.",
+        "자료의 최신 기준일은 9월 6일입니다. 상위 10개 표에 없는 날짜는 값을 추정하지 않았습니다.",
+        "그래프의 점은 확인된 날짜의 순위이며, 날짜가 누락된 구간은 연결하지 않습니다."
+      ],
+      "items": [
+        {
+          "id": "naver-1",
+          "title": "원피스",
+          "category": "패션의류",
+          "rank": 1,
+          "value": null,
+          "valueLabel": "1위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EC%9B%90%ED%94%BC%EC%8A%A4",
+          "publishedAt": "2026-09-06",
+          "angle": "옷감의 투명도와 빛 투과를 비교하는 과학 쇼츠"
+        },
+        {
+          "id": "naver-2",
+          "title": "블라우스",
+          "category": "패션의류",
+          "rank": 2,
+          "value": null,
+          "valueLabel": "2위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4",
+          "publishedAt": "2026-09-06",
+          "angle": "소재별 땀 흡수 차이를 직접 실험하기"
+        },
+        {
+          "id": "naver-3",
+          "title": "에그이즈",
+          "category": "패션의류",
+          "rank": 3,
+          "value": null,
+          "valueLabel": "3위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EC%97%90%EA%B7%B8%EC%9D%B4%EC%A6%88",
+          "publishedAt": "2026-09-06",
+          "angle": "AI로 가을 옷장 정리표를 만들어 본 경험"
+        },
+        {
+          "id": "naver-4",
+          "title": "바람막이",
+          "category": "패션의류",
+          "rank": 4,
+          "value": null,
+          "valueLabel": "4위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EB%B0%94%EB%9E%8C%EB%A7%89%EC%9D%B4",
+          "publishedAt": "2026-09-06",
+          "angle": "물방울이 옷에서 굴러떨어지는 발수 원리"
+        },
+        {
+          "id": "naver-5",
+          "title": "모조에스핀",
+          "category": "패션의류",
+          "rank": 5,
+          "value": null,
+          "valueLabel": "5위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EB%AA%A8%EC%A1%B0%EC%97%90%EC%8A%A4%ED%95%80",
+          "publishedAt": "2026-09-06",
+          "angle": "AI 스타일 추천을 실제 옷으로 비교하기"
+        },
+        {
+          "id": "naver-6",
+          "title": "에고이스트",
+          "category": "패션의류",
+          "rank": 6,
+          "value": null,
+          "valueLabel": "6위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EC%97%90%EA%B3%A0%EC%9D%B4%EC%8A%A4%ED%8A%B8",
+          "publishedAt": "2026-09-06",
+          "angle": "AI 쇼핑 비교표의 정확도를 확인하는 블로그"
+        },
+        {
+          "id": "naver-7",
+          "title": "올리비아로렌",
+          "category": "패션의류",
+          "rank": 7,
+          "value": null,
+          "valueLabel": "7위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EC%98%AC%EB%A6%AC%EB%B9%84%EC%95%84%EB%A1%9C%EB%A0%8C",
+          "publishedAt": "2026-09-06",
+          "angle": "중년 옷장 정리에 AI를 써 본 경험"
+        },
+        {
+          "id": "naver-8",
+          "title": "트위드자켓",
+          "category": "패션의류",
+          "rank": 8,
+          "value": null,
+          "valueLabel": "8위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%ED%8A%B8%EC%9C%84%EB%93%9C%EC%9E%90%EC%BC%93",
+          "publishedAt": "2026-09-06",
+          "angle": "직물의 짜임이 보온성에 미치는 영향"
+        },
+        {
+          "id": "naver-9",
+          "title": "스웨이드자켓",
+          "category": "패션의류",
+          "rank": 9,
+          "value": null,
+          "valueLabel": "9위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C%EC%9E%90%EC%BC%93",
+          "publishedAt": "2026-09-06",
+          "angle": "스웨이드의 물 얼룩이 생기는 이유"
+        },
+        {
+          "id": "naver-10",
+          "title": "여성가디건",
+          "category": "패션의류",
+          "rank": 10,
+          "value": null,
+          "valueLabel": "10위",
+          "url": "https://datalab.naver.com/shoppingInsight/sKeyword.naver?keyword=%EC%97%AC%EC%84%B1%EA%B0%80%EB%94%94%EA%B1%B4",
+          "publishedAt": "2026-09-06",
+          "angle": "얇은 옷을 겹쳐 입으면 따뜻한 이유"
+        }
+      ],
+      "series": [
+        {
+          "label": "원피스 순위",
+          "points": [
+            {
+              "date": "2026-08-26",
+              "value": 1
+            },
+            {
+              "date": "2026-08-27",
+              "value": 1
+            },
+            {
+              "date": "2026-08-28",
+              "value": 1
+            },
+            {
+              "date": "2026-08-29",
+              "value": 1
+            },
+            {
+              "date": "2026-08-30",
+              "value": 1
+            },
+            {
+              "date": "2026-08-31",
+              "value": 1
+            },
+            {
+              "date": "2026-09-01",
+              "value": 1
+            },
+            {
+              "date": "2026-09-02",
+              "value": 1
+            },
+            {
+              "date": "2026-09-03",
+              "value": 1
+            },
+            {
+              "date": "2026-09-04",
+              "value": 1
+            },
+            {
+              "date": "2026-09-05",
+              "value": 1
+            },
+            {
+              "date": "2026-09-06",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "label": "바람막이 순위",
+          "points": [
+            {
+              "date": "2026-08-27",
+              "value": 9
+            },
+            {
+              "date": "2026-08-31",
+              "value": 9
+            },
+            {
+              "date": "2026-09-02",
+              "value": 6
+            },
+            {
+              "date": "2026-09-03",
+              "value": 8
+            },
+            {
+              "date": "2026-09-04",
+              "value": 3
+            },
+            {
+              "date": "2026-09-05",
+              "value": 3
+            },
+            {
+              "date": "2026-09-06",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "label": "에고이스트 순위",
+          "points": [
+            {
+              "date": "2026-08-26",
+              "value": 10
+            },
+            {
+              "date": "2026-08-27",
+              "value": 5
+            },
+            {
+              "date": "2026-08-28",
+              "value": 3
+            },
+            {
+              "date": "2026-08-29",
+              "value": 4
+            },
+            {
+              "date": "2026-08-30",
+              "value": 4
+            },
+            {
+              "date": "2026-08-31",
+              "value": 3
+            },
+            {
+              "date": "2026-09-01",
+              "value": 10
+            },
+            {
+              "date": "2026-09-02",
+              "value": 3
+            },
+            {
+              "date": "2026-09-03",
+              "value": 5
+            },
+            {
+              "date": "2026-09-05",
+              "value": 5
+            },
+            {
+              "date": "2026-09-06",
+              "value": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube 차트",
+      "color": "#FF0000",
+      "status": "available",
+      "metricLabel": "뮤직비디오 · 주간 조회수",
+      "description": "한국에서 한 주 동안 많이 본 음악·뮤직비디오의 공식 차트입니다.",
+      "period": "대한민국 · 2026.08.28–09.03",
+      "sourceUrl": "https://charts.youtube.com/charts/TopVideos/kr/weekly",
+      "sourceLabel": "YouTube Charts South Korea Top Videos (공식)",
+      "checkedAt": "2026-09-08T08:27:31+09:00",
+      "notes": [
+        "공식 페이지 DOM에서 2026-08-28~09-03 한국 주간 Top Videos 10개 행과 watch URL을 확인했습니다.",
+        "이 목록은 음악·뮤직비디오 중심의 한국 Top Videos 차트이며 전체 동영상·과학 트렌드 순위가 아닙니다."
+      ],
+      "items": [
+        {
+          "id": "youtube-1",
+          "title": "FALLEN ANGEL",
+          "category": "음악·뮤직비디오",
+          "rank": 1,
+          "value": 1166598,
+          "valueLabel": "1,166,598회",
+          "url": "https://www.youtube.com/watch?v=s466YCiHfKw",
+          "imageUrl": "https://i.ytimg.com/vi/s466YCiHfKw/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "뮤직비디오 편집·음향 과학"
+        },
+        {
+          "id": "youtube-2",
+          "title": "꿈꾸던 어른이 되었나요?",
+          "category": "음악·뮤직비디오",
+          "rank": 2,
+          "value": 1058144,
+          "valueLabel": "1,058,144회",
+          "url": "https://www.youtube.com/watch?v=GxChUrrY4bc",
+          "imageUrl": "https://i.ytimg.com/vi/GxChUrrY4bc/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "음악 속 성장 서사 해설"
+        },
+        {
+          "id": "youtube-3",
+          "title": "BIGBANG - ‘BiiiG’ DANCE PRACTICE",
+          "category": "음악·뮤직비디오",
+          "rank": 3,
+          "value": 844282,
+          "valueLabel": "844,282회",
+          "url": "https://www.youtube.com/watch?v=B5u8JiGVI_k",
+          "imageUrl": "https://i.ytimg.com/vi/B5u8JiGVI_k/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "안무의 물리학"
+        },
+        {
+          "id": "youtube-4",
+          "title": "BIGBANG - ‘BiiiG’ M/V",
+          "category": "음악·뮤직비디오",
+          "rank": 4,
+          "value": 823437,
+          "valueLabel": "823,437회",
+          "url": "https://www.youtube.com/watch?v=L8ZnXgbyUuc",
+          "imageUrl": "https://i.ytimg.com/vi/L8ZnXgbyUuc/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "뮤직비디오 촬영 과학"
+        },
+        {
+          "id": "youtube-5",
+          "title": "SUN KISS",
+          "category": "음악·뮤직비디오",
+          "rank": 5,
+          "value": 761141,
+          "valueLabel": "761,141회",
+          "url": "https://www.youtube.com/watch?v=46h0LvDHgIs",
+          "imageUrl": "https://i.ytimg.com/vi/46h0LvDHgIs/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "빛·색채 과학"
+        },
+        {
+          "id": "youtube-6",
+          "title": "BAD",
+          "category": "음악·뮤직비디오",
+          "rank": 6,
+          "value": 681694,
+          "valueLabel": "681,694회",
+          "url": "https://www.youtube.com/watch?v=-q_S27LbNKU",
+          "imageUrl": "https://i.ytimg.com/vi/-q_S27LbNKU/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "퍼포먼스 동작 분석"
+        },
+        {
+          "id": "youtube-7",
+          "title": "Happy Me (2026 ver.)",
+          "category": "음악·뮤직비디오",
+          "rank": 7,
+          "value": 654574,
+          "valueLabel": "654,574회",
+          "url": "https://www.youtube.com/watch?v=Gk8F8waA0tM",
+          "imageUrl": "https://i.ytimg.com/vi/Gk8F8waA0tM/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "리메이크 음향 비교"
+        },
+        {
+          "id": "youtube-8",
+          "title": "Pretty Girl",
+          "category": "음악·뮤직비디오",
+          "rank": 8,
+          "value": 601147,
+          "valueLabel": "601,147회",
+          "url": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
+          "imageUrl": "https://i.ytimg.com/vi/qZlu2j2SiBA/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "댄스 동작의 관성"
+        },
+        {
+          "id": "youtube-9",
+          "title": "LOVE ATTACK",
+          "category": "음악·뮤직비디오",
+          "rank": 9,
+          "value": 598070,
+          "valueLabel": "598,070회",
+          "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+          "imageUrl": "https://i.ytimg.com/vi/9XttLI0oH0I/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "사운드 믹싱 기초"
+        },
+        {
+          "id": "youtube-10",
+          "title": "임현정 '사랑은 봄비처럼 이별은 겨울비처럼...' (Live at Sky Art Hall)",
+          "category": "음악·뮤직비디오",
+          "rank": 10,
+          "value": 596450,
+          "valueLabel": "596,450회",
+          "url": "https://www.youtube.com/watch?v=cC66L4givYg",
+          "imageUrl": "https://i.ytimg.com/vi/cC66L4givYg/mqdefault.jpg",
+          "publishedAt": "2026-09-03",
+          "angle": "라이브 공연 음향"
+        }
+      ],
+      "series": []
+    }
+  ]
+}
