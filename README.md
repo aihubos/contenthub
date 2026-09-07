@@ -2,7 +2,7 @@
 
 내 콘텐츠와 최신 관심 흐름을 연결하는 개인 콘텐츠 기획 라이브러리.
 
-- 사이트: https://aihubos.github.io/contenthub/
+- 사이트: https://content.ai-hub-os.com/
 - React · TypeScript · Vite / GitHub Pages
 - 쇼츠·유튜브·블로그 각 5개, TOP 3, 날짜별 아카이브, 검색·분류
 - 기획안 복사, 즐겨찾기·제작 상태는 현재 브라우저에 저장
@@ -16,7 +16,7 @@ npm run dev
 npm run check
 ```
 
-개발 서버의 `/contenthub/` 경로를 엽니다. 상세 링크는 `?date=YYYY-MM-DD&idea=주제식별자`를 사용합니다.
+개발 서버의 `/` 경로를 엽니다. 상세 링크는 `?date=YYYY-MM-DD&idea=주제식별자`를 사용합니다.
 
 ## 매일 갱신 절차
 
