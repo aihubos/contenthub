@@ -1,0 +1,92 @@
+{
+  "shorts-mount-michael-infrared": {
+    "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-bright-spot-at-mount-michael/mountmichael_oli_20260824_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "alt": "마운트 마이클 정상부의 적외선 합성 위성 영상",
+    "caption": "NASA Earth Observatory 제공 이미지. 빨강은 적외선 신호를 나타내도록 입힌 색입니다.",
+    "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-bright-spot-at-mount-michael/"
+  },
+  "shorts-pelican-nebula-25h": {
+    "src": "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
+    "alt": "가스와 먼지로 이루어진 펠리컨 성운",
+    "caption": "NASA APOD 이미지, 촬영자 Mark Killion. 25시간 노출 사진이며 사용 권리는 별도 확인이 필요합니다.",
+    "sourceUrl": "https://apod.nasa.gov/apod/ap260907.html"
+  },
+  "shorts-saturn-south-decagon": {
+    "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/09/STScI-01M0T8BARTCFQW684XQ932TNNM.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "alt": "허블 우주망원경이 촬영한 토성 남극",
+    "caption": "NASA·ESA·STScI 제공 이미지. 토성 남극의 10각 대기파 관측을 설명하는 자료입니다.",
+    "sourceUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
+  },
+  "shorts-sporadic-e-five-probes": {
+    "src": "https://science.nasa.gov/wp-content/uploads/2026/09/wff-2022-063-002.webp",
+    "alt": "전리층을 관측하는 NASA 로켓 발사 장면",
+    "caption": "NASA 제공 이미지. 전리층의 산발적 E층을 다지점 관측한 임무 자료입니다.",
+    "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/"
+  },
+  "shorts-n44-superbubble-census": {
+    "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/nebulae/emission/Hubble_N44_potm2608a_lg.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "alt": "허블 우주망원경이 촬영한 N44 초거품 성운",
+    "caption": "NASA·ESA·STScI 제공 이미지. N44 성운의 거대한 빈 공간 구조를 보여 줍니다.",
+    "sourceUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/"
+  },
+  "youtube-methane-map-confidence": {
+    "src": "https://storage.googleapis.com/gweb-research2023-media/original_images/MAPL-EMIT-overview-hero.png",
+    "alt": "MAPL-EMIT 메탄 검출 모델의 개요도",
+    "caption": "Google Research · MAPL-EMIT 연구 개요도.",
+    "sourceUrl": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/"
+  },
+  "youtube-genomic-transfer-crossover": {
+    "src": "https://storage.googleapis.com/gweb-research2023-media/images/BBJ_GenomicPrediction1-ExperimentalDesign.width-1250.png",
+    "alt": "UKB와 BBJ 데이터로 유전체 예측 모델을 비교하는 흐름도",
+    "caption": "Google Research · 유전체 예측 연구의 실험 설계.",
+    "sourceUrl": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/"
+  },
+  "youtube-proactive-writing-control": {
+    "src": "/assets/topics/find-my-note.png",
+    "alt": "메모와 글쓰기를 표현한 기존 채널 이미지",
+    "caption": "AI 생성 설명 이미지.",
+    "sourceUrl": "https://deepmind.google/research/publications/265605/"
+  },
+  "youtube-agentic-video-selective-watch": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-header.width-1300.png",
+    "alt": "Gemini 에이전트 영상 이해를 소개하는 Google 이미지",
+    "caption": "Google 공식 Agentic Video 소개 이미지.",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"
+  },
+  "youtube-weathernext3-resolution-vs-certainty": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.width-1300.png",
+    "alt": "WeatherNext 3 날씨 AI를 소개하는 Google 이미지",
+    "caption": "Google 공식 WeatherNext 3 소개 이미지.",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
+  },
+  "blog-fermat-formalization-verification": {
+    "src": "https://cdn.sanity.io/images/4zrzovbb/website/578f91575c42231f0994e341014614255149af80-1200x630.jpg",
+    "alt": "페르마의 마지막 정리 형식화를 소개하는 Anthropic 이미지",
+    "caption": "Anthropic 공식 형식화 연구 이미지.",
+    "sourceUrl": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+  },
+  "blog-ai-useful-yield-metric": {
+    "src": "https://blogs.microsoft.com/wp-content/uploads/2026/09/OMB-SEMICON-Hero.png",
+    "alt": "AI 인프라와 반도체를 보여주는 Microsoft 이미지",
+    "caption": "Microsoft 공식 AI 인프라 이미지.",
+    "sourceUrl": "https://blogs.microsoft.com/blog/2026/09/01/the-yield-imperative-turning-ai-infrastructure-into-useful-intelligence/"
+  },
+  "blog-gemini38-benchmark-reading": {
+    "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png",
+    "alt": "Gemini 3.8 Flash 모델을 소개하는 Google 이미지",
+    "caption": "Google 공식 Gemini 3.8 Flash 소개 이미지.",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+  },
+  "blog-alien-mind-viewpoint-vs-evidence": {
+    "src": "/assets/topics/local-ai-practical.png",
+    "alt": "컴퓨터 화면에 표현된 인공 신경망 일러스트",
+    "caption": "AI 생성 설명 이미지.",
+    "sourceUrl": "https://openai.com/index/an-alien-mind/"
+  },
+  "blog-ukraine-newsroom-pilot-boundary": {
+    "src": "/assets/topics/workflow-or-agent.png",
+    "alt": "협업 워크플로를 표현한 기존 채널 이미지",
+    "caption": "AI 생성 설명 이미지.",
+    "sourceUrl": "https://openai.com/index/supporting-independent-journalism-in-ukraine/"
+  }
+}

@@ -51,7 +51,7 @@ npm run check
 
 ## 콘텐츠 표지
 
-추천의 `image` 필드에 `src`, `alt`, `caption`을 지정하면 목록과 상세에 표시합니다. 표지는 `public/assets/topics/`에 저장하며, 현재 15개는 내장 이미지 생성 도구로 제작한 설명용 일러스트입니다. 실제 관측 사진이나 실험 결과를 뜻하지 않습니다.
+추천의 `image` 필드에 `src`, `alt`, `caption`, 선택 사항인 `sourceUrl`을 지정하면 목록과 상세에 표시합니다. 기존 회차 JSON을 보존하며 표지를 보완할 때는 `public/data/visuals.json`에 주제 ID별 이미지를 추가합니다. 원문 이미지에는 관련 원문을 연결하며, `public/assets/topics/`의 AI 생성 설명 이미지는 실제 관측 사진과 구분해 표시합니다.
 
 ## 트렌드 대시보드
 

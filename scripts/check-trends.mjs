@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { chartScale } from '../src/chart-scale.ts';
 
 // Different series can start on different days. Their dates must share one axis.
@@ -29,3 +29,11 @@ for (const p of data.platforms) {
   }
 }
 console.log('PASS: trend data and shared date/rank chart scale');
+
+const visuals = JSON.parse(readFileSync(new URL('../public/data/visuals.json', import.meta.url)));
+for (const visual of Object.values(visuals)) {
+  assert.ok(visual.alt && visual.caption);
+  assert.ok(visual.src.startsWith('https://') || existsSync(new URL('../public/' + visual.src.replace(/^\//, ''), import.meta.url)));
+  assert.ok(!visual.sourceUrl || visual.sourceUrl.startsWith('https://'));
+}
+console.log('PASS: recommendation image references');
