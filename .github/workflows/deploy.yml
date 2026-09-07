@@ -1,4 +1,4 @@
-name: Deploy YouTube OS
+name: Deploy Content Hub
 on:
   push:
     branches: [main]

@@ -82,7 +82,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "sage"
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/glassfrog.png",
+        "alt": "잎 위에서 쉬는 반투명 유리개구리",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "crab-sideways",
@@ -141,7 +146,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "peach"
+      "accent": "peach",
+      "image": {
+        "src": "assets/topics/crab-sideways.png",
+        "alt": "모래 위를 옆으로 걷는 꽃게",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "gecko-toes",
@@ -191,7 +201,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "sage"
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/gecko-toes.png",
+        "alt": "유리면을 오르는 도마뱀붙이의 발가락",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "archerfish",
@@ -241,7 +256,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "blue"
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/archerfish.png",
+        "alt": "물 밖 곤충을 향해 물줄기를 쏘는 물총고기",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "red-moon",
@@ -300,7 +320,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "lavender"
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/red-moon.png",
+        "alt": "월식 중 붉게 보이는 달",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "eclipse-flight",
@@ -360,7 +385,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "lavender"
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/eclipse-flight.png",
+        "alt": "구름 위에서 일식을 관측하는 연구용 비행기",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "octopus-arms",
@@ -411,7 +441,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "peach"
+      "accent": "peach",
+      "image": {
+        "src": "assets/topics/octopus-arms.png",
+        "alt": "바닷속 바위를 탐색하는 문어의 팔",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "crabs-on-land",
@@ -471,7 +506,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "sage"
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/crabs-on-land.png",
+        "alt": "바다와 숲 사이를 이동하는 육지게",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "find-my-note",
@@ -533,7 +573,12 @@
         ],
         "note": "입문 소개와 겹치지만 이번 기획은 동일 질문에 대한 실제 검색 비교 실험입니다. 기존 영상의 소개 문구를 재사용하지 않습니다."
       },
-      "accent": "blue"
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/find-my-note.png",
+        "alt": "노트와 연결된 메모를 검색하는 컴퓨터",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "workflow-or-agent",
@@ -611,7 +656,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "blue"
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/workflow-or-agent.png",
+        "alt": "정해진 절차와 AI 판단 경로를 비교하는 개념도",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "ai-kaio-ken",
@@ -673,7 +723,12 @@
         ],
         "note": "기존 비유를 반복하는 글이 아니라 같은 과업을 세 조건에서 비교하는 실험 기록입니다."
       },
-      "accent": "sage"
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/ai-kaio-ken.png",
+        "alt": "사람의 작업을 돕는 세 가지 AI 활용 방식",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "local-ai-practical",
@@ -726,7 +781,12 @@
         ],
         "note": "기존 글의 설치·도구 소개 대신 사용 빈도와 작업별 선택 기준을 다루는 후속편입니다."
       },
-      "accent": "blue"
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/local-ai-practical.png",
+        "alt": "집 안 책상 위 로컬 AI 컴퓨터",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "five-am-trends",
@@ -786,7 +846,12 @@
         "related": [],
         "note": "현재 수집한 공개 영상 15개·블로그 21개의 제목과 내용을 비교해 동일 소재가 확인되지 않았습니다. 예약·비공개 콘텐츠는 비교 범위에 포함되지 않습니다."
       },
-      "accent": "lavender"
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/five-am-trends.png",
+        "alt": "새벽 5시 시계와 검색 추이 화면",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "family-fall-ai",
@@ -839,7 +904,12 @@
         ],
         "note": "여름 물놀이 후기와 구분되는 가을 나들이 준비·AI 일정 검토 기획입니다."
       },
-      "accent": "peach"
+      "accent": "peach",
+      "image": {
+        "src": "assets/topics/family-fall-ai.png",
+        "alt": "가을 공원을 걷는 부모와 아이",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     },
     {
       "id": "ai-meetup-first-task",
@@ -901,7 +971,12 @@
         ],
         "note": "기존 모임 창설 후기에서 첫 실습의 구체적 진행안으로 초점을 옮깁니다."
       },
-      "accent": "sage"
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/ai-meetup-first-task.png",
+        "alt": "노트북과 메모로 함께 실습하는 AI 모임",
+        "caption": "AI 생성 · 주제 이해를 위한 설명용 일러스트"
+      }
     }
   ],
   "topIds": [

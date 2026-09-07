@@ -1,8 +1,8 @@
-# YouTube OS
+# Content Hub
 
 내 콘텐츠와 최신 관심 흐름을 연결하는 개인 콘텐츠 기획 라이브러리.
 
-- 사이트: https://aihubos.github.io/youtubeos/
+- 사이트: https://aihubos.github.io/contenthub/
 - React · TypeScript · Vite / GitHub Pages
 - 쇼츠·유튜브·블로그 각 5개, TOP 3, 날짜별 아카이브, 검색·분류
 - 기획안 복사, 즐겨찾기·제작 상태는 현재 브라우저에 저장
@@ -16,7 +16,7 @@ npm run dev
 npm run check
 ```
 
-개발 서버의 `/youtubeos/` 경로를 엽니다. 상세 링크는 `?date=YYYY-MM-DD&idea=주제식별자`를 사용합니다.
+개발 서버의 `/contenthub/` 경로를 엽니다. 상세 링크는 `?date=YYYY-MM-DD&idea=주제식별자`를 사용합니다.
 
 ## 매일 갱신 절차
 
@@ -47,3 +47,7 @@ npm run check
 ## 검증
 
 `npm run check`는 데이터 계약과 타입·배포 빌드를 확인합니다. 실제 브라우저에서 검색, 형식별 5개 분류, 저장 후 새로고침, 기획안 복사, 상세 링크, 390/768/1280px 배치를 확인합니다. 검증은 현재 작업에서 직접 수행하며 멀티에이전트 리뷰를 사용하지 않습니다.
+
+## 콘텐츠 표지
+
+추천의 `image` 필드에 `src`, `alt`, `caption`을 지정하면 목록과 상세에 표시합니다. 표지는 `public/assets/topics/`에 저장하며, 현재 15개는 내장 이미지 생성 도구로 제작한 설명용 일러스트입니다. 실제 관측 사진이나 실험 결과를 뜻하지 않습니다.

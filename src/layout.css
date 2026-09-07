@@ -18,3 +18,8 @@ h1{font-size:28px;letter-spacing:-1.3px}.page-heading p{font-size:13px}.eyebrow{
 .content-hub-brand{display:block;position:relative;width:232px;height:64px;overflow:hidden;flex-shrink:0}
 .content-hub-brand img{position:absolute;width:292px;max-width:none;height:auto;left:-32px;top:-30px}
 @media(max-width:600px){.content-hub-brand{width:180px;height:49px}.content-hub-brand img{width:226px;left:-25px;top:-23px}}
+.pick-icon{overflow:hidden}.pick-icon img{width:100%;height:100%;object-fit:cover}
+.topic-thumbnail{width:114px;height:86px;object-fit:cover;border-radius:10px;flex-shrink:0;order:3;margin-top:3px}.idea-row .bookmark-button{order:4}.idea-row .row-evidence{display:none}
+.topic-figure{margin:0 0 24px}.topic-figure img{width:100%;max-height:380px;object-fit:cover;border-radius:12px;display:block}.topic-figure figcaption{font-size:11px;color:#8792a3;margin-top:7px;text-align:right}
+@media(max-width:850px){.pick-icon{display:grid;width:56px;height:56px}}
+@media(max-width:600px){.topic-thumbnail{width:82px;height:72px}.idea-row{padding-right:15px}.row-content{min-width:0}.row-content>a{padding-right:0}.idea-row .bookmark-button{right:18px;top:103px}.topic-figure img{max-height:250px}.pick-icon{width:48px;height:48px}}

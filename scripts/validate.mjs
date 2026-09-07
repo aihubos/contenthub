@@ -28,6 +28,7 @@ for (const row of index.briefs) {
  for (const i of brief.ideas) {
   for(const key of ['id','title','category','summary','whyNow','fit','hook','guardrail']) assert(typeof i[key]==='string' && i[key].trim(), `${i.id} missing ${key}`);
   assert(/^[a-z0-9-]+$/.test(i.id));
+  if(i.image){assert(/^assets\/topics\/[a-z0-9-]+\.png$/.test(i.image.src) && i.image.alt && i.image.caption, 'Invalid topic image');assert(fs.existsSync(new URL('../public/'+i.image.src,import.meta.url)), 'Missing topic image file');}
   assert(['시의성','채널 적합','후속 기획'].includes(i.signal));
   assert(['sage','blue','lavender','peach'].includes(i.accent));
   assert(typeof i.duration==='string' && i.duration.length>0);
