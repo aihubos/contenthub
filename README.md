@@ -38,7 +38,7 @@ npm run check
 
 ## 데이터와 장애 처리
 
-공개 파일은 `public/data/index.json`, `published.json`, `briefs/YYYY-MM-DD.json`입니다. 새로운 회차를 추가해도 과거 자료는 유지됩니다. 같은 날짜의 재시도는 그날 회차를 갱신합니다.
+공개 파일은 `public/data/index.json`, `published.json`, `briefs/YYYY-MM-DD.json`입니다. 새로운 회차를 추가해도 과거 자료는 유지됩니다. 같은 날짜를 다시 갱신하면 기존 원본 파일은 그대로 두고 `briefs/YYYY-MM-DD/<회차-ID>.json`에 새 회차를 추가합니다. `index.json`은 현재 회차와 원본 회차를 함께 기록합니다. 기존 `?date=YYYY-MM-DD&idea=...` 링크와 기존 `youtubeos.saved.v1` 보관함 항목은 원본 회차를 열고, 새 화면 탐색은 회차 ID를 포함해 최신 회차를 엽니다.
 
 추천 15개가 검증되지 않으면 배포하지 않습니다. 수집 실패·사용량 부족·배포 실패 시 마지막 정상 사이트를 유지합니다. 브라우저는 마지막 공개 작성 시각에서 36시간이 지나면 갱신 지연을 표시합니다. 정상 운영은 조용히 진행하고 실패나 사용자 조치가 필요할 때만 알립니다.
 
