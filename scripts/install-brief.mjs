@@ -65,6 +65,7 @@ export function installBrief(
     rootDir = root,
     dataDir = path.join(root, "public/data"),
     expectedDate = koreaDate(),
+    validationStdio = "inherit",
   } = {},
 ) {
   if (!candidate || !/^\d{4}-\d{2}-\d{2}$/.test(candidate.date))
@@ -168,7 +169,7 @@ export function installBrief(
     execFileSync(process.execPath, ["scripts/validate.mjs"], {
       cwd: rootDir,
       env: { ...process.env, YOUTUBE_OS_DATA_DIR: staged },
-      stdio: "inherit",
+      stdio: validationStdio,
     });
 
     for (const relative of changed) {

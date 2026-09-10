@@ -1,0 +1,1558 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T11:23:32+09:00",
+  "coverage": [
+    {
+      "title": "9/10 쇼츠 · 우주 5건",
+      "status": "항목별 원문 2개 확인",
+      "note": "9/10 요청에 따라 우주 5건을 신규 조사했고, 각 항목은 원문 2개를 확인했다. 요청 전 Buzz·로컬 기록·9/7~9/9 Brief에서 핵심 사실과 화면 흐름의 의미 중복을 대조했으며, 인터넷 최초·조회수 예측·오늘의 발견을 뜻하지 않는다.",
+      "url": "https://science.nasa.gov/venus/venus-facts/"
+    },
+    {
+      "title": "9/10 쇼츠 · 신비한 생물 5건",
+      "status": "항목별 원문 2개 확인",
+      "note": "9/10 요청에 따라 신비한 생물 5건을 신규 조사했고, 각 항목은 원문 2개를 확인했다. 요청 전 Buzz·로컬 기록·9/7~9/9 Brief에서 핵심 사실과 화면 흐름의 의미 중복을 대조했으며, 오래된 상시 흥미를 최신 발견으로 표시하지 않는다.",
+      "url": "https://www.mbari.org/news/researchers-solve-mystery-of-deep-sea-fish-with-tubular-eyes-and-transparent-head/"
+    },
+    {
+      "title": "유튜브 추천 5개",
+      "status": "9/9 회차 이월",
+      "note": "2026-09-09/run-202609090545240900 immutable edition의 원본 ID·내용·출처·checkedAt·이미지를 carriedFrom과 함께 그대로 이월했다. 9/10 신규 조사로 표시하지 않는다.",
+      "url": "https://www.youtube.com/shorts/61E0A7S1pGs"
+    },
+    {
+      "title": "블로그 추천 5개",
+      "status": "9/9 회차 이월",
+      "note": "2026-09-09/run-202609090545240900 immutable edition의 원본 ID·내용·출처·checkedAt·이미지를 carriedFrom과 함께 그대로 이월했다. 9/10 신규 조사로 표시하지 않는다.",
+      "url": "https://m.blog.naver.com/jeremylee0213/224387579480"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "shorts-barreleye-real-eyes",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "얼굴의 검은 점은 눈이 아니었다",
+      "hook": "이 물고기 얼굴의 검은 점 두 개, 눈이 아닙니다.",
+      "summary": "Macropinna microstoma의 투명한 머리 덮개 안 녹색 눈과 앞쪽 후각기관을 구별한다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "whyNow": "우주·신비한 생물 중심 재편에 맞춘 상시 흥미 기획. 오늘의 신규 발견이나 조회수 상승을 뜻하지 않는다.",
+      "fit": "얼굴 앞 점은 후각기관이고, 진짜 눈은 투명 덮개 안에 있습니다.",
+      "outline": [
+        "얼굴 앞 검은 점에 시선 유도",
+        "투명 덮개 안 녹색 눈 공개",
+        "위쪽을 보던 눈이 앞쪽으로 도는 도식",
+        "처음 얼굴을 다시 보고 위치 구분"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "얼굴 앞 검은 점에 시선 유도",
+          "narration": "이 물고기 얼굴의 검은 점 두 개, 눈이 아닙니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "투명 덮개 안 녹색 눈 공개",
+          "narration": "진짜 눈은 투명한 머리 덮개 안에 있는 녹색 부분입니다. 앞쪽 검은 점은 후각기관이죠."
+        },
+        {
+          "time": "18~38초",
+          "visual": "위쪽을 보던 눈이 앞쪽으로 도는 도식",
+          "narration": "위쪽 먹이를 찾던 눈은 먹이를 먹을 때 앞쪽으로 돌 수 있습니다. 투명한 덮개 안에서 일어나는 움직임입니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "처음 얼굴을 다시 보고 위치 구분",
+          "narration": "얼굴 앞 점은 후각기관이고, 진짜 눈은 투명 덮개 안에 있습니다."
+        }
+      ],
+      "twist": "얼굴 앞 점은 후각기관이고, 진짜 눈은 투명 덮개 안에 있습니다.",
+      "guardrail": "뇌가 보인다고 하지 않는다. 눈을 외부로 튀어나오게 그리지 않는다. 먹이 훔치기 가설은 이번 대본에서 제외한다.",
+      "keywords": [
+        "생물",
+        "barreleye",
+        "투명 머리"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 투명머리·barreleye, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "sources": [
+        {
+          "title": "Researchers solve mystery of deep-sea fish with tubular eyes and transparent head",
+          "url": "https://www.mbari.org/news/researchers-solve-mystery-of-deep-sea-fish-with-tubular-eyes-and-transparent-head/",
+          "publisher": "MBARI",
+          "kind": "research-institute-release",
+          "publishedAt": "2009-02-23",
+          "checkedAt": "2026-09-10T10:44:02+09:00",
+          "supports": "투명 보호막, 녹색 관상안 회전, 앞쪽 검은 점이 비공이라는 현장·수조 관찰",
+          "note": "투명 보호막, 녹색 관상안 회전, 앞쪽 검은 점이 비공이라는 현장·수조 관찰"
+        },
+        {
+          "title": "Macropinna microstoma and the Paradox of Its Tubular Eyes",
+          "url": "https://bioone.org/journals/copeia/volume-2008/issue-4/CG-07-082/Macropinna-microstoma-and-the-Paradox-of-Its-Tubular-Eyes/10.1643/CG-07-082.short",
+          "publisher": "Copeia via BioOne",
+          "kind": "primary-paper-full-text",
+          "publishedAt": "2008-12-18",
+          "checkedAt": "2026-09-10T10:59:06+09:00",
+          "supports": "DOI 10.1643/CG-07-082 원 논문의 투명 보호막, 후각낭, 관상안의 위쪽↔앞쪽 회전 관찰",
+          "note": "DOI 10.1643/CG-07-082 원 논문의 투명 보호막, 후각낭, 관상안의 위쪽↔앞쪽 회전 관찰"
+        }
+      ],
+      "thumbnail": {
+        "direction": "어두운 바다의 옆얼굴, 투명 돔 안 녹색 관 모양 눈 두 개. 외부 검은 눈을 진짜 눈처럼 강조하지 않음.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향 완성·실제 이미지 미제작",
+        "renderConstraint": "텍스트·로고·워터마크 없이 제작. 영상 도식에는 필요한 설명 자막을 별도 사용."
+      },
+      "coreFact": "Macropinna microstoma의 녹색 관 모양 눈은 투명한 액체 보호막 안에서 위쪽과 앞쪽으로 회전한다. 입 위의 검은 점 두 개는 눈이 아니라 후각기관인 비공이다.",
+      "firstFrame": "얼굴 앞 검은 점 두 개를 눈처럼 보여준 다음 투명 덮개 안의 녹색 눈을 밝힌다.",
+      "researchGuardrail": "뇌가 보인다고 하지 않는다. 눈을 머리 밖으로 돌출시키지 않으며 먹이를 훔친다는 가설은 확정 사실로 쓰지 않는다.",
+      "editorialRank": 1,
+      "image": {
+        "src": "assets/topics/shorts-barreleye-real-eyes.png",
+        "alt": "AI 생성 과학 설명 삽화: 투명한 머리 덮개 안의 녹색 관상안을 가진 배럴아이 물고기. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://www.mbari.org/news/researchers-solve-mystery-of-deep-sea-fish-with-tubular-eyes-and-transparent-head/"
+      }
+    },
+    {
+      "id": "shorts-osedax-bone-eating-roots",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "입도 위도 없는데 고래뼈를 먹는 벌레",
+      "hook": "뼈 위에 핀 꽃 같은 이것은 벌레입니다.",
+      "summary": "오세닥스의 암컷은 뼈 속으로 뿌리 같은 조직을 뻗습니다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "accent": "sage",
+      "keywords": [
+        "오세닥스",
+        "고래뼈",
+        "뿌리 조직"
+      ],
+      "outline": [
+        "뼈 위 꽃 같은 촉수",
+        "뼈 아래 뿌리 조직 개념 단면",
+        "성체 암컷의 입·장 부재를 도식으로 설명",
+        "천천히 영양을 얻는 뿌리로 시선 이동"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "뼈 위 꽃 같은 촉수",
+          "narration": "뼈 위에 핀 꽃 같은 이것은 벌레입니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "뼈 아래 뿌리 조직 개념 단면",
+          "narration": "오세닥스의 암컷은 뼈 속으로 뿌리 같은 조직을 뻗습니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "성체 암컷의 입·장 부재를 도식으로 설명",
+          "narration": "입과 장이 없는 암컷이 이 조직을 통해 영양을 얻습니다. 산을 분비해 뼈의 무기질을 녹인다는 모델은 연구의 지지를 받습니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "천천히 영양을 얻는 뿌리로 시선 이동",
+          "narration": "뼈를 입으로 씹는 모습 대신, 뼈 속 조직을 들여다봐야 합니다."
+        }
+      ],
+      "twist": "뼈를 입으로 씹는 모습 대신, 뼈 속 조직을 들여다봐야 합니다.",
+      "fit": "첫 장면의 낯선 모습에서 시작해 마지막 장면에서 오해를 풀어 주는 구성.",
+      "whyNow": "검증된 상시 흥미 주제를 우주·신비한 생물 중심으로 새로 기획. 오늘의 발견으로 표시하지 않는다.",
+      "guardrail": "입·장 부재는 암컷 범위. 산 분비 모델을 기전 전체 확정으로 확대하지 않음. 즉시 용해·사람 뼈 공격 연출 금지.",
+      "thumbnail": {
+        "direction": "해저 고래뼈 위 붉은 촉수와 뼈 안 뿌리 조직 단면. 피·사람 해골·순간 용해 금지.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향만 작성",
+        "renderConstraint": "텍스트·로고·워터마크 없음."
+      },
+      "sources": [
+        {
+          "title": "Osedax: bone-eating marine worms with dwarf males",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15286372/",
+          "publisher": "Science via PubMed",
+          "kind": "primary-paper-abstract",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:42:13+09:00",
+          "supports": "고래뼈 서식, 암컷의 뿌리 구조와 공생세균, 입·장 없는 섭식",
+          "note": "고래뼈 서식, 암컷의 뿌리 구조와 공생세균, 입·장 없는 섭식"
+        },
+        {
+          "title": "How to get into bones: proton pump and carbonic anhydrase in Osedax boneworms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3652447/",
+          "publisher": "Proceedings of the Royal Society B via PMC",
+          "kind": "primary-paper-full-text",
+          "publishedAt": "2013-06-22",
+          "checkedAt": "2026-09-10T10:43:17+09:00",
+          "supports": "뿌리의 VHA·탄산탈수효소, 산 분비에 의한 뼈 무기질 용해 제안",
+          "note": "뿌리의 VHA·탄산탈수효소, 산 분비에 의한 뼈 무기질 용해 제안"
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 Osedax·오세닥스·고래뼈·뼈 먹는 벌레, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "coreFact": "암컷 Osedax는 입과 장이 없고 뼈 속으로 뻗는 뿌리 조직으로 영양분을 얻는다. 뿌리의 양성자 펌프와 탄산탈수효소 연구는 산을 분비해 뼈의 무기질을 녹이고 영양분을 피부로 흡수하는 모델을 지지한다.",
+      "firstFrame": "고래뼈 위 꽃처럼 보이는 촉수를 보여준 뒤 뼈 단면 안으로 퍼진 뿌리 조직을 공개한다.",
+      "researchGuardrail": "뼈가 즉시 사라진다고 하지 않는다. 산 분비 경로는 연구가 제시하고 지지한 모델로 표현하며 공생세균만이 뼈 전체를 소화한다고 단정하지 않는다.",
+      "editorialRank": 2,
+      "image": {
+        "src": "assets/topics/shorts-osedax-bone-eating-roots.png",
+        "alt": "AI 생성 과학 설명 삽화: 고래뼈 위 오세닥스 촉수와 뼈 속 뿌리 조직 단면. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15286372/"
+      }
+    },
+    {
+      "id": "shorts-kepler16-two-suns-no-ground",
+      "format": "shorts",
+      "category": "우주",
+      "title": "태양 둘을 도는 행성, 하지만 노을을 볼 땅은 없다",
+      "hook": "두 별을 도는 이 행성에서, 땅에 서서 노을을 볼 수 있을까요?",
+      "summary": "Kepler-16b는 두 별을 함께 돌며, 한 바퀴에 약 229일이 걸립니다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "accent": "blue",
+      "keywords": [
+        "Kepler-16b",
+        "쌍성 행성",
+        "가스행성"
+      ],
+      "outline": [
+        "두 별과 바깥쪽 행성 궤도 도식",
+        "두 별을 함께 도는 행성",
+        "토성급 가스행성 개념 단면",
+        "두 별과 구름 행성으로 돌아옴"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "두 별과 바깥쪽 행성 궤도 도식",
+          "narration": "두 별을 도는 이 행성에서, 땅에 서서 노을을 볼 수 있을까요?"
+        },
+        {
+          "time": "5~18초",
+          "visual": "두 별을 함께 도는 행성",
+          "narration": "Kepler-16b는 두 별을 함께 돌며, 한 바퀴에 약 229일이 걸립니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "토성급 가스행성 개념 단면",
+          "narration": "하지만 토성급 가스행성입니다. 지구처럼 서 있을 땅이나 사막을 상상해 그리면 오해가 됩니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "두 별과 구름 행성으로 돌아옴",
+          "narration": "두 태양의 세계가 있다고 해서 영화 속 사막 행성과 같지는 않습니다."
+        }
+      ],
+      "twist": "두 태양의 세계가 있다고 해서 영화 속 사막 행성과 같지는 않습니다.",
+      "fit": "첫 장면의 낯선 모습에서 시작해 마지막 장면에서 오해를 풀어 주는 구성.",
+      "whyNow": "검증된 상시 흥미 주제를 우주·신비한 생물 중심으로 새로 기획. 오늘의 발견으로 표시하지 않는다.",
+      "guardrail": "실제 표면·사막·관측된 이중 노을·거주 가능 주장 금지. 궤도·내부는 설명 도식.",
+      "thumbnail": {
+        "direction": "서로 가까운 두 별과 멀리 떨어진 가스행성. 사막·사람·지상 시점·실제 사진 표기 금지.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향만 작성",
+        "renderConstraint": "텍스트·로고·워터마크 없음."
+      },
+      "sources": [
+        {
+          "title": "Kepler-16 b: (Almost) a Real-life Tatooine",
+          "url": "https://science.nasa.gov/exoplanets/other-stars-other-worlds/kepler-16-b-almost-a-real-life-tatooine/",
+          "publisher": "NASA",
+          "kind": "official-exoplanet-page",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:43:44+09:00",
+          "supports": "두 별 공전, 토성 크기 가스행성, 고체 표면 없음, 229일 공전",
+          "note": "두 별 공전, 토성 크기 가스행성, 고체 표면 없음, 229일 공전"
+        },
+        {
+          "title": "Kepler-16: a transiting circumbinary planet",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21921192/",
+          "publisher": "Science via PubMed",
+          "kind": "primary-paper-abstract",
+          "publishedAt": "2011-09-16",
+          "checkedAt": "2026-09-10T10:43:17+09:00",
+          "supports": "두 저질량 별을 함께 도는 토성급 행성, 거의 원형인 229일 궤도",
+          "note": "두 저질량 별을 함께 도는 토성급 행성, 거의 원형인 229일 궤도"
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 Kepler-16·케플러16·쌍성·쌍성 행성, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "coreFact": "Kepler-16b는 두 별을 함께 도는 토성급 가스행성이며 공전주기는 약 229일이다. 두 별은 실제지만 행성에는 서서 노을을 볼 고체 표면이 없다.",
+      "firstFrame": "두 별 앞을 행성이 차례로 통과하는 궤도 도식 뒤, 이중 노을 장면을 즉시 지우고 가스행성 단면을 공개한다.",
+      "researchGuardrail": "Kepler-16b 표면에 사람이나 사막을 그리지 않는다. 거주 가능성이나 실제 표면의 이중 노을을 주장하지 않는다. 고체 위 장면은 가상 위성일 때만 가정으로 표시한다.",
+      "editorialRank": 3,
+      "image": {
+        "src": "assets/topics/shorts-kepler16-two-suns-no-ground.png",
+        "alt": "AI 생성 과학 설명 삽화: 두 별과 그 주위를 도는 가스행성 Kepler-16b. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://science.nasa.gov/exoplanets/other-stars-other-worlds/kepler-16-b-almost-a-real-life-tatooine/"
+      }
+    },
+    {
+      "id": "shorts-mercury-ice-in-shadow",
+      "format": "shorts",
+      "category": "우주",
+      "title": "태양 가까운 수성에 얼음이 남는 곳",
+      "hook": "뜨거운 수성에도 햇빛이 닿지 않는 자리가 있습니다.",
+      "summary": "극지의 일부 분화구 바닥에는 햇빛이 계속 들지 않는 곳이 있습니다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "accent": "blue",
+      "keywords": [
+        "수성",
+        "극지 얼음",
+        "영구 음영"
+      ],
+      "outline": [
+        "햇빛 받는 수성과 극지 위치 도식",
+        "극지 분화구의 깊은 그늘",
+        "영구 음영과 얼음층 개념 단면",
+        "밝은 표면과 그늘을 한 화면에 대비"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "햇빛 받는 수성과 극지 위치 도식",
+          "narration": "뜨거운 수성에도 햇빛이 닿지 않는 자리가 있습니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "극지 분화구의 깊은 그늘",
+          "narration": "극지의 일부 분화구 바닥에는 햇빛이 계속 들지 않는 곳이 있습니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "영구 음영과 얼음층 개념 단면",
+          "narration": "관측은 이런 극지 그늘에 물얼음이 있다는 근거를 제공합니다. 단면은 내부를 직접 찍은 사진이 아닌 설명 그림입니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "밝은 표면과 그늘을 한 화면에 대비",
+          "narration": "같은 행성이라도 햇빛을 받는 조건에 따라 얼음이 남을 수 있습니다."
+        }
+      ],
+      "twist": "같은 행성이라도 햇빛을 받는 조건에 따라 얼음이 남을 수 있습니다.",
+      "fit": "첫 장면의 낯선 모습에서 시작해 마지막 장면에서 오해를 풀어 주는 구성.",
+      "whyNow": "검증된 상시 흥미 주제를 우주·신비한 생물 중심으로 새로 기획. 오늘의 발견으로 표시하지 않는다.",
+      "guardrail": "수성 전체가 얼었다거나 액체 물·오늘 발견·얼음 기원 확정으로 확대 금지.",
+      "thumbnail": {
+        "direction": "태양빛 받는 회색 분화구 가장자리와 깊은 어두운 바닥. 얼음은 단면 삽화에서만 설명. 수성 전체를 눈덩이로 그리지 않음.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향만 작성",
+        "renderConstraint": "텍스트·로고·워터마크 없음."
+      },
+      "sources": [
+        {
+          "title": "MESSENGER",
+          "url": "https://science.nasa.gov/mission/messenger/",
+          "publisher": "NASA",
+          "kind": "official-mission-page",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:43:44+09:00",
+          "supports": "극지 퇴적층이 주로 물얼음이며 햇빛이 닿지 않는 위치라는 임무 결과",
+          "note": "극지 퇴적층이 주로 물얼음이며 햇빛이 닿지 않는 위치라는 임무 결과"
+        },
+        {
+          "title": "Evidence for water ice near Mercury's north pole from MESSENGER Neutron Spectrometer measurements",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23196909/",
+          "publisher": "Science via PubMed",
+          "kind": "primary-paper-abstract",
+          "publishedAt": "2013-01-18",
+          "checkedAt": "2026-09-10T10:43:17+09:00",
+          "supports": "영구 음영 지역 물얼음, 10~30cm 표층 아래 수소 풍부층, 거의 순수한 물얼음 모델",
+          "note": "영구 음영 지역 물얼음, 10~30cm 표층 아래 수소 풍부층, 거의 순수한 물얼음 모델"
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 수성·수성 얼음·수성 극지방·영구음영·Mercury ice, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "coreFact": "MESSENGER 관측은 수성 극지의 영구 음영 지역에 물얼음이 있음을 지지하며, 레이더 밝은 퇴적층은 얇은 표층 아래 거의 순수한 물얼음으로 가장 잘 설명된다.",
+      "firstFrame": "햇빛에 달아오른 수성 전체에서 카메라가 극지 크레이터의 영원한 그늘로 급히 들어가며 얼음층 단면을 공개한다.",
+      "researchGuardrail": "수성 전체가 얼음으로 덮였다고 하지 않는다. 액체 물, 오늘의 발견, 얼음의 기원 확정으로 확대하지 않는다.",
+      "editorialRank": 4,
+      "image": {
+        "src": "assets/topics/shorts-mercury-ice-in-shadow.png",
+        "alt": "AI 생성 과학 설명 삽화: 수성 극지 분화구의 햇빛과 영구 음영, 얼음 단면. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://science.nasa.gov/mission/messenger/"
+      }
+    },
+    {
+      "id": "shorts-venus-spin-year",
+      "format": "shorts",
+      "category": "우주",
+      "title": "한 바퀴 돌기도 전에 1년이 끝나는 행성",
+      "hook": "금성은 제자리에서 한 바퀴 돌기도 전에 태양을 한 바퀴 돕니다.",
+      "summary": "자전 약 243지구일, 공전 약 225지구일을 서로 다른 두 움직임으로 보여준다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "whyNow": "우주·신비한 생물 중심 재편에 맞춘 상시 흥미 기획. 오늘의 신규 발견이나 조회수 상승을 뜻하지 않는다.",
+      "fit": "1년보다 긴 것은 자전 한 바퀴입니다. 우리가 해를 보며 세는 하루와는 기준이 다릅니다.",
+      "outline": [
+        "금성 표면의 점과 태양 주위 공전 궤도",
+        "두 움직임을 나란히 진행",
+        "공전 완주 때 아직 덜 돈 표면 점",
+        "자전과 해 뜨는 주기의 차이"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "금성 표면의 점과 태양 주위 공전 궤도",
+          "narration": "금성은 제자리에서 한 바퀴 돌기도 전에 태양을 한 바퀴 돕니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "두 움직임을 나란히 진행",
+          "narration": "금성이 태양을 한 바퀴 도는 데는 약 225지구일, 제자리에서 한 바퀴 도는 데는 약 243지구일이 걸립니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "공전 완주 때 아직 덜 돈 표면 점",
+          "narration": "금성의 자전은 약 243지구일, 공전은 약 225지구일입니다. 두 시계는 같은 것을 재지 않습니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "자전과 해 뜨는 주기의 차이",
+          "narration": "1년보다 긴 것은 자전 한 바퀴입니다. 우리가 해를 보며 세는 하루와는 기준이 다릅니다."
+        }
+      ],
+      "twist": "1년보다 긴 것은 자전 한 바퀴입니다. 우리가 해를 보며 세는 하루와는 기준이 다릅니다.",
+      "guardrail": "243일을 일출~다음 일출로 설명하지 않는다. 태양일 숫자는 이 기획에서 생략한다.",
+      "keywords": [
+        "우주",
+        "venus",
+        "자전과 공전"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에 금성의 9월 관측 안내는 1건 있으나 자전·공전 반전과 화면 흐름은 다르다. 로컬 기록과 9/7~9/9 Brief에서도 같은 핵심을 찾지 못했다."
+      },
+      "sources": [
+        {
+          "title": "Venus: Facts",
+          "url": "https://science.nasa.gov/venus/venus-facts/",
+          "publisher": "NASA",
+          "kind": "official-fact-page",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:44:02+09:00",
+          "supports": "자전 243지구일, 공전 225지구일, 일출~일출 117지구일, 역행 자전",
+          "note": "자전 243지구일, 공전 225지구일, 일출~일출 117지구일, 역행 자전"
+        },
+        {
+          "title": "Venus compared to Earth",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Venus_Express/Venus_compared_to_Earth",
+          "publisher": "ESA",
+          "kind": "official-fact-page",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:42:55+09:00",
+          "supports": "자전 243지구일, 공전 224.7지구일, 역행 자전",
+          "note": "자전 243지구일, 공전 224.7지구일, 역행 자전"
+        }
+      ],
+      "thumbnail": {
+        "direction": "황금빛 금성 하나와 공전 궤도, 표면 기준점. 도식이며 실제 궤도 크기 비율 아님.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향 완성·실제 이미지 미제작",
+        "renderConstraint": "텍스트·로고·워터마크 없이 제작. 영상 도식에는 필요한 설명 자막을 별도 사용."
+      },
+      "coreFact": "금성의 항성 기준 자전은 약 243지구일이고 공전은 약 225지구일이다. 일출에서 다음 일출까지의 태양일은 약 117지구일로 다른 값이다.",
+      "firstFrame": "금성 표면 기준점의 느린 자전과 태양 주위 공전 궤도를 동시에 시작한다.",
+      "researchGuardrail": "243일을 일출에서 다음 일출까지의 하루라고 부르지 않는다. 오래된 상시 사실을 오늘 발견으로 포장하지 않는다.",
+      "editorialRank": 5,
+      "image": {
+        "src": "assets/topics/shorts-venus-spin-year.png",
+        "alt": "AI 생성 과학 설명 삽화: 금성의 표면 기준점과 태양 주위 공전 궤도. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://science.nasa.gov/venus/venus-facts/"
+      }
+    },
+    {
+      "id": "shorts-sea-cucumber-sticky-tubules",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "일부 해삼은 끈끈한 관으로 몸을 지킨다",
+      "hook": "이 해삼이 내보낸 흰 관은 끈끈한 방어 장치입니다.",
+      "summary": "연구가 다룬 Holothuria forskali 같은 일부 해삼은 쿠비에관을 배출합니다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "accent": "sage",
+      "keywords": [
+        "일부 해삼",
+        "쿠비에관",
+        "방어 행동"
+      ],
+      "outline": [
+        "해삼 옆 포식자 그림자 개념 장면",
+        "몸 뒤에서 배출되는 흰 관",
+        "관이 길어지고 얽히는 확대 도식",
+        "해삼과 관의 위치를 함께 설명"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "해삼 옆 포식자 그림자 개념 장면",
+          "narration": "이 해삼이 내보낸 흰 관은 끈끈한 방어 장치입니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "몸 뒤에서 배출되는 흰 관",
+          "narration": "연구가 다룬 Holothuria forskali 같은 일부 해삼은 쿠비에관을 배출합니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "관이 길어지고 얽히는 확대 도식",
+          "narration": "관은 늘어나고 끈끈해져 포식자를 얽는 데 쓰입니다. 연구는 이런 방어 구조의 성질을 살폈습니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "해삼과 관의 위치를 함께 설명",
+          "narration": "모든 해삼의 행동도, 내장 전체를 내던지는 장면도 아닙니다. 특정한 관을 이용하는 방어입니다."
+        }
+      ],
+      "twist": "모든 해삼의 행동도, 내장 전체를 내던지는 장면도 아닙니다. 특정한 관을 이용하는 방어입니다.",
+      "fit": "첫 장면의 낯선 모습에서 시작해 마지막 장면에서 오해를 풀어 주는 구성.",
+      "whyNow": "검증된 상시 흥미 주제를 우주·신비한 생물 중심으로 새로 기획. 오늘의 발견으로 표시하지 않는다.",
+      "guardrail": "제목·본문 모두 일부 해삼 또는 Holothuria forskali 범위. 모든 해삼·내장 전체 일반화 금지. 동물 자극 촬영 금지.",
+      "thumbnail": {
+        "direction": "Holothuria forskali 형태 참고의 해삼과 길고 가는 흰 관. 피·장기 덩어리·손으로 자극하는 모습 금지.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향만 작성",
+        "renderConstraint": "텍스트·로고·워터마크 없음."
+      },
+      "sources": [
+        {
+          "title": "Instantaneous adhesion of Cuvierian tubules in the sea cucumber Holothuria forskali",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24985220/",
+          "publisher": "Biointerphases via PubMed",
+          "kind": "primary-paper-abstract",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:43:28+09:00",
+          "supports": "관이 늘어나 끈끈한 그물을 만들고 수초 안에 포식자를 얽어 고정하는 방어",
+          "note": "관이 늘어나 끈끈한 그물을 만들고 수초 안에 포식자를 얽어 고정하는 방어"
+        },
+        {
+          "title": "Characterization of the adhesive from Cuvierian tubules of the sea cucumber Holothuria forskali",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12925918/",
+          "publisher": "Marine Biotechnology via PubMed",
+          "kind": "primary-paper-abstract",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:43:28+09:00",
+          "supports": "기계 자극 뒤 흰 관 배출, 높은 접착력·인장강도로 포식자 얽힘",
+          "note": "기계 자극 뒤 흰 관 배출, 높은 접착력·인장강도로 포식자 얽힘"
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 해삼·쿠비에관·Cuvierian·해삼 방어, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "coreFact": "일부 해삼은 위협을 받으면 쿠비에관을 흰 실처럼 배출한다. 관은 늘어나고 접촉 시 끈끈해져 수초 안에 포식자를 얽어 움직임을 막을 수 있다.",
+      "firstFrame": "느린 해삼 앞으로 포식자 그림자가 다가오는 순간 흰 관들이 뻗어 끈끈한 그물로 바뀌는 장면을 보여준다.",
+      "researchGuardrail": "모든 해삼의 행동으로 일반화하지 않는다. 쿠비에관을 내장 전체라고 부르지 않으며 실제 촬영을 위해 동물을 괴롭히지 않는다.",
+      "editorialRank": 6,
+      "image": {
+        "src": "assets/topics/shorts-sea-cucumber-sticky-tubules.png",
+        "alt": "AI 생성 과학 설명 삽화: 일부 해삼의 가는 흰 쿠비에관 방어 구조. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24985220/"
+      }
+    },
+    {
+      "id": "shorts-jellyfish-life-rewind",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "어른에서 다시 폴립으로, 해파리의 되감기",
+      "hook": "어른이 된 뒤 더 어린 단계로 돌아가는 해파리가 있습니다.",
+      "summary": "Turritopsis dohrnii의 메두사→낭 형태→폴립 전환을 생활사 도식으로 보여준다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "whyNow": "우주·신비한 생물 중심 재편에 맞춘 상시 흥미 기획. 오늘의 신규 발견이나 조회수 상승을 뜻하지 않는다.",
+      "fit": "되돌릴 수 있는 것은 생활사입니다. 천적에게 먹히지 않는다는 뜻은 아닙니다.",
+      "outline": [
+        "작은 성체 해파리",
+        "촉수가 줄고 바닥에 붙는 낭 형태",
+        "폴립으로 전환",
+        "폴립에서 새 메두사가 나오는 도식"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "작은 성체 해파리",
+          "narration": "어른이 된 뒤 더 어린 단계로 돌아가는 해파리가 있습니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "촉수가 줄고 바닥에 붙는 낭 형태",
+          "narration": "이 작은 해파리는 성체에서 낭 같은 형태를 거쳐, 바닥에 붙어 사는 폴립으로 돌아갈 수 있습니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "폴립으로 전환",
+          "narration": "일부 스트레스 조건에서 성체는 촉수를 흡수하고 낭 같은 형태를 거쳐 폴립이 될 수 있습니다. 폴립에서는 다시 새 해파리가 나옵니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "폴립에서 새 메두사가 나오는 도식",
+          "narration": "되돌릴 수 있는 것은 생활사입니다. 천적에게 먹히지 않는다는 뜻은 아닙니다."
+        }
+      ],
+      "twist": "되돌릴 수 있는 것은 생활사입니다. 천적에게 먹히지 않는다는 뜻은 아닙니다.",
+      "guardrail": "영원히 죽지 않음·죽은 개체 부활·인간 회춘 기술로 확대 금지. 관련종 T. rubra 사진을 동일종으로 쓰지 않는다.",
+      "keywords": [
+        "생물",
+        "jellyfish",
+        "생활사 역전"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 회춘 해파리·Turritopsis, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "sources": [
+        {
+          "title": "Transcriptome Characterization of Reverse Development in Turritopsis dohrnii",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6893190/",
+          "publisher": "G3 via PMC",
+          "kind": "primary-paper-full-text",
+          "publishedAt": "2019-12-03",
+          "checkedAt": "2026-09-10T10:42:55+09:00",
+          "supports": "손상·불리한 환경·노화에 반응한 메두사→낭→폴립 역발달",
+          "note": "손상·불리한 환경·노화에 반응한 메두사→낭→폴립 역발달"
+        },
+        {
+          "title": "Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9459311/",
+          "publisher": "PNAS via PMC",
+          "kind": "primary-paper-full-text",
+          "publishedAt": "2022-08-29",
+          "checkedAt": "2026-09-10T10:45:02+09:00",
+          "supports": "성숙 뒤 반복 회춘과 생활사 역전, T. rubra와의 비교",
+          "note": "성숙 뒤 반복 회춘과 생활사 역전, T. rubra와의 비교"
+        }
+      ],
+      "thumbnail": {
+        "direction": "작은 해파리와 바닥에 붙은 폴립을 나란히 둔 생물학 도식. 거대 해파리·시계 사진 합성 금지.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향 완성·실제 이미지 미제작",
+        "renderConstraint": "텍스트·로고·워터마크 없이 제작. 영상 도식에는 필요한 설명 자막을 별도 사용."
+      },
+      "coreFact": "Turritopsis dohrnii 성체 메두사는 손상·불리한 환경·노화 조건에서 낭 단계를 거쳐 이전 생활사인 폴립으로 되돌아갈 수 있다.",
+      "firstFrame": "성체 메두사에서 낭, 폴립으로 화살표가 거꾸로 진행되는 생활사 도식을 보여준다.",
+      "researchGuardrail": "죽은 개체의 부활, 포식·질병에 대한 불사, 인간 회춘 기술 완성으로 확대하지 않는다. Turritopsis rubra 이미지를 같은 종으로 쓰지 않는다.",
+      "editorialRank": 7,
+      "image": {
+        "src": "assets/topics/shorts-jellyfish-life-rewind.png",
+        "alt": "AI 생성 과학 설명 삽화: 작은 해파리와 폴립의 생활사 전환 도식. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6893190/"
+      }
+    },
+    {
+      "id": "shorts-io-gravity-volcano",
+      "format": "shorts",
+      "category": "우주",
+      "title": "태양에서 먼 이오, 왜 화산이 끓을까?",
+      "hook": "이오의 화산을 달구는 열에는 중력도 한몫합니다.",
+      "summary": "목성과 이웃 위성의 중력으로 이오가 반복 변형되며 내부 열이 생기는 조석 가열을 설명한다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "whyNow": "우주·신비한 생물 중심 재편에 맞춘 상시 흥미 기획. 오늘의 신규 발견이나 조회수 상승을 뜻하지 않는다.",
+      "fit": "멀리 있는 태양만이 이 세계를 데우는 것은 아닙니다.",
+      "outline": [
+        "이오 화산 표면",
+        "목성과 이오 궤도",
+        "아주 조금 찌그러지는 구체의 확대 도식",
+        "화산으로 돌아와 열의 출처 연결"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "이오 화산 표면",
+          "narration": "이오의 화산을 달구는 열에는 중력도 한몫합니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "목성과 이오 궤도",
+          "narration": "이오는 목성 주위를 돕니다. 이웃 위성들도 이오의 궤도에 영향을 줍니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "아주 조금 찌그러지는 구체의 확대 도식",
+          "narration": "이웃 위성은 이오의 궤도에 영향을 줍니다. 목성의 중력으로 이오가 반복해 변형되며 내부에 열이 생깁니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "화산으로 돌아와 열의 출처 연결",
+          "narration": "멀리 있는 태양만이 이 세계를 데우는 것은 아닙니다."
+        }
+      ],
+      "twist": "멀리 있는 태양만이 이 세계를 데우는 것은 아닙니다.",
+      "guardrail": "중력이 직접 불꽃을 쏜다고 표현하지 않는다. 변형은 설명상 확대임을 자막으로 표시. 내부 전체 마그마 바다를 확정하지 않는다.",
+      "keywords": [
+        "우주",
+        "io",
+        "조석 가열"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 조석 가열, 로컬 기록, 9/7~9/9 Brief의 이오 핵심 기전 중복 0건."
+      },
+      "sources": [
+        {
+          "title": "Io: Facts",
+          "url": "https://science.nasa.gov/jupiter/jupiter-moons/io/facts/",
+          "publisher": "NASA",
+          "kind": "official-fact-page",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:44:02+09:00",
+          "supports": "목성·유로파·가니메데의 당김, 타원 궤도, 최대 100m 고체 조석, 내부 가열",
+          "note": "목성·유로파·가니메데의 당김, 타원 궤도, 최대 100m 고체 조석, 내부 가열"
+        },
+        {
+          "title": "Melting of Io by tidal dissipation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17771724/",
+          "publisher": "Science via PubMed",
+          "kind": "primary-paper-abstract",
+          "publishedAt": "1979-03-02",
+          "checkedAt": "2026-09-10T10:42:55+09:00",
+          "supports": "이오 내부의 조석 에너지 소산과 대규모 용융 가능성",
+          "note": "이오 내부의 조석 에너지 소산과 대규모 용융 가능성"
+        }
+      ],
+      "thumbnail": {
+        "direction": "목성을 배경으로 한 이오의 화산 지형, 한 지점의 붉은 용암. 행성 전체 불덩이 금지.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향 완성·실제 이미지 미제작",
+        "renderConstraint": "텍스트·로고·워터마크 없이 제작. 영상 도식에는 필요한 설명 자막을 별도 사용."
+      },
+      "coreFact": "유로파와 가니메데가 이오의 궤도를 찌그러뜨리고 목성의 강한 조석력이 이오를 반복 변형해 내부 열을 만든다. NASA는 고체 표면의 변형 폭을 최대 약 100m로 설명한다.",
+      "firstFrame": "이오 화산 장면을 보인 뒤 목성·유로파·가니메데의 당김과 미세하게 찌그러지는 이오를 확대 도식으로 전환한다.",
+      "researchGuardrail": "중력이 직접 불꽃을 쏜다고 표현하지 않는다. 변형 도식은 과장 배율임을 표시하고 전 지구적 마그마 바다를 확정하지 않는다.",
+      "editorialRank": 8,
+      "image": {
+        "src": "assets/topics/shorts-io-gravity-volcano.png",
+        "alt": "AI 생성 과학 설명 삽화: 목성과 이오의 조석 가열 및 작은 화산 분출. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://science.nasa.gov/jupiter/jupiter-moons/io/facts/"
+      }
+    },
+    {
+      "id": "shorts-vampire-squid-menu",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "흡혈오징어는 주로 ‘바다의 눈’을 먹는다",
+      "hook": "흡혈오징어가 주로 먹는 ‘바다의 눈’, 얼음일까요?",
+      "summary": "흡혈오징어가 주로 해양 유기물인 ‘바다의 눈’을 모아 먹는 활동을 설명한다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "whyNow": "우주·신비한 생물 중심 재편에 맞춘 상시 흥미 기획. 오늘의 신규 발견이나 조회수 상승을 뜻하지 않는다.",
+      "fit": "무서운 이름 뒤에는 가라앉는 유기물을 모아 먹는 생활이 있습니다.",
+      "outline": [
+        "망토 같은 팔의 실루엣",
+        "아래로 흩날리는 유기물 입자",
+        "긴 필라멘트에 모이는 먹이",
+        "입 쪽으로 옮겨지는 먹이 도식"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "망토 같은 팔의 실루엣",
+          "narration": "흡혈오징어가 주로 먹는 ‘바다의 눈’, 얼음일까요?"
+        },
+        {
+          "time": "5~18초",
+          "visual": "아래로 흩날리는 유기물 입자",
+          "narration": "깊은 바다에는 작은 유기물 조각들이 가라앉습니다. 눈처럼 보여 ‘바다의 눈’이라고 부릅니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "긴 필라멘트에 모이는 먹이",
+          "narration": "흡혈오징어는 실처럼 긴 필라멘트로 이런 먹이를 모읍니다. 주로 유기 잔해를 먹는 것으로 알려져 있습니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "입 쪽으로 옮겨지는 먹이 도식",
+          "narration": "바다의 눈은 얼음이 아니라 가라앉는 유기물입니다. 흡혈오징어의 주요 먹이죠."
+        }
+      ],
+      "twist": "바다의 눈은 얼음이 아니라 가라앉는 유기물입니다. 흡혈오징어의 주요 먹이죠.",
+      "guardrail": "주로 유기 잔해를 먹는다는 범위로 설명한다. 작은 살아 있는 먹이 가능성을 배제하지 않는다. 채식주의자·유기물만 먹음·혈액 섭취 불가능으로 단정하지 않는다. 바다의 눈을 얼음이나 플라스틱 쓰레기로 묘사하지 않는다.",
+      "keywords": [
+        "흡혈오징어",
+        "바다의 눈",
+        "해양 유기물",
+        "심해 생물"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 흡혈오징어·vampire squid, 로컬 기록, 9/7~9/9 Brief 중복 0건."
+      },
+      "sources": [
+        {
+          "title": "MBARI researchers discover what vampire squids eat",
+          "url": "https://www.mbari.org/news/mbari-researchers-discover-what-vampire-squids-eat-its-not-what-you-think/",
+          "publisher": "MBARI",
+          "kind": "research-institute-release",
+          "publishedAt": "2012-09-26",
+          "checkedAt": "2026-09-10T10:42:13+09:00",
+          "supports": "두 필라멘트로 유기물 조각·해양 눈을 모으는 관찰과 실험",
+          "note": "두 필라멘트로 유기물 조각·해양 눈을 모으는 관찰과 실험"
+        },
+        {
+          "title": "Vampire squid: detritivores in the oxygen minimum zone",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3479720/",
+          "publisher": "Proceedings of the Royal Society B via PMC",
+          "kind": "primary-paper-full-text",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:44:22+09:00",
+          "supports": "현장 영상·수조 실험·위 내용물 분석, 쇄설물 식단과 필라멘트 섭식",
+          "note": "현장 영상·수조 실험·위 내용물 분석, 쇄설물 식단과 필라멘트 섭식"
+        }
+      ],
+      "thumbnail": {
+        "direction": "짙은 적갈색 흡혈오징어 한 마리와 가는 필라멘트, 유기물 입자. 송곳니·피·플라스틱 금지.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향 완성·실제 이미지 미제작",
+        "renderConstraint": "텍스트·로고·워터마크 없이 제작. 영상 도식에는 필요한 설명 자막을 별도 사용."
+      },
+      "coreFact": "Vampyroteuthis infernalis는 긴 수축성 필라멘트로 해양 눈 같은 유기 쇄설물을 모아 먹으며, 연구는 이를 능동 포식자보다 주로 쇄설식자로 설명한다.",
+      "firstFrame": "흡혈오징어 앞에 가라앉는 ‘바다의 눈’을 보여준 뒤, 긴 필라멘트에 붙은 유기 쇄설물 입자를 확대한다.",
+      "researchGuardrail": "채식주의자, 오직 쓰레기만 섭취, 살아 있는 먹이를 절대 먹지 않는다고 확대하지 않는다. 해양 눈을 얼음이나 플라스틱 쓰레기로 그리지 않는다.",
+      "editorialRank": 9,
+      "image": {
+        "src": "assets/topics/shorts-vampire-squid-menu.png",
+        "alt": "AI 생성 과학 설명 삽화: 필라멘트로 해양 유기물 입자를 모으는 흡혈오징어. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://www.mbari.org/news/mbari-researchers-discover-what-vampire-squids-eat-its-not-what-you-think/"
+      }
+    },
+    {
+      "id": "shorts-uranus-sideways-spin",
+      "format": "shorts",
+      "category": "우주",
+      "title": "옆으로 누워 도는 행성이 있다",
+      "hook": "천왕성은 팽이보다 옆으로 누운 공에 가깝게 돕니다.",
+      "summary": "약 98도 기울어진 자전축과 태양을 받는 방향의 변화를 보여준다.",
+      "duration": "45~60초",
+      "signal": "채널 적합",
+      "whyNow": "우주·신비한 생물 중심 재편에 맞춘 상시 흥미 기획. 오늘의 신규 발견이나 조회수 상승을 뜻하지 않는다.",
+      "fit": "낯선 계절의 열쇠는 태양과의 거리만이 아니라 기울기입니다.",
+      "outline": [
+        "비교용 곧은 축 구체",
+        "천왕성의 옆으로 기운 축",
+        "고정된 축 방향을 유지하며 궤도 이동",
+        "한쪽 극으로 빛이 향하는 장면"
+      ],
+      "scenes": [
+        {
+          "time": "0~5초",
+          "visual": "비교용 곧은 축 구체",
+          "narration": "천왕성은 팽이보다 옆으로 누운 공에 가깝게 돕니다."
+        },
+        {
+          "time": "5~18초",
+          "visual": "천왕성의 옆으로 기운 축",
+          "narration": "천왕성의 자전축은 약 98도 기울어져 있어, 옆으로 누운 듯 보입니다."
+        },
+        {
+          "time": "18~38초",
+          "visual": "고정된 축 방향을 유지하며 궤도 이동",
+          "narration": "천왕성의 자전축은 약 98도 기울어져 있습니다. 궤도를 따라 이동하면서 각 극이 햇빛을 받는 방식도 크게 달라집니다."
+        },
+        {
+          "time": "38~55초",
+          "visual": "한쪽 극으로 빛이 향하는 장면",
+          "narration": "낯선 계절의 열쇠는 태양과의 거리만이 아니라 기울기입니다."
+        }
+      ],
+      "twist": "낯선 계절의 열쇠는 태양과의 거리만이 아니라 기울기입니다.",
+      "guardrail": "공이 지면에서 구르듯 궤도 운동과 자전이 맞물린다고 설명하지 않는다. 거대 충돌은 가능한 가설이며 확정 결말 금지.",
+      "keywords": [
+        "우주",
+        "uranus",
+        "자전축 기울기"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "요청 이전 Buzz에서 천왕성, 로컬 기록, 9/7~9/9 Brief의 축 기울기·계절 흐름 중복 0건."
+      },
+      "sources": [
+        {
+          "title": "Uranus: Facts",
+          "url": "https://science.nasa.gov/uranus/facts/",
+          "publisher": "NASA",
+          "kind": "official-fact-page",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:43:44+09:00",
+          "supports": "97.77도 자전축, 84년 공전, 약 21년 극지 겨울",
+          "note": "97.77도 자전축, 84년 공전, 약 21년 극지 겨울"
+        },
+        {
+          "title": "Helio and You: Seasons on Earth, Mars, and Beyond",
+          "url": "https://science.nasa.gov/helio-and-you-seasons-on-earth-mars-and-beyond/",
+          "publisher": "NASA",
+          "kind": "official-explainer",
+          "publishedAt": null,
+          "checkedAt": "2026-09-10T10:43:44+09:00",
+          "supports": "약 98도 기울기, 84년 공전, 각 극 약 21년 여름·겨울",
+          "note": "약 98도 기울기, 84년 공전, 각 극 약 21년 여름·겨울"
+        }
+      ],
+      "thumbnail": {
+        "direction": "청록색 천왕성과 거의 옆으로 기운 자전축 도식, 고리 방향은 적도에 맞춤.",
+        "caption": "과학 설명용 생성 삽화. 실제 관측·촬영 영상이 아닙니다.",
+        "status": "제작 방향 완성·실제 이미지 미제작",
+        "renderConstraint": "텍스트·로고·워터마크 없이 제작. 영상 도식에는 필요한 설명 자막을 별도 사용."
+      },
+      "coreFact": "천왕성의 자전축은 궤도면에 대해 약 97.77도 기울었고 공전에는 약 84지구년이 걸린다. 각 극은 약 21년씩 긴 여름과 겨울을 겪는다.",
+      "firstFrame": "보통 행성의 곧은 축과 천왕성의 거의 옆으로 누운 축을 한 화면에서 비교한다.",
+      "researchGuardrail": "지면 위 공처럼 굴러간다고 설명하지 않는다. 거대 충돌은 가능한 가설이지 확정 원인이 아니다.",
+      "editorialRank": 10,
+      "image": {
+        "src": "assets/topics/shorts-uranus-sideways-spin.png",
+        "alt": "AI 생성 과학 설명 삽화: 거의 옆으로 기운 자전축과 고리를 지닌 천왕성. 실제 관측 사진이 아닙니다.",
+        "caption": "AI 생성 과학 설명 삽화 · 실제 관측·촬영 영상이 아닙니다.",
+        "sourceUrl": "https://science.nasa.gov/uranus/facts/"
+      }
+    },
+    {
+      "id": "youtube-alphagenome-atlas-prediction-boundary",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "90억 DNA 변화 지도, 실험 결과와 무엇이 다를까?",
+      "summary": "단일 염기 변이의 분자 영향 예측 지도와 실험 검증 경계를 설명한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "예측 지도가 커질수록, 어디까지 믿어도 되는지 먼저 봐야 합니다.",
+      "outline": [
+        "단일 염기 변화와 분자 영향 예측의 질문",
+        "AVI 점수와 대규모 예측 지도의 의미",
+        "실험·진단·치료 확정과 구분하는 읽기 기준"
+      ],
+      "keywords": [
+        "DNA 변이",
+        "예측 지도",
+        "실험 검증"
+      ],
+      "sources": [
+        {
+          "title": "90억 DNA 변화 지도, 실험 결과와 무엇이 다를까? — Google DeepMind",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "publisher": "Google DeepMind",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-08",
+          "checkedAt": "2026-09-09T05:40:45+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 90억 실험 완료·진단·치료 확정으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "90억 DNA 변화 지도, 실험 결과와 무엇이 다를까? — Google DeepMind",
+          "url": "https://github.com/google-deepmind/alphagenome",
+          "publisher": "Google DeepMind",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:46+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 90억 실험 완료·진단·치료 확정으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 저장소에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "집단 간 유전체 전이 대신 변이 예측 지도와 실험 검증의 경계에 한정한다."
+      },
+      "guardrail": "90억 실험 완료·진단·치료 확정으로 쓰지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-alphagenome-atlas-prediction-boundary.png",
+        "alt": "분자 격자와 DNA 모형이 있는 예측 영역, 분리된 현미경 실험 영역",
+        "caption": "AI 생성 설명 이미지이며 실제 연구 실험 화면이 아닙니다. 예측과 실험의 구분을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "youtube-alphagenome-atlas-prediction-boundary",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "youtube-male-fly-connectome-human-proofreading",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "초파리 뇌 지도, AI 다음에 사람이 한 일",
+      "summary": "수컷 초파리 연결 지도 구축에서 AI 재구성과 전문가 주석·교정의 역할을 설명한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "AI가 연결을 그린 뒤에도 전문가의 교정이 남아 있었습니다.",
+      "outline": [
+        "뉴런과 시냅스 연결을 지도화하는 문제",
+        "AI 재구성과 전문가 교정 단계",
+        "초파리 결과와 인간 뇌에 대한 해석의 한계"
+      ],
+      "keywords": [
+        "초파리",
+        "연결 지도",
+        "전문가 교정"
+      ],
+      "sources": [
+        {
+          "title": "초파리 뇌 지도, AI 다음에 사람이 한 일 — Google Research",
+          "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+          "publisher": "Google Research",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-09T05:40:46+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 인간 뇌 해독·치료법·AI 단독 완성으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "초파리 뇌 지도, AI 다음에 사람이 한 일 — Janelia",
+          "url": "https://www.janelia.org/project-team/flyem/male-cns-connectome",
+          "publisher": "Janelia",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:47+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 인간 뇌 해독·치료법·AI 단독 완성으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 페이지 발행일 없음; News에 공식 논문 공개 2026-09-03."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "뇌 연결 지도 제작에서 사람의 교정 단계를 다루며 다른 생물 예측 모델 비교로 확장하지 않는다."
+      },
+      "guardrail": "인간 뇌 해독·치료법·AI 단독 완성으로 쓰지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-male-fly-connectome-human-proofreading.png",
+        "alt": "초파리 실루엣과 확대된 신경망, 돋보기",
+        "caption": "AI 생성 설명 이미지이며 실제 뇌 관측 이미지가 아닙니다. 사람의 검토 단계를 개념적으로 표현했습니다.",
+        "sourceUrl": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "youtube-male-fly-connectome-human-proofreading",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "youtube-text-audiobox-dialogue-boundary",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "겹쳐 말하는 AI 음성, 더빙 연구는 어디까지 왔을까?",
+      "summary": "Text-Audiobox 더빙·동시대화 연구의 범위와 벤치마크 해석을 소개한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "자연스럽게 들리는 예시와 모든 언어에서 검증된 제품은 다릅니다.",
+      "outline": [
+        "더빙과 동시대화 합성의 차이",
+        "학습·평가 조건과 논문의 연구 범위",
+        "제품 제공·언어 범위·음성 권리 확인 항목"
+      ],
+      "keywords": [
+        "음성 합성",
+        "더빙",
+        "동시대화"
+      ],
+      "sources": [
+        {
+          "title": "겹쳐 말하는 AI 음성, 더빙 연구는 어디까지 왔을까? — Meta AI",
+          "url": "https://ai.meta.com/research/publications/alignment-free-text-audiobox-for-voice-dubbing-and-full-duplex-dialogue-synthesis/",
+          "publisher": "Meta AI",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-06",
+          "checkedAt": "2026-09-09T05:40:49+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 제품 출시·전 언어 지원·음성 권리 해결을 단정하지 않는다. 성능은 논문 평가 범위다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "겹쳐 말하는 AI 음성, 더빙 연구는 어디까지 왔을까? — arXiv",
+          "url": "https://arxiv.org/abs/2609.03992",
+          "publisher": "arXiv",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-09T05:40:49+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 제품 출시·전 언어 지원·음성 권리 해결을 단정하지 않는다. 성능은 논문 평가 범위다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 최초 제출일."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "음성 더빙과 동시대화 합성 연구의 적용 경계에 한정한다."
+      },
+      "guardrail": "제품 출시·전 언어 지원·음성 권리 해결을 단정하지 않는다. 성능은 논문 평가 범위다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-text-audiobox-dialogue-boundary.png",
+        "alt": "서로 겹치는 푸른색과 주황색의 추상 음성 파형",
+        "caption": "AI 생성 설명 이미지이며 실제 음성 녹음 파형이나 제품 화면이 아닙니다. 두 대화 흐름을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://ai.meta.com/research/publications/alignment-free-text-audiobox-for-voice-dubbing-and-full-duplex-dialogue-synthesis/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "youtube-text-audiobox-dialogue-boundary",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "youtube-cwnet-self-driving-explanations",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "자율주행이 틀릴 순간, 설명을 보면 알아챌까?",
+      "summary": "CW-Net의 설명이 사람의 자율주행 행동 예측에 어떤 역할을 하는지 연구 범위로 설명한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "자동차의 판단을 사람이 읽을 수 있는 개념으로 바꾸면 무엇이 달라질까요?",
+      "outline": [
+        "주행 계획을 사람이 이해하기 어려운 문제",
+        "사람이 읽는 개념으로 설명하는 방식",
+        "실차·온라인 연구 결과와 안전 보장의 차이"
+      ],
+      "keywords": [
+        "자율주행",
+        "설명",
+        "행동 예측"
+      ],
+      "sources": [
+        {
+          "title": "자율주행이 틀릴 순간, 설명을 보면 알아챌까? — MIT CSAIL",
+          "url": "https://www.csail.mit.edu/news/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes",
+          "publisher": "MIT CSAIL",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:50+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 행동 예측 개선을 사고 방지·안전 보장·전 차량 일반화로 확대하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "자율주행이 틀릴 순간, 설명을 보면 알아챌까? — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10950-5",
+          "publisher": "Nature",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:52+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 행동 예측 개선을 사고 방지·안전 보장·전 차량 일반화로 확대하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. Version of record."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "운전 행동 설명을 통한 사람의 예측에 집중하며 자율주행 성능 순위로 바꾸지 않는다."
+      },
+      "guardrail": "행동 예측 개선을 사고 방지·안전 보장·전 차량 일반화로 확대하지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-cwnet-self-driving-explanations.png",
+        "alt": "세 갈래 경로와 작은 자동차, 사람이 경로 신호를 살피는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 주행 화면·안전 보장 표시가 아닙니다. 가능한 경로와 사람의 해석을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://www.csail.mit.edu/news/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "youtube-cwnet-self-driving-explanations",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "youtube-calibatt-sparse-video-attention",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "영상 AI 계산, 덜 하면서 빨라질 수 있을까?",
+      "summary": "CalibAtt 희소 어텐션의 영상 생성 계산 최적화와 시험 조건을 설명한다.",
+      "whyNow": "2026-09-02 ECCV 참가 공지를 계기로 기존 계산 최적화 연구를 설명한다. 연구 페이지의 2026년 7월과 arXiv의 3월을 신규 발표일로 바꾸지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "줄인 계산의 이득은 모델과 실행 조건에 따라 달라집니다.",
+      "outline": [
+        "영상 생성 계산에서 어텐션이 차지하는 역할",
+        "희소화와 보정의 개념",
+        "시험 모델의 최대 가속과 일반 성능의 차이"
+      ],
+      "keywords": [
+        "영상 생성",
+        "희소 어텐션",
+        "계산 최적화"
+      ],
+      "sources": [
+        {
+          "title": "영상 AI 계산, 덜 하면서 빨라질 수 있을까? — Apple ML Research",
+          "url": "https://machinelearning.apple.com/updates/apple-at-eccv-2026",
+          "publisher": "Apple ML Research",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:53+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 최대 1.58배를 모든 모델·환경의 가속으로 쓰지 않는다. 논문은 7월, arXiv는 3월이며 새 9월 논문으로 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "영상 AI 계산, 덜 하면서 빨라질 수 있을까? — Apple ML Research",
+          "url": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
+          "publisher": "Apple ML Research",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 최대 1.58배를 모든 모델·환경의 가속으로 쓰지 않는다. 논문은 7월, arXiv는 3월이며 새 9월 논문으로 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 페이지는 July 2026만 표시; 날짜 창작 금지."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "영상 구간 선택이 아닌 생성 모델 내부 계산 최적화에 한정한다."
+      },
+      "guardrail": "최대 1.58배를 모든 모델·환경의 가속으로 쓰지 않는다. 논문은 7월, arXiv는 3월이며 새 9월 논문으로 표현하지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-calibatt-sparse-video-attention.png",
+        "alt": "촘촘한 연결망에서 선택된 연결망으로 바뀌는 노드 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 모델 내부 화면이 아닙니다. 계산 연결 선택을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://machinelearning.apple.com/updates/apple-at-eccv-2026"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "youtube-calibatt-sparse-video-attention",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "blog-hydrafusion-routing-cost-gates",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI 모델을 섞으면 싸질까? 호출 전체부터 세어보기",
+      "summary": "HydraFusion의 single·cascade·critique 라우팅을 전체 호출 비용으로 읽는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "첫 호출이 저렴해도 추가 비평과 재시도 비용이 붙을 수 있습니다.",
+      "outline": [
+        "세 라우팅 방식의 역할",
+        "추가 호출을 포함한 비용 기록표 제안",
+        "벤치마크별 품질 차이와 실사용 검증 조건"
+      ],
+      "keywords": [
+        "모델 라우팅",
+        "전체 비용",
+        "추가 호출"
+      ],
+      "sources": [
+        {
+          "title": "AI 모델을 섞으면 싸질까? 호출 전체부터 세어보기 — GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "publisher": "GitHub",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-04",
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. TerminalBench 결과와 추정 비용 절감을 보편 실사용 우위로 확대하지 않는다. 다른 평가의 품질 하락도 생략하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI 모델을 섞으면 싸질까? 호출 전체부터 세어보기 — GitHub Docs",
+          "url": "https://docs.github.com/en/copilot/concepts/models/auto-model-selection",
+          "publisher": "GitHub Docs",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. TerminalBench 결과와 추정 비용 절감을 보편 실사용 우위로 확대하지 않는다. 다른 평가의 품질 하락도 생략하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 문서에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "모델 라우팅의 전체 호출 회계에 한정하며 다음 글의 출력 축약·복구 호출 문제와 구분한다."
+      },
+      "guardrail": "TerminalBench 결과와 추정 비용 절감을 보편 실사용 우위로 확대하지 않는다. 다른 평가의 품질 하락도 생략하지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-hydrafusion-routing-cost-gates.png",
+        "alt": "한 입력이 세 갈래 경로를 지나 비용 토큰으로 모이는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 서비스 화면·비용 수치가 아닙니다. 여러 호출 경로의 합산을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "blog-hydrafusion-routing-cost-gates",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "blog-agent-efficiency-local-metric-trap",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI 답변을 줄였는데, 왜 다시 읽는 일이 늘까?",
+      "summary": "출력 축약이 재열람·재실행을 유발하는 국소 최적화 문제를 다루는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "한 번의 출력 절약이 다음 호출의 복구 비용이 될 수 있습니다.",
+      "outline": [
+        "짧아진 출력과 사라진 맥락의 관계",
+        "재열람·재실행까지 기록하는 실험 설계",
+        "특정 실험 수치를 내 업무에 일반화하지 않는 결론"
+      ],
+      "keywords": [
+        "출력 축약",
+        "복구 호출",
+        "국소 최적화"
+      ],
+      "sources": [
+        {
+          "title": "AI 답변을 줄였는데, 왜 다시 읽는 일이 늘까? — GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "publisher": "GitHub",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 줄번호 제거 약 5%·온라인 약 3% 수치를 보편화하지 않는다. 직접 실험한 경험담으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI 답변을 줄였는데, 왜 다시 읽는 일이 늘까? — GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+          "publisher": "GitHub",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-06-25",
+          "checkedAt": "2026-09-09T05:40:55+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 줄번호 제거 약 5%·온라인 약 3% 수치를 보편화하지 않는다. 직접 실험한 경험담으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 최근 7일 원문 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "useful-yield 경영 지표로 확장하지 않고 국소 절약이 복구 호출을 늘리는 문제에만 한정한다."
+      },
+      "guardrail": "줄번호 제거 약 5%·온라인 약 3% 수치를 보편화하지 않는다. 직접 실험한 경험담으로 쓰지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-agent-efficiency-local-metric-trap.png",
+        "alt": "많은 빈 카드와 적은 카드 사이를 순환하는 두 화살표",
+        "caption": "AI 생성 설명 이미지이며 실제 업무 기록이 아닙니다. 출력 축약 뒤 재열람 흐름을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "blog-agent-efficiency-local-metric-trap",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "blog-agent-memory-expire-consolidate-prune",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI 기억, 언제 지우고 언제 남겨야 할까?",
+      "summary": "TTL·관련성·통합·삭제를 구분해 메모리 수명주기를 설계하는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "기억을 저장하는 규칙만큼 잊는 규칙도 필요합니다.",
+      "outline": [
+        "보존 기간과 관련성 판단 구분",
+        "별도 pruner와 통합·삭제 흐름",
+        "손실 가능한 통합의 원본 보존과 사람 검토 조건"
+      ],
+      "keywords": [
+        "기억 수명주기",
+        "만료",
+        "통합"
+      ],
+      "sources": [
+        {
+          "title": "AI 기억, 언제 지우고 언제 남겨야 할까? — AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+          "publisher": "AWS",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-04",
+          "checkedAt": "2026-09-09T05:40:56+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. AgentCore 내장 자동삭제 TTL로 오인하지 않는다. 예시 기본값을 표준으로 쓰거나 실제 삭제를 수행하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI 기억, 언제 지우고 언제 남겨야 할까? — AWS Samples",
+          "url": "https://github.com/aws-samples/sample-memory-lifecycle-policies-for-bedrock-agentcore",
+          "publisher": "AWS Samples",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:57+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. AgentCore 내장 자동삭제 TTL로 오인하지 않는다. 예시 기본값을 표준으로 쓰거나 실제 삭제를 수행하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 저장소에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "LLM Wiki 저장 방법과 달리 기억을 언제 만료·통합·삭제하는지에 집중한다."
+      },
+      "guardrail": "AgentCore 내장 자동삭제 TTL로 오인하지 않는다. 예시 기본값을 표준으로 쓰거나 실제 삭제를 수행하지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-agent-memory-expire-consolidate-prune.png",
+        "alt": "빈 카드가 보관함·통합 카드·흩어지는 점으로 갈라지는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 메모리 시스템 화면이 아닙니다. 보존·통합·만료의 선택을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "blog-agent-memory-expire-consolidate-prune",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "blog-speculative-decoding-acceptance-overhead",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "작은 AI가 먼저 쓰면, 큰 AI는 항상 빨라질까?",
+      "summary": "draft 제안과 target 검증 구조를 채택률·추가 계산 비용으로 읽는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "초안을 얼마나 받아들이는지와 초안 비용이 함께 중요합니다.",
+      "outline": [
+        "작은 모델의 토큰 제안과 큰 모델의 검증",
+        "채택률과 draft 오버헤드의 상쇄 관계",
+        "작업·하드웨어 조건을 적는 비교 기준"
+      ],
+      "keywords": [
+        "추측 디코딩",
+        "채택률",
+        "추가 계산"
+      ],
+      "sources": [
+        {
+          "title": "작은 AI가 먼저 쓰면, 큰 AI는 항상 빨라질까? — NVIDIA",
+          "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+          "publisher": "NVIDIA",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:57+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 모든 환경 가속이나 정확도 향상으로 쓰지 않는다. 직접 측정한 속도인 것처럼 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "작은 AI가 먼저 쓰면, 큰 AI는 항상 빨라질까? — NVIDIA on Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/speed-bench",
+          "publisher": "NVIDIA on Hugging Face",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-03-19",
+          "checkedAt": "2026-09-09T05:40:57+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 모든 환경 가속이나 정확도 향상으로 쓰지 않는다. 직접 측정한 속도인 것처럼 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 최근 7일 원문 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "모델 라우팅이 아닌 토큰 초안 제안·검증 계산 경계에 한정한다."
+      },
+      "guardrail": "모든 환경 가속이나 정확도 향상으로 쓰지 않는다. 직접 측정한 속도인 것처럼 표현하지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-speculative-decoding-acceptance-overhead.png",
+        "alt": "작은 블록이 기하 토큰을 제안하고 큰 블록이 일부를 선택하는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 모델 출력·성능 수치가 아닙니다. 제안과 선택 흐름을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "blog-speculative-decoding-acceptance-overhead",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    },
+    {
+      "id": "blog-video-to-sop-source-timestamps",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI가 만든 업무 절차서, 원본 영상으로 돌아갈 수 있나요?",
+      "summary": "생성 SOP 단계에서 원본 영상 시각으로 돌아가 검수·수정하는 절차를 제안한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "각 단계의 근거 시각이 있어야 사람이 수정할 수 있습니다.",
+      "outline": [
+        "생성 절차서의 근거가 사라지는 문제",
+        "각 단계와 원본 영상 시각 연결",
+        "사람이 검수·수정하는 운영 절차 제안"
+      ],
+      "keywords": [
+        "업무 절차서",
+        "원본 시각",
+        "사람 검수"
+      ],
+      "sources": [
+        {
+          "title": "AI가 만든 업무 절차서, 원본 영상으로 돌아갈 수 있나요? — AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+          "publisher": "AWS",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:58+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 사례 80% 수치를 일반화하지 않는다. 두 번째 문서는 구성요소 근거이며 SOP 성과 독립 검증이 아니다. 직접 실행 후기처럼 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI가 만든 업무 절차서, 원본 영상으로 돌아갈 수 있나요? — AWS Documentation",
+          "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/strands-sdk-memory.html",
+          "publisher": "AWS Documentation",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:58+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 사례 80% 수치를 일반화하지 않는다. 두 번째 문서는 구성요소 근거이며 SOP 성과 독립 검증이 아니다. 직접 실행 후기처럼 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 문서에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "영상 요약·구간 선택 대신 절차서 각 단계의 원본 시각 추적과 사람의 수정에만 한정한다."
+      },
+      "guardrail": "사례 80% 수치를 일반화하지 않는다. 두 번째 문서는 구성요소 근거이며 SOP 성과 독립 검증이 아니다. 직접 실행 후기처럼 쓰지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-video-to-sop-source-timestamps.png",
+        "alt": "색 점이 있는 가로 타임라인과 빈 절차 카드가 연결된 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 영상·절차서 화면이 아닙니다. 원본 시점과 단계 연결을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/"
+      },
+      "carriedFrom": {
+        "date": "2026-09-09",
+        "edition": "run-202609090545240900",
+        "ideaId": "blog-video-to-sop-source-timestamps",
+        "note": "2026-09-09 검증 회차에서 이월한 원본이며 신규 조사로 표시하지 않는다."
+      }
+    }
+  ],
+  "topIds": [
+    "shorts-barreleye-real-eyes",
+    "shorts-osedax-bone-eating-roots",
+    "shorts-kepler16-two-suns-no-ground"
+  ]
+}

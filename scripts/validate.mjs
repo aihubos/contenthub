@@ -21,6 +21,47 @@ const briefPath = (date, edition) =>
   edition
     ? "briefs/" + date + "/" + edition + ".json"
     : "briefs/" + date + ".json";
+const shortsExpansionStart = "2026-09-10";
+const expectedFormatCounts = (date) =>
+  date >= shortsExpansionStart
+    ? { shorts: 10, youtube: 5, blog: 5 }
+    : { shorts: 5, youtube: 5, blog: 5 };
+const expectedIdeaCount = (date) =>
+  Object.values(expectedFormatCounts(date)).reduce(
+    (total, count) => total + count,
+    0,
+  );
+
+function sourceIdeaFor(carryover) {
+  const sourceRow = index.briefs.find((row) => row.date === carryover.date);
+  assert(sourceRow, "Unknown carryover date " + carryover.date);
+  const sourceEdition = sourceRow.editions
+    ? sourceRow.editions.find((edition) => edition.id === carryover.edition)
+    : carryover.edition
+      ? null
+      : undefined;
+  assert(
+    sourceEdition !== null,
+    "Unknown carryover edition " + carryover.edition,
+  );
+  const sourceBrief = read(briefPath(carryover.date, sourceEdition?.id));
+  const sourceIdea = sourceBrief.ideas.find(
+    (idea) => idea.id === carryover.ideaId,
+  );
+  assert(sourceIdea, "Unknown carryover idea " + carryover.ideaId);
+  return sourceIdea;
+}
+
+function isCarryoverPair(left, leftDate, right, rightDate) {
+  const pointsTo = (candidate, candidateDate, source, sourceDate) =>
+    candidate.carriedFrom?.date === sourceDate &&
+    candidate.carriedFrom.ideaId === source.id &&
+    candidateDate > sourceDate;
+  return (
+    pointsTo(left, leftDate, right, rightDate) ||
+    pointsTo(right, rightDate, left, leftDate)
+  );
+}
 
 assert(ids.size === posts.items.length, "Duplicate published IDs");
 assert(validDate(index.lastSuccessAt));
@@ -48,18 +89,35 @@ function validateBrief(brief, row, edition, recentTitles) {
         new URL(coverage.url).protocol === "https:",
     );
   }
+  const formatCounts = expectedFormatCounts(brief.date);
+  const expectedCount = expectedIdeaCount(brief.date);
   assert(
-    brief.ideas.length === 15 && row.count === 15,
-    "Require exactly 15 verified ideas",
+    brief.ideas.length === expectedCount && row.count === expectedCount,
+    "Require exactly " + expectedCount + " verified ideas",
   );
-  for (const format of ["shorts", "youtube", "blog"]) {
+  for (const [format, count] of Object.entries(formatCounts)) {
     assert(
-      brief.ideas.filter((idea) => idea.format === format).length === 5,
-      "Need 5 " + format,
+      brief.ideas.filter((idea) => idea.format === format).length === count,
+      "Need " + count + " " + format,
+    );
+  }
+  if (brief.date >= shortsExpansionStart) {
+    assert(
+      brief.ideas.filter(
+        (idea) => idea.format === "shorts" && idea.category === "우주",
+      ).length === 5,
+      "Need 5 space shorts",
+    );
+    assert(
+      brief.ideas.filter(
+        (idea) =>
+          idea.format === "shorts" && idea.category === "신비한 생물",
+      ).length === 5,
+      "Need 5 mysterious-life shorts",
     );
   }
   const ideaIds = new Set(brief.ideas.map((idea) => idea.id));
-  assert(ideaIds.size === 15);
+  assert(ideaIds.size === expectedCount);
   assert(brief.topIds.length === 3 && new Set(brief.topIds).size === 3);
   for (const id of brief.topIds) assert(ideaIds.has(id));
 
@@ -113,13 +171,40 @@ function validateBrief(brief, row, edition, recentTitles) {
     if (idea.duplicate.type === "followup")
       assert(idea.duplicate.related.length > 0);
 
+    if (idea.carriedFrom) {
+      assert(
+        /^\d{4}-\d{2}-\d{2}$/.test(idea.carriedFrom.date) &&
+          /^run-\d+$/.test(idea.carriedFrom.edition) &&
+          /^[a-z0-9-]+$/.test(idea.carriedFrom.ideaId) &&
+          idea.carriedFrom.note,
+        "Invalid carryover metadata",
+      );
+      assert(
+        idea.carriedFrom.date < brief.date,
+        "Carryover must come from an earlier edition",
+      );
+      const sourceIdea = sourceIdeaFor(idea.carriedFrom);
+      const { carriedFrom, ...carriedIdea } = idea;
+      assert.deepEqual(
+        carriedIdea,
+        sourceIdea,
+        "Carryover must preserve the original idea without new research",
+      );
+    }
+
     const titleKey = idea.format + ":" + normalize(idea.title);
     if (Date.parse(index.latest) - Date.parse(brief.date) < 30 * 86400000) {
+      const priorIdeas = recentTitles.get(titleKey) || [];
       assert(
-        !recentTitles.has(titleKey),
+        priorIdeas.every((prior) =>
+          isCarryoverPair(idea, brief.date, prior.idea, prior.date),
+        ),
         "Same title repeated in last 30 days",
       );
-      recentTitles.add(titleKey);
+      recentTitles.set(titleKey, [
+        ...priorIdeas,
+        { idea, date: brief.date },
+      ]);
     }
     const publishedMatch = posts.items.find(
       (post) => normalize(post.title) === normalize(idea.title),
@@ -140,7 +225,7 @@ function validateBrief(brief, row, edition, recentTitles) {
   }
 }
 
-const recentTitles = new Set();
+const recentTitles = new Map();
 let latestGeneratedAt = "";
 for (const row of index.briefs) {
   assert(/^\d{4}-\d{2}-\d{2}$/.test(row.date), "Invalid archive date");
@@ -165,7 +250,8 @@ for (const row of index.briefs) {
     for (const edition of row.editions) {
       assert(/^run-\d+$/.test(edition.id), "Invalid edition ID");
       assert(
-        validDate(edition.generatedAt) && edition.count === 15,
+        validDate(edition.generatedAt) &&
+          edition.count === expectedIdeaCount(row.date),
         "Invalid edition metadata",
       );
       const brief = read(briefPath(row.date, edition.id));
@@ -206,5 +292,5 @@ console.log(
     index.briefs.length +
     " brief date(s), " +
     posts.items.length +
-    " published posts; sources, 5/5/5, immutable editions, links and references validated.",
+    " published posts; sources, per-date format contracts, immutable editions, links and references validated.",
 );
