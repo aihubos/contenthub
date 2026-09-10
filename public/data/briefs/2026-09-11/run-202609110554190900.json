@@ -1,0 +1,1779 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T05:54:19+09:00",
+  "coverage": [
+    {
+      "title": "AI Builders Lab 공개 영상",
+      "status": "최근 168시간 8건",
+      "note": "조사 시점 기준 최근 168시간 공개 영상 8건. 전일 조사 이후 신규 1건과 기존 7건을 구분했다. 조회수는 시점별 스냅샷이며 이번 후보의 수요·성과 증거로 사용하지 않는다.",
+      "url": "https://www.youtube.com/@AIBuildersLabKR"
+    },
+    {
+      "title": "Naver 블로그",
+      "status": "최근 168시간 0건",
+      "note": "RSS 조사 범위에서 최근 168시간 게시물 0건. 전체 게시물 부재나 새 기획 불가를 뜻하지 않으며 RSS 생성시각은 게시시각과 구분한다.",
+      "url": "https://rss.blog.naver.com/jeremylee0213.xml"
+    },
+    {
+      "title": "Google Trends 한국 화면",
+      "status": "별도 스냅샷",
+      "note": "2026-09-11 05:04~05:06 KST 조사 구간의 한국 화면 스냅샷. RSS와 별도로 기록했고 이번 후보 주제와 직접 일치 0건. 검색량 0 또는 관심 없음의 증거가 아니며 일반어를 후보 수요로 전용하지 않는다.",
+      "url": "https://trends.google.com/trending?geo=KR"
+    },
+    {
+      "title": "Google Trends 한국 RSS",
+      "status": "별도 스냅샷",
+      "note": "2026-09-11 05:04~05:06 KST 조사 구간의 RSS 스냅샷. 화면과 순위를 합치지 않으며 이번 후보 주제와 직접 일치 0건. 조회수·후보 수요 증거가 아니다.",
+      "url": "https://trends.google.com/trending/rss?geo=KR"
+    },
+    {
+      "title": "과학 소재 원문",
+      "status": "상시 흥미 소재",
+      "note": "원문 확인 구간은 각 sources의 checkedAt과 checkedUntil에 보존. 최근 7일 뉴스라는 뜻이 아니다.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28697358/"
+    },
+    {
+      "title": "AI 공식 발표와 고객 사례",
+      "status": "기획형 콘텐츠",
+      "note": "공급사 원문 기반 설명과 미실행 도입 기획. 직접 사용 후기나 성과 검증이 아니다.",
+      "url": "https://openai.com/index/two-blind-brothers/"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "shorts-sea-spider-gut-pump",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "산소를 옮기려고 장이 뛰는 바다거미",
+      "hook": "이 긴 다리 안에서 장이 움직이며 산소 운반을 돕습니다.",
+      "summary": "피부로 들어온 산소를 내부로 옮기는 데 장 게실의 연동운동이 관여한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 신체 구조의 예상 밖 역할을 단면 한 장으로 설명한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "신체 구조의 예상 밖 역할을 단면 한 장으로 설명한다.",
+      "outline": [
+        "바다거미 전신에서 다리 확대",
+        "다리 단면과 피부 유입 화살표",
+        "장 연동과 체액 흐름 모식도",
+        "중심 심장과 다리 장을 함께 표시"
+      ],
+      "twist": "장으로 음식만 옮기는 것이 아니라 내부 산소 운반도 돕는다.",
+      "guardrail": "장과 심장의 힘 비교·심장 완전 대체·음식의 산소 변환 금지.",
+      "recommendation": "신체 구조의 예상 밖 역할을 단면 한 장으로 설명한다.",
+      "keywords": [
+        "바다거미",
+        "장 연동",
+        "산소 운반"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "원 논문 초록: 장 게실 연동과 산소 운반",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28697358/",
+          "publisher": "Current Biology / PubMed",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:24:05+09:00",
+          "checkedUntil": "2026-09-11T05:24:07+09:00",
+          "note": "원 논문 초록: 장 게실 연동과 산소 운반",
+          "publishedAt": null
+        },
+        {
+          "title": "공동 연구기관 설명: 피부 산소 흡수·다리의 장",
+          "url": "https://www.hawaii.edu/news/2017/07/10/giant-sea-spiders/",
+          "publisher": "University of Hawaii",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:24:05+09:00",
+          "checkedUntil": "2026-09-11T05:24:07+09:00",
+          "note": "공동 연구기관 설명: 피부 산소 흡수·다리의 장",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-sea-spider-gut-pump.png",
+        "alt": "산소를 옮기려고 장이 뛰는 바다거미",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "바다거미 전신에서 다리 확대",
+          "narration": "작은 몸에서 뻗은 긴 다리, 안에는 장의 가지도 들어 있습니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "다리 단면과 피부 유입 화살표",
+          "narration": "산소는 먹이에서 만들어지는 것이 아니라 바닷물에서 피부를 통해 들어옵니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "장 연동과 체액 흐름 모식도",
+          "narration": "장의 반복 수축이 장액과 혈림프 흐름을 만들어 내부 산소 운반을 돕습니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "중심 심장과 다리 장을 함께 표시",
+          "narration": "심장이 없다는 뜻은 아닙니다. 중심부와 다리 쪽에서 서로 다른 구조가 순환에 관여합니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-wasp76b-iron-asymmetry",
+      "format": "shorts",
+      "category": "우주",
+      "title": "철이 증기가 되는 행성, 밤에는 비처럼 내릴까?",
+      "hook": "이 행성의 아침과 저녁에서는 철의 신호가 다르게 보였습니다.",
+      "summary": "중성 철 흡수의 경계 비대칭을 밤쪽 응결 해석과 구분해 설명한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 극단적 대기와 관측 추론을 함께 보여주는 호기심 소재. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "극단적 대기와 관측 추론을 함께 보여주는 호기심 소재.",
+      "outline": [
+        "낮밤 경계가 드러난 기체 행성",
+        "저녁과 아침 경계의 설명용 신호 비교",
+        "관측 카드에서 해석 카드로 전환",
+        "분광 신호로 다시 줌아웃"
+      ],
+      "twist": "철비 사진이 아니라 빛의 신호 차이로 대기를 추론했다.",
+      "guardrail": "철비 직접 촬영·확정 강수 지도·지표 쇳물 묘사 금지.",
+      "recommendation": "극단적 대기와 관측 추론을 함께 보여주는 호기심 소재.",
+      "keywords": [
+        "WASP-76b",
+        "철 증기",
+        "대기 분광"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "ESPRESSO 관측과 철 신호 비대칭·응결 해석",
+          "url": "https://www.eso.org/public/news/eso2005/",
+          "publisher": "ESO",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:11+09:00",
+          "checkedUntil": "2026-09-11T05:16:13+09:00",
+          "note": "ESPRESSO 관측과 철 신호 비대칭·응결 해석",
+          "publishedAt": null
+        },
+        {
+          "title": "초록: 비대칭 대기 신호·철 귀속·바람",
+          "url": "https://openaccess.inaf.it/entities/publication/35bd3099-1eba-4b6e-b340-34416e5c2a1c",
+          "publisher": "INAF / Nature 논문 저장소",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:24+09:00",
+          "checkedUntil": "2026-09-11T05:16:26+09:00",
+          "note": "초록: 비대칭 대기 신호·철 귀속·바람",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-wasp76b-iron-asymmetry.png",
+        "alt": "철이 증기가 되는 행성, 밤에는 비처럼 내릴까?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "낮밤 경계가 드러난 기체 행성",
+          "narration": "WASP-76b는 철이 기체로 존재할 만큼 뜨거운 대기를 가진 행성입니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "저녁과 아침 경계의 설명용 신호 비교",
+          "narration": "관측에서는 저녁 경계의 중성 철 신호가 강했지만 아침에는 보이지 않았습니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "관측 카드에서 해석 카드로 전환",
+          "narration": "연구진은 밤쪽으로 간 철이 더 낮은 온도에서 응결했을 가능성으로 설명했습니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "분광 신호로 다시 줌아웃",
+          "narration": "철비를 찍은 사진은 없습니다. 보이지 않는 대기를 빛으로 읽어낸 것이죠."
+        }
+      ]
+    },
+    {
+      "id": "shorts-dung-beetle-milky-way-compass",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "달 없는 밤, 쇠똥구리는 은하수로 직진한다",
+      "hook": "작은 쇠똥구리의 직진에 은하수가 길잡이가 됩니다.",
+      "summary": "Scarabaeus satyrus의 방향 유지와 천체투영관 실험을 설명한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 작은 곤충과 은하수의 대비 및 실험 구조가 명료하다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "작은 곤충과 은하수의 대비 및 실험 구조가 명료하다.",
+      "outline": [
+        "달 없는 하늘과 공을 구르는 개체",
+        "천체투영관 돔을 개념도로 표시",
+        "은하수 넓은 밝기 띠 강조",
+        "목적지 없는 직선 화살표"
+      ],
+      "twist": "별자리를 읽는 대신 넓은 하늘의 밝기 단서를 쓴다.",
+      "guardrail": "모든 종 일반화·목적지 탐색·별자리 해독 금지.",
+      "recommendation": "작은 곤충과 은하수의 대비 및 실험 구조가 명료하다.",
+      "keywords": [
+        "쇠똥구리",
+        "은하수",
+        "방향 유지"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "원 논문 초록: 야외·천체투영관 방향 유지",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23352694/",
+          "publisher": "Current Biology / PubMed",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:24+09:00",
+          "checkedUntil": "2026-09-11T05:16:26+09:00",
+          "note": "원 논문 초록: 야외·천체투영관 방향 유지",
+          "publishedAt": null
+        },
+        {
+          "title": "은하수의 넓은 밝기 기울기 단서",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5312028/",
+          "publisher": "PMC 후속 연구",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:11+09:00",
+          "checkedUntil": "2026-09-11T05:16:13+09:00",
+          "note": "은하수의 넓은 밝기 기울기 단서",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-dung-beetle-milky-way-compass.png",
+        "alt": "달 없는 밤, 쇠똥구리는 은하수로 직진한다",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "달 없는 하늘과 공을 구르는 개체",
+          "narration": "달 없는 밤에도 이 종은 공을 비교적 곧게 굴릴 수 있습니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "천체투영관 돔을 개념도로 표시",
+          "narration": "연구진은 하늘 조건을 바꾸고 은하수만 투영해 이동을 비교했습니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "은하수 넓은 밝기 띠 강조",
+          "narration": "후속 연구는 개별 별보다 넓은 밝기 차이가 단서가 될 가능성을 보여줍니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "목적지 없는 직선 화살표",
+          "narration": "어디로 가야 하는지 아는 GPS가 아닙니다. 정한 방향을 유지하는 데 하늘을 이용합니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-moonquake-long-ringing",
+      "format": "shorts",
+      "category": "우주",
+      "title": "일부 달의 지진은 왜 10분 넘게 이어질까?",
+      "hook": "달에서는 일부 지진의 흔들림이 10분 넘게 이어졌습니다.",
+      "summary": "얕은 월진의 지속시간과 달 구조의 감쇠 특성을 설명한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 일상적인 지진 상식을 시간이라는 축으로 뒤집는다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "일상적인 지진 상식을 시간이라는 축으로 뒤집는다.",
+      "outline": [
+        "달 표면 지진계 개념 장면",
+        "길게 줄어드는 설명용 파형",
+        "건조하고 단단한 구조 모식도",
+        "규모와 지속시간 두 칸 분리"
+      ],
+      "twist": "더 오래 흔들린다는 말은 더 큰 지진이라는 뜻이 아니다.",
+      "guardrail": "모든 월진 일반화·규모와 시간 혼동 금지. 파형은 설명용.",
+      "recommendation": "일상적인 지진 상식을 시간이라는 축으로 뒤집는다.",
+      "keywords": [
+        "월진",
+        "지진파",
+        "진동 감쇠"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "월진 유형·일부 얕은 월진의 10분 이상 지속",
+          "url": "https://science.nasa.gov/moon/moonquakes/",
+          "publisher": "NASA",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:35+09:00",
+          "checkedUntil": "2026-09-11T05:16:37+09:00",
+          "note": "월진 유형·일부 얕은 월진의 10분 이상 지속",
+          "publishedAt": null
+        },
+        {
+          "title": "Apollo 기록·물의 감쇠 효과 부재 설명",
+          "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/frosty-a-micro-fabricated-optical-seismometer-to-measure-minute-forces-in-a-mighty-environment/",
+          "publisher": "NASA FROSTY",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:45+09:00",
+          "checkedUntil": "2026-09-11T05:16:47+09:00",
+          "note": "Apollo 기록·물의 감쇠 효과 부재 설명",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-moonquake-long-ringing.png",
+        "alt": "일부 달의 지진은 왜 10분 넘게 이어질까?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "달 표면 지진계 개념 장면",
+          "narration": "아폴로 지진계는 달에서도 지진이 일어난다는 기록을 남겼습니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "길게 줄어드는 설명용 파형",
+          "narration": "일부 얕은 월진은 흔들림이 10분 이상 이어졌습니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "건조하고 단단한 구조 모식도",
+          "narration": "달의 건조하고 단단한 구조는 진동이 쉽게 사라지지 않는 설명과 연결됩니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "규모와 지속시간 두 칸 분리",
+          "narration": "오래 간다는 것과 강하다는 것은 다릅니다. 오늘의 반전은 흔들림이 남는 시간입니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-electric-eel-defensive-leap",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "물 밖으로 올라와 위협을 감전시키는 전기뱀장어",
+      "hook": "전기뱀장어가 몸을 세운 이 실험은 사냥이 아니라 방어였습니다.",
+      "summary": "큰 반침수 도체 위협에 접촉하며 올라가는 방어 방전을 다룬다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 같은 동물의 다른 행동을 실험 조건으로 명확히 분리한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "같은 동물의 다른 행동을 실험 조건으로 명확히 분리한다.",
+      "outline": [
+        "반침수 도체와 수면 재현",
+        "턱이 도체에 닿는 순간",
+        "접촉 지점과 회로 설명",
+        "사냥 카드 대신 방어 카드"
+      ],
+      "twist": "물을 벗어나며 위협 쪽으로 전달되는 전력을 높이는 접촉 행동.",
+      "guardrail": "육상 사냥·원거리 번개·일상 행동 일반화 금지.",
+      "recommendation": "같은 동물의 다른 행동을 실험 조건으로 명확히 분리한다.",
+      "keywords": [
+        "전기뱀장어",
+        "방어 방전",
+        "접촉 행동"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 과거 숨은 먹이 움찔 유도 사냥 후보와 인접 / 이번은 반침수 위협에 대한 접촉 방어"
+      },
+      "sources": [
+        {
+          "title": "모의 위협·도체 접촉·전압 전류 측정",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27274074/",
+          "publisher": "PNAS / PubMed",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:17:36+09:00",
+          "checkedUntil": "2026-09-11T05:17:37+09:00",
+          "note": "모의 위협·도체 접촉·전압 전류 측정",
+          "publishedAt": null
+        },
+        {
+          "title": "반침수 도체 조건·방어 행동 해석",
+          "url": "https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/182/2018/04/19174939/2016-Leaping-eels-electrify-threats-supporting-Humboldt%E2%80%99s-account-of-a-battle-with-horses.pdf",
+          "publisher": "Vanderbilt 논문 PDF",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:18:58+09:00",
+          "checkedUntil": "2026-09-11T05:19:00+09:00",
+          "note": "반침수 도체 조건·방어 행동 해석",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-electric-eel-defensive-leap.png",
+        "alt": "물 밖으로 올라와 위협을 감전시키는 전기뱀장어",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "반침수 도체와 수면 재현",
+          "narration": "실험에서는 물에 일부 잠긴 큰 도체를 위협처럼 제시했습니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "턱이 도체에 닿는 순간",
+          "narration": "전기뱀장어는 턱을 대고 수면 위로 올라오며 고전압 펄스를 보냈습니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "접촉 지점과 회로 설명",
+          "narration": "높이 올라갈수록 위협 쪽으로 전달되는 전력이 증가했습니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "사냥 카드 대신 방어 카드",
+          "narration": "숨은 먹이를 움직이게 하는 사냥과 다른 이야기입니다. 이번에는 자신을 지키는 접촉 방전입니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-antarctic-icefish-no-hemoglobin",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "헤모글로빈 없이 사는 남극 물고기의 심장",
+      "hook": "이 물고기는 산소가 필요하지만 성체의 혈액에는 헤모글로빈이 없습니다.",
+      "summary": "남극 빙어과 성체의 헤모글로빈 부재와 순환 보상을 다룬다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 익숙한 혈액의 역할을 종과 환경의 범위 안에서 재검토한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "익숙한 혈액의 역할을 종과 환경의 범위 안에서 재검토한다.",
+      "outline": [
+        "차가운 바다의 빙어 삽화",
+        "산소 필요 표시와 혈액 모식도",
+        "심장과 혈액량을 글자 카드로 설명",
+        "동결 방지와 순환 적응을 분리"
+      ],
+      "twist": "산소가 필요 없어져서가 아니라 특별한 환경과 순환 적응 속에서 산다.",
+      "guardrail": "모든 남극 물고기·무산소 생존·완전 투명 혈액 금지.",
+      "recommendation": "익숙한 혈액의 역할을 종과 환경의 범위 안에서 재검토한다.",
+      "keywords": [
+        "남극 빙어",
+        "헤모글로빈",
+        "순환 적응"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 과거 부동단백질·동결 억제 후보와 인접 / 이번은 헤모글로빈 상실과 순환 보상"
+      },
+      "sources": [
+        {
+          "title": "과 수준 헤모글로빈 부재·적혈구 생성 억제",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26268413/",
+          "publisher": "PubMed 비교 전사체 연구",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:35+09:00",
+          "checkedUntil": "2026-09-11T05:16:37+09:00",
+          "note": "과 수준 헤모글로빈 부재·적혈구 생성 억제",
+          "publishedAt": null
+        },
+        {
+          "title": "흰피·붉은피 어류의 혈장량·심장질량 적응",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27465736/",
+          "publisher": "PubMed 비교 연구",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:35+09:00",
+          "checkedUntil": "2026-09-11T05:16:37+09:00",
+          "note": "흰피·붉은피 어류의 혈장량·심장질량 적응",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-antarctic-icefish-no-hemoglobin.png",
+        "alt": "헤모글로빈 없이 사는 남극 물고기의 심장",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "차가운 바다의 빙어 삽화",
+          "narration": "남극 빙어과 성체는 헤모글로빈이 없는 독특한 척추동물입니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "산소 필요 표시와 혈액 모식도",
+          "narration": "산소를 안 쓰는 것은 아닙니다. 순환 적혈구도 거의 없는 조건에서 산소를 전달해야 합니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "심장과 혈액량을 글자 카드로 설명",
+          "narration": "큰 심장과 많은 혈액량, 차갑고 산소가 풍부한 바다가 생존 배경입니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "동결 방지와 순환 적응을 분리",
+          "narration": "이번 이야기는 얼지 않는 단백질이 아니라 산소를 나르는 순환의 적응입니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-anole-rebreathing-bubble",
+      "format": "shorts",
+      "category": "신비한 생물",
+      "title": "코앞 공기방울을 다시 마시는 잠수 도마뱀",
+      "hook": "잠수한 도마뱀의 코앞 방울이 커졌다 작아집니다.",
+      "summary": "반수생 Anolis의 반복 재호흡과 방울 억제 실험을 다룬다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 방울의 움직임으로 행동과 실험 결과를 함께 전달한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "방울의 움직임으로 행동과 실험 결과를 함께 전달한다.",
+      "outline": [
+        "주둥이 방울 확대",
+        "팽창 수축 두 장면 비교",
+        "방울 억제와 일반 조건 비교 도식",
+        "유한 잠수 시계와 수면"
+      ],
+      "twist": "방울은 장식이 아니라 잠수시간에 기여하는 기능이 있다.",
+      "guardrail": "무한 호흡·아가미·물속 산소 무제한 추출 금지.",
+      "recommendation": "방울의 움직임으로 행동과 실험 결과를 함께 전달한다.",
+      "keywords": [
+        "아놀 도마뱀",
+        "공기방울",
+        "재호흡"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 과거 다이빙벨 거미 공기 저장 후보와 인접 / 이번은 Anolis 재호흡·방울 억제 실험"
+      },
+      "sources": [
+        {
+          "title": "반수생 계통의 재호흡 행동·피부 공기층",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33984265/",
+          "publisher": "PubMed 2021 비교 연구",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:24+09:00",
+          "checkedUntil": "2026-09-11T05:16:26+09:00",
+          "note": "반수생 계통의 재호흡 행동·피부 공기층",
+          "publishedAt": null
+        },
+        {
+          "title": "방울 억제 처리·잠수시간 차이",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11407854/",
+          "publisher": "PMC 2024 실험",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:11+09:00",
+          "checkedUntil": "2026-09-11T05:16:13+09:00",
+          "note": "방울 억제 처리·잠수시간 차이",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-anole-rebreathing-bubble.png",
+        "alt": "코앞 공기방울을 다시 마시는 잠수 도마뱀",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "주둥이 방울 확대",
+          "narration": "일부 반수생 아놀 도마뱀은 주둥이의 방울을 반복해 내쉬고 들이마십니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "팽창 수축 두 장면 비교",
+          "narration": "피부의 공기층과 방울이 재호흡에 관여합니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "방울 억제와 일반 조건 비교 도식",
+          "narration": "실험에서 방울 형성을 억제했을 때 잠수시간이 짧아졌습니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "유한 잠수 시계와 수면",
+          "narration": "영구 호흡은 아닙니다. 공기를 저장하는 거미집과 달리 척추동물의 반복 재호흡에 초점을 맞춥니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-wasp12b-orbit-decay",
+      "format": "shorts",
+      "category": "우주",
+      "title": "별에 끌려가며 공전이 짧아지는 행성",
+      "hook": "이 행성의 한 바퀴는 관측이 쌓일수록 조금씩 짧아졌습니다.",
+      "summary": "WASP-12b 공전 감쇠와 조석 작용을 모식도로 설명한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 대기 소재와 구분되는 시간·궤도 시각화가 가능하다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "대기 소재와 구분되는 시간·궤도 시각화가 가능하다.",
+      "outline": [
+        "별 가까이의 궤도 모식도",
+        "회차별 공전 시각을 개념적으로 비교",
+        "조석 변형과 축소 궤도",
+        "예측 시계에서 관측 기록으로 전환"
+      ],
+      "twist": "소멸의 사진이 아니라 반복되는 공전 시각의 변화가 증거다.",
+      "guardrail": "현재 삼켜지는 실사·정확한 소멸일 금지. 약 325만 년은 모델 시간척도.",
+      "recommendation": "대기 소재와 구분되는 시간·궤도 시각화가 가능하다.",
+      "keywords": [
+        "WASP-12b",
+        "공전 감쇠",
+        "조석 작용"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "공전·조석 변형·물질 손실",
+          "url": "https://science.nasa.gov/exoplanet-catalog/wasp-12-b/",
+          "publisher": "NASA",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:11+09:00",
+          "checkedUntil": "2026-09-11T05:16:13+09:00",
+          "note": "공전·조석 변형·물질 손실",
+          "publishedAt": null
+        },
+        {
+          "title": "공전 감쇠·3.25±0.23 Myr 시간척도",
+          "url": "https://pure.psu.edu/en/publications/the-orbit-of-wasp-12b-is-decaying/",
+          "publisher": "Penn State 논문 기록",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:11+09:00",
+          "checkedUntil": "2026-09-11T05:16:13+09:00",
+          "note": "공전 감쇠·3.25±0.23 Myr 시간척도",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-wasp12b-orbit-decay.png",
+        "alt": "별에 끌려가며 공전이 짧아지는 행성",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "별 가까이의 궤도 모식도",
+          "narration": "WASP-12b는 별 가까이서 빠르게 공전하는 뜨거운 목성형 행성입니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "회차별 공전 시각을 개념적으로 비교",
+          "narration": "축적된 관측은 공전주기가 줄어드는 흐름을 보여줍니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "조석 변형과 축소 궤도",
+          "narration": "논문은 공전 감쇠를 바탕으로 약 325만 년의 붕괴 시간척도를 추정했습니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "예측 시계에서 관측 기록으로 전환",
+          "narration": "정확한 마지막 날을 안다는 뜻은 아닙니다. 지금 읽는 것은 궤도의 변화입니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-janus-two-faced-white-dwarf",
+      "format": "shorts",
+      "category": "우주",
+      "title": "한 별의 두 얼굴, 수소와 헬륨 대기가 다르다",
+      "hook": "같은 별인데 회전하며 보여주는 대기 신호가 다릅니다.",
+      "summary": "약 15분 회전하는 Janus의 대기 조성 비대칭을 설명한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 표면 회전과 성분의 대비로 내부 결정화 소재와 구분한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "표면 회전과 성분의 대비로 내부 결정화 소재와 구분한다.",
+      "outline": [
+        "온전한 별에 두 가상색 표시",
+        "회전 화살표와 설명용 분광 띠",
+        "원인 가설 카드",
+        "가상색을 지우고 한 별로 표시"
+      ],
+      "twist": "별이 둘로 갈라진 것이 아니라 관측 대기의 우세 성분이 다르다.",
+      "guardrail": "15분마다 원소 자체 변환·물리적 분열·자기장 원인 확정 금지.",
+      "recommendation": "표면 회전과 성분의 대비로 내부 결정화 소재와 구분한다.",
+      "keywords": [
+        "Janus",
+        "백색왜성",
+        "대기 조성"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "ZTF 발견·약 15분 회전·Keck 관측",
+          "url": "https://www.caltech.edu/about/news/two-faced-star-exposed",
+          "publisher": "Caltech",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:17:14+09:00",
+          "checkedUntil": "2026-09-11T05:17:16+09:00",
+          "note": "ZTF 발견·약 15분 회전·Keck 관측",
+          "publishedAt": null
+        },
+        {
+          "title": "초록: 양쪽 대기 조성·자기장 설명 불확실성",
+          "url": "https://www.nature.com/articles/s41586-023-06171-9",
+          "publisher": "Nature",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:17:14+09:00",
+          "checkedUntil": "2026-09-11T05:17:16+09:00",
+          "note": "초록: 양쪽 대기 조성·자기장 설명 불확실성",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-janus-two-faced-white-dwarf.png",
+        "alt": "한 별의 두 얼굴, 수소와 헬륨 대기가 다르다",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "온전한 별에 두 가상색 표시",
+          "narration": "Janus라는 백색왜성은 한쪽에서 수소 우세, 다른 쪽에서 헬륨 우세 신호를 보입니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "회전 화살표와 설명용 분광 띠",
+          "narration": "약 15분의 회전에 따라 다른 대기 면이 보입니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "원인 가설 카드",
+          "narration": "자기장이 혼합에 차이를 만든다는 설명은 아직 가설입니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "가상색을 지우고 한 별로 표시",
+          "narration": "색은 조성을 구분한 모식도입니다. 별이 반으로 찢어지거나 원소가 번갈아 변하는 것은 아닙니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-white-dwarf-crystal-core",
+      "format": "shorts",
+      "category": "우주",
+      "title": "죽은 별의 속은 천천히 굳어간다",
+      "hook": "뜨거운 백색왜성의 내부가 굳으면서 냉각을 늦출 수 있습니다.",
+      "summary": "Gaia 백색왜성 분포와 핵 결정화·잠열 설명을 연결한다.",
+      "duration": "약 60초",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 내부 격자·열이라는 장면으로 회전 대기와 시각을 분리한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "내부 격자·열이라는 장면으로 회전 대기와 시각을 분리한다.",
+      "outline": [
+        "백색왜성 내부 단면",
+        "내부 격자와 열 방출 모식도",
+        "Gaia 표본 분포를 설명하는 카드",
+        "단면을 모식도 표시로 마감"
+      ],
+      "twist": "굳는 과정에서 열을 내놓아 냉각이 지연된다.",
+      "guardrail": "다이아몬드 별·표면 보석·내부 직접 촬영 금지.",
+      "recommendation": "내부 격자·열이라는 장면으로 회전 대기와 시각을 분리한다.",
+      "keywords": [
+        "백색왜성",
+        "결정화",
+        "잠열"
+      ],
+      "accent": "blue",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "Gaia 표본의 결정화 패턴·냉각 지연",
+          "url": "https://www.esa.int/About_Us/ESAC/Gaia_reveals_how_Sun-like_stars_turn_solid_after_their_demise",
+          "publisher": "ESA",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:11+09:00",
+          "checkedUntil": "2026-09-11T05:16:13+09:00",
+          "note": "Gaia 표본의 결정화 패턴·냉각 지연",
+          "publishedAt": null
+        },
+        {
+          "title": "초록: 100 pc 표본·잠열·냉각 지연 모델",
+          "url": "https://arxiv.org/abs/1908.00370",
+          "publisher": "arXiv 논문",
+          "kind": "research-source",
+          "checkedAt": "2026-09-11T05:16:24+09:00",
+          "checkedUntil": "2026-09-11T05:16:26+09:00",
+          "note": "초록: 100 pc 표본·잠열·냉각 지연 모델",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/shorts-white-dwarf-crystal-core.png",
+        "alt": "죽은 별의 속은 천천히 굳어간다",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~10초",
+          "visual": "백색왜성 내부 단면",
+          "narration": "백색왜성은 별의 진화 끝에 남은 뜨거운 잔해입니다."
+        },
+        {
+          "time": "10~25초",
+          "visual": "내부 격자와 열 방출 모식도",
+          "narration": "탄소와 산소 이온이 결정화하면 잠열을 내놓아 냉각을 늦출 수 있습니다."
+        },
+        {
+          "time": "25~45초",
+          "visual": "Gaia 표본 분포를 설명하는 카드",
+          "narration": "연구진은 밝기와 거리 자료의 누적 패턴을 이런 과정의 증거로 해석했습니다."
+        },
+        {
+          "time": "45~60초",
+          "visual": "단면을 모식도 표시로 마감",
+          "narration": "별 속을 직접 촬영한 사진은 아닙니다. 많은 별의 분포에서 내부 변화를 읽었습니다."
+        }
+      ]
+    },
+    {
+      "id": "youtube-agents-api-hosted-runtime",
+      "format": "youtube",
+      "category": "AI 활용",
+      "title": "에이전트 API를 부르면 실제로 어디에서 일이 실행될까?",
+      "hook": "API 호출 뒤의 실행 장소와 기록을 따라가 봅니다.",
+      "summary": "호스팅 실행의 세션·샌드박스·도구·관측성을 공식 발표 범위에서 설명한다.",
+      "duration": "약 2~3분",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 작동 원리 설명을 넘어 실제 실행 경로를 그림으로 볼 수 있다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "작동 원리 설명을 넘어 실제 실행 경로를 그림으로 볼 수 있다.",
+      "outline": [
+        "요청이 세션으로 들어가는 개념 장면",
+        "샌드박스와 도구 상자",
+        "도구 호출에서 기록으로 연결",
+        "제품 설명과 운영 결과 두 카드"
+      ],
+      "twist": "공식 시연·고객 진술과 우리 조직의 검증 결과는 다릅니다.",
+      "guardrail": "데모의 무오류·보편 성과 보장 금지. 실제 운영 검증과 구분.",
+      "recommendation": "작동 원리 설명을 넘어 실제 실행 경로를 그림으로 볼 수 있다.",
+      "keywords": [
+        "에이전트 API",
+        "호스팅 실행",
+        "세션"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 에이전트 개념 후보와 인접 / 이번은 호스팅 실행 경로와 관측성"
+      },
+      "sources": [
+        {
+          "title": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "url": "https://www.youtube.com/watch?v=2YHa1vhnmK0",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "publishedAt": null
+        },
+        {
+          "title": "호스팅 실행의 세션·샌드박스·도구·관측성을 공식 발표 범위에서 설명한다.",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "호스팅 실행의 세션·샌드박스·도구·관측성을 공식 발표 범위에서 설명한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/youtube-agents-api-hosted-runtime.png",
+        "alt": "에이전트 API를 부르면 실제로 어디에서 일이 실행될까?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~25초",
+          "visual": "요청이 세션으로 들어가는 개념 장면",
+          "narration": "공식 발표는 에이전트 실행을 세션 안에서 다루는 경로를 소개합니다."
+        },
+        {
+          "time": "25~65초",
+          "visual": "샌드박스와 도구 상자",
+          "narration": "작업 환경과 사용하는 도구를 분리해서 보면 무엇이 어디서 실행되는지 이해하기 쉽습니다."
+        },
+        {
+          "time": "65~110초",
+          "visual": "도구 호출에서 기록으로 연결",
+          "narration": "데모의 답만 보지 말고 어떤 도구가 실행되고 어떤 기록이 남는지도 보겠습니다."
+        },
+        {
+          "time": "110~150초",
+          "visual": "제품 설명과 운영 결과 두 카드",
+          "narration": "호스팅 기능이 있다는 사실과 우리 업무에서 정확히 작동한다는 증거는 별개입니다."
+        }
+      ]
+    },
+    {
+      "id": "youtube-blind-brothers-visual-ai-boundary",
+      "format": "youtube",
+      "category": "AI 활용",
+      "title": "사진을 말로 듣는 AI, 시각장애 형제는 어디까지 썼을까?",
+      "hook": "시각정보를 말로 바꾸는 도구가 이들의 업무에서 어떻게 쓰였을까요?",
+      "summary": "공급사가 소개한 형제의 시각정보 음성화·업무 경험을 출처에 귀속해 설명한다.",
+      "duration": "약 2~3분",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 당사자의 활용 맥락을 따라가며 효용과 한계를 함께 이해한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "당사자의 활용 맥락을 따라가며 효용과 한계를 함께 이해한다.",
+      "outline": [
+        "사진과 음성 파형 개념도",
+        "업무 상황을 일반 삽화로 설명",
+        "유용한 부분과 확인이 필요한 부분",
+        "사람에게 확인하는 경로"
+      ],
+      "twist": "공식 시연·고객 진술과 우리 조직의 검증 결과는 다릅니다.",
+      "guardrail": "공급사 고객 사례임을 명시. 의료 효과·자율 길안내·Jeremy 체험 주장 금지.",
+      "recommendation": "당사자의 활용 맥락을 따라가며 효용과 한계를 함께 이해한다.",
+      "keywords": [
+        "시각정보 AI",
+        "음성 설명",
+        "접근성"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "url": "https://www.youtube.com/watch?v=qg_54P-oPgI",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "publishedAt": null
+        },
+        {
+          "title": "공급사가 소개한 형제의 시각정보 음성화·업무 경험을 출처에 귀속해 설명한다.",
+          "url": "https://openai.com/index/two-blind-brothers/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "공급사가 소개한 형제의 시각정보 음성화·업무 경험을 출처에 귀속해 설명한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/youtube-blind-brothers-visual-ai-boundary.png",
+        "alt": "사진을 말로 듣는 AI, 시각장애 형제는 어디까지 썼을까?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~25초",
+          "visual": "사진과 음성 파형 개념도",
+          "narration": "OpenAI의 고객 사례는 시각장애 형제가 시각정보를 말로 듣는 활용을 소개합니다."
+        },
+        {
+          "time": "25~65초",
+          "visual": "업무 상황을 일반 삽화로 설명",
+          "narration": "사례에서 소개된 업무 활용과 당사자의 경험에 집중합니다. 삽화는 당사자 실물 재현이 아닙니다."
+        },
+        {
+          "time": "65~110초",
+          "visual": "유용한 부분과 확인이 필요한 부분",
+          "narration": "한 고객의 경험이 모든 사용자의 정확도나 효과를 보장하지는 않습니다."
+        },
+        {
+          "time": "110~150초",
+          "visual": "사람에게 확인하는 경로",
+          "narration": "중요한 판단에서는 다른 확인 방법이 필요합니다. 안전한 자율 길안내나 치료 도구의 증거로 읽지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "youtube-atv-small-business-task-map",
+      "format": "youtube",
+      "category": "AI 활용",
+      "title": "두 명뿐인 사업팀은 AI에 어떤 일을 맡겼을까?",
+      "hook": "두 사람이 운영하는 사업에서는 어떤 일을 AI에 맡길 수 있을까요?",
+      "summary": "ATV Big Air Tour의 공급사 고객 사례를 네 업무 영역으로 나누어 소개한다.",
+      "duration": "약 2~3분",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 작은 조직이 공감할 구체적인 업무 지도로 사례를 읽는다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "작은 조직이 공감할 구체적인 업무 지도로 사례를 읽는다.",
+      "outline": [
+        "두 사람과 행사 준비 업무 지도",
+        "초안과 판단 영역을 다른 색으로",
+        "고객 진술이라는 출처 카드",
+        "우리 팀 업무 하나에 질문"
+      ],
+      "twist": "공식 시연·고객 진술과 우리 조직의 검증 결과는 다릅니다.",
+      "guardrail": "고객 진술을 보편 절감률·자체 성과로 전용 금지.",
+      "recommendation": "작은 조직이 공감할 구체적인 업무 지도로 사례를 읽는다.",
+      "keywords": [
+        "소규모 사업",
+        "업무 분담",
+        "AI 활용"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 전략 대조 범위 내 동일 핵심 질문 없음. 인터넷 최초를 뜻하지 않음."
+      },
+      "sources": [
+        {
+          "title": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "url": "https://www.youtube.com/watch?v=mPAmXQnhv2E",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "publishedAt": null
+        },
+        {
+          "title": "ATV Big Air Tour의 공급사 고객 사례를 네 업무 영역으로 나누어 소개한다.",
+          "url": "https://openai.com/index/growing-atv-big-air-tour/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "ATV Big Air Tour의 공급사 고객 사례를 네 업무 영역으로 나누어 소개한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/youtube-atv-small-business-task-map.png",
+        "alt": "두 명뿐인 사업팀은 AI에 어떤 일을 맡겼을까?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~25초",
+          "visual": "두 사람과 행사 준비 업무 지도",
+          "narration": "공식 사례는 작은 팀의 마케팅·파트너십·재고·행사 준비 활용을 소개합니다."
+        },
+        {
+          "time": "25~65초",
+          "visual": "초안과 판단 영역을 다른 색으로",
+          "narration": "아이디어나 문서 초안과 최종 사업 판단을 나눠서 봅니다."
+        },
+        {
+          "time": "65~110초",
+          "visual": "고객 진술이라는 출처 카드",
+          "narration": "시간 절감이나 성장 이야기는 고객의 진술입니다. 같은 결과를 보장하는 실험은 아닙니다."
+        },
+        {
+          "time": "110~150초",
+          "visual": "우리 팀 업무 하나에 질문",
+          "narration": "가져갈 것은 성장률보다 어떤 업무를 맡겼고 누가 결과를 확인했는지에 대한 질문입니다."
+        }
+      ]
+    },
+    {
+      "id": "youtube-chatgpt-work-data-agent-boundary",
+      "format": "youtube",
+      "category": "AI 활용",
+      "title": "회사 데이터에 묻고 실행하는 AI, 답보다 먼저 볼 것은?",
+      "hook": "회사 데이터의 답변이 실제 작업으로 이어질 때 무엇을 확인해야 할까요?",
+      "summary": "공식 발표의 질의·대시보드·작업 실행 경로를 출처·검토 지점과 함께 설명한다.",
+      "duration": "약 2~3분",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 질문부터 실행까지의 변화가 영상 장면으로 명료하다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "질문부터 실행까지의 변화가 영상 장면으로 명료하다.",
+      "outline": [
+        "질문에서 차트로 이동하는 개념 장면",
+        "차트 옆 원자료 카드",
+        "실행 버튼 앞 검토 지점",
+        "발표와 직접 검증 두 카드"
+      ],
+      "twist": "공식 시연·고객 진술과 우리 조직의 검증 결과는 다릅니다.",
+      "guardrail": "정확도·권한 통제·보안·성과가 검증됐다는 단정 금지.",
+      "recommendation": "질문부터 실행까지의 변화가 영상 장면으로 명료하다.",
+      "keywords": [
+        "데이터 에이전트",
+        "답변 출처",
+        "작업 실행"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 기존 데이터·에이전트 후보와 인접 / 이번은 질문→대시보드→실행의 출처·검토 경계"
+      },
+      "sources": [
+        {
+          "title": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "url": "https://www.youtube.com/watch?v=MSiAd36bGeQ",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "publishedAt": null
+        },
+        {
+          "title": "공식 발표의 질의·대시보드·작업 실행 경로를 출처·검토 지점과 함께 설명한다.",
+          "url": "https://openai.com/index/put-data-to-work/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "공식 발표의 질의·대시보드·작업 실행 경로를 출처·검토 지점과 함께 설명한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/youtube-chatgpt-work-data-agent-boundary.png",
+        "alt": "회사 데이터에 묻고 실행하는 AI, 답보다 먼저 볼 것은?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~25초",
+          "visual": "질문에서 차트로 이동하는 개념 장면",
+          "narration": "공식 발표는 회사 데이터에 질문하고 대시보드로 살펴보는 흐름을 소개합니다."
+        },
+        {
+          "time": "25~65초",
+          "visual": "차트 옆 원자료 카드",
+          "narration": "차트가 그럴듯해도 어떤 자료와 기간을 사용했는지 확인해야 합니다."
+        },
+        {
+          "time": "65~110초",
+          "visual": "실행 버튼 앞 검토 지점",
+          "narration": "실제 작업으로 이어진다면 읽기와 변경의 범위를 나누어 보는 것이 필요합니다."
+        },
+        {
+          "time": "110~150초",
+          "visual": "발표와 직접 검증 두 카드",
+          "narration": "제품 발표는 우리 조직의 정확도나 운영 결과에 대한 독립 검증이 아닙니다."
+        }
+      ]
+    },
+    {
+      "id": "youtube-astra-work-connected-app-control",
+      "format": "youtube",
+      "category": "AI 활용",
+      "title": "앱과 컴퓨터를 움직이는 AI, 어디서 멈춰야 할까?",
+      "hook": "앱을 넘나드는 AI에게 허용할 일과 멈출 일을 먼저 구분해봅시다.",
+      "summary": "Astra Work 발표를 모델 성능 재소개가 아닌 앱별 허용·사전 승인·중단·복구 관점으로 읽는다.",
+      "duration": "약 2~3분",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 연결 앱 사이의 승인·중단 지점을 장면으로 보여 기존 모델 소개와 분리한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "연결 앱 사이의 승인·중단 지점을 장면으로 보여 기존 모델 소개와 분리한다.",
+      "outline": [
+        "여러 앱 중 문서 앱만 강조",
+        "읽기와 작성, 외부 전송 카드",
+        "예상 밖 앱으로 넘어가는 순간 정지",
+        "변경 기록과 복구 가능 여부"
+      ],
+      "twist": "공식 시연·고객 진술과 우리 조직의 검증 결과는 다릅니다.",
+      "guardrail": "기획형 표시. 사용 후기·성능 최고·자동 승인·항상 복구 가능 주장 금지.",
+      "recommendation": "연결 앱 사이의 승인·중단 지점을 장면으로 보여 기존 모델 소개와 분리한다.",
+      "keywords": [
+        "앱 연결",
+        "사전 승인",
+        "작업 중단"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 기존 Astra 소개·권한 감독·최소 권한 후보와 인접 / 이번은 앱별 허용표·사전 승인·중단·복구의 구체 적용"
+      },
+      "sources": [
+        {
+          "title": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "url": "https://www.youtube.com/watch?v=kuGjypoJKwk",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "공개 메타데이터·공식 데모 또는 고객 사례",
+          "publishedAt": null
+        },
+        {
+          "title": "Astra Work 발표를 모델 성능 재소개가 아닌 앱별 허용·사전 승인·중단·복구 관점으로 읽는다.",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "Astra Work 발표를 모델 성능 재소개가 아닌 앱별 허용·사전 승인·중단·복구 관점으로 읽는다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/youtube-astra-work-connected-app-control.png",
+        "alt": "앱과 컴퓨터를 움직이는 AI, 어디서 멈춰야 할까?",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "0~25초",
+          "visual": "여러 앱 중 문서 앱만 강조",
+          "narration": "공식 발표가 보여주는 연결 작업을 우리 도입 질문으로 바꿔보겠습니다. 어느 앱의 어떤 작업을 허용할까요?"
+        },
+        {
+          "time": "25~65초",
+          "visual": "읽기와 작성, 외부 전송 카드",
+          "narration": "예시 기획에서는 문서 읽기와 초안 작성을 나누고, 외부 전송 전에는 사람의 승인을 둡니다."
+        },
+        {
+          "time": "65~110초",
+          "visual": "예상 밖 앱으로 넘어가는 순간 정지",
+          "narration": "허용하지 않은 앱이나 변경이 필요하면 멈추고 다시 확인하는 흐름을 그립니다."
+        },
+        {
+          "time": "110~150초",
+          "visual": "변경 기록과 복구 가능 여부",
+          "narration": "완료 후 변경 내용을 남기고 복구 가능 여부를 확인합니다. 이는 도입 기획이며 제품의 자동 복구 보장이 아닙니다."
+        }
+      ]
+    },
+    {
+      "id": "blog-agents-api-runtime-checklist",
+      "format": "blog",
+      "category": "AI 활용",
+      "title": "에이전트 API 도입 전, 세션·샌드박스·관측성을 먼저 정하기",
+      "hook": "좋은 답변보다 먼저 실행 위치와 남길 기록을 정해봅시다.",
+      "summary": "실행 장소 / 세션 수명 / 허용 도구 / 결과 기록의 네 가지 도입 질문을 제공한다.",
+      "duration": "기획형 글",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 독자가 도입 전 담당자와 확인할 네 항목을 바로 가져갈 수 있다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "독자가 도입 전 담당자와 확인할 네 항목을 바로 가져갈 수 있다.",
+      "outline": [
+        "실행 위치",
+        "세션 수명",
+        "도구 범위",
+        "기록"
+      ],
+      "twist": "도입 판단은 다른 회사의 성과보다 우리 업무의 확인 항목에서 시작합니다.",
+      "guardrail": "데모의 무오류·보편 성과 보장 금지. 실제 운영 검증과 구분. Jeremy의 경험 없는 후기 금지. 본문 예시는 미실행 기획.",
+      "recommendation": "독자가 도입 전 담당자와 확인할 네 항목을 바로 가져갈 수 있다.",
+      "keywords": [
+        "세션 관리",
+        "샌드박스",
+        "실행 기록"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 같은 날 youtube-agents-api-hosted-runtime의 사례 장면과 달리 도입 판단표 제공"
+      },
+      "sources": [
+        {
+          "title": "원문 고객 사례·제품 발표",
+          "url": "https://www.youtube.com/watch?v=2YHa1vhnmK0",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "원문 고객 사례·제품 발표",
+          "publishedAt": null
+        },
+        {
+          "title": "호스팅 실행의 세션·샌드박스·도구·관측성을 공식 발표 범위에서 설명한다.",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "호스팅 실행의 세션·샌드박스·도구·관측성을 공식 발표 범위에서 설명한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/blog-agents-api-runtime-checklist.png",
+        "alt": "에이전트 API 도입 전, 세션·샌드박스·관측성을 먼저 정하기",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "1절",
+          "visual": "실행 위치",
+          "narration": "어느 환경에서 파일·코드가 처리되는지 담당자가 설명할 수 있는가?"
+        },
+        {
+          "time": "2절",
+          "visual": "세션 수명",
+          "narration": "작업을 이어갈 기간과 종료 후 보관할 결과를 정했는가?"
+        },
+        {
+          "time": "3절",
+          "visual": "도구 범위",
+          "narration": "처음에는 어떤 도구를 허용하고 외부 변경 전 누구에게 확인할 것인가?"
+        },
+        {
+          "time": "4절",
+          "visual": "기록",
+          "narration": "입력·도구 실행·산출물을 어떤 단위로 남겨 문제를 재현할 것인가?"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "실행 위치",
+          "body": "어느 환경에서 파일·코드가 처리되는지 담당자가 설명할 수 있는가?"
+        },
+        {
+          "heading": "세션 수명",
+          "body": "작업을 이어갈 기간과 종료 후 보관할 결과를 정했는가?"
+        },
+        {
+          "heading": "도구 범위",
+          "body": "처음에는 어떤 도구를 허용하고 외부 변경 전 누구에게 확인할 것인가?"
+        },
+        {
+          "heading": "기록",
+          "body": "입력·도구 실행·산출물을 어떤 단위로 남겨 문제를 재현할 것인가?"
+        }
+      ]
+    },
+    {
+      "id": "blog-visual-ai-accessibility-fallback-plan",
+      "format": "blog",
+      "category": "AI 활용",
+      "title": "시각정보 AI를 업무에 쓰기 전, 실패했을 때 돌아갈 길부터 만들기",
+      "hook": "AI의 설명이 틀렸을 때 확인할 사람과 다른 입력 방법부터 정해봅시다.",
+      "summary": "사용 전 입력 범위·오류 확인자·대체 경로를 정하는 접근성 기획을 제공한다.",
+      "duration": "기획형 글",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 영상의 인물 서사 대신 실패 시 대체 경로를 설계한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "영상의 인물 서사 대신 실패 시 대체 경로를 설계한다.",
+      "outline": [
+        "입력 범위",
+        "오류 확인자",
+        "대체 경로",
+        "적용 기준"
+      ],
+      "twist": "도입 판단은 다른 회사의 성과보다 우리 업무의 확인 항목에서 시작합니다.",
+      "guardrail": "공급사 고객 사례임을 명시. 의료 효과·자율 길안내·Jeremy 체험 주장 금지. Jeremy의 경험 없는 후기 금지. 본문 예시는 미실행 기획.",
+      "recommendation": "영상의 인물 서사 대신 실패 시 대체 경로를 설계한다.",
+      "keywords": [
+        "접근성",
+        "오류 확인",
+        "대체 경로"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 같은 날 youtube-blind-brothers-visual-ai-boundary의 사례 장면과 달리 도입 판단표 제공"
+      },
+      "sources": [
+        {
+          "title": "원문 고객 사례·제품 발표",
+          "url": "https://www.youtube.com/watch?v=qg_54P-oPgI",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "원문 고객 사례·제품 발표",
+          "publishedAt": null
+        },
+        {
+          "title": "공급사가 소개한 형제의 시각정보 음성화·업무 경험을 출처에 귀속해 설명한다.",
+          "url": "https://openai.com/index/two-blind-brothers/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "공급사가 소개한 형제의 시각정보 음성화·업무 경험을 출처에 귀속해 설명한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/blog-visual-ai-accessibility-fallback-plan.png",
+        "alt": "시각정보 AI를 업무에 쓰기 전, 실패했을 때 돌아갈 길부터 만들기",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "1절",
+          "visual": "입력 범위",
+          "narration": "업무에서 설명이 필요한 사진만 선정하고 민감한 정보의 포함 여부를 확인한다."
+        },
+        {
+          "time": "2절",
+          "visual": "오류 확인자",
+          "narration": "설명 누락·불확실성이 있으면 누가 원자료를 확인할지 정한다."
+        },
+        {
+          "time": "3절",
+          "visual": "대체 경로",
+          "narration": "음성·텍스트·사람의 설명 가운데 이용자가 선택할 방법을 준비한다."
+        },
+        {
+          "time": "4절",
+          "visual": "적용 기준",
+          "narration": "작은 업무에서 당사자의 사용성과 오류를 기록한 뒤 확대 여부를 판단한다."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "입력 범위",
+          "body": "업무에서 설명이 필요한 사진만 선정하고 민감한 정보의 포함 여부를 확인한다."
+        },
+        {
+          "heading": "오류 확인자",
+          "body": "설명 누락·불확실성이 있으면 누가 원자료를 확인할지 정한다."
+        },
+        {
+          "heading": "대체 경로",
+          "body": "음성·텍스트·사람의 설명 가운데 이용자가 선택할 방법을 준비한다."
+        },
+        {
+          "heading": "적용 기준",
+          "body": "작은 업무에서 당사자의 사용성과 오류를 기록한 뒤 확대 여부를 판단한다."
+        }
+      ]
+    },
+    {
+      "id": "blog-small-business-ai-task-ledger",
+      "format": "blog",
+      "category": "AI 활용",
+      "title": "2인 사업의 AI 도입, 성장률보다 업무 목록부터 기록하기",
+      "hook": "다른 회사의 성장 수치를 옮기기 전에 우리 업무 한 줄부터 적어봅시다.",
+      "summary": "반복 업무·책임자·검수 기준·중단 조건을 담은 업무 장부 예시를 제안한다.",
+      "duration": "기획형 글",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 독자가 복사할 수 있는 업무 장부의 실제 작성 예시를 제공한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "독자가 복사할 수 있는 업무 장부의 실제 작성 예시를 제공한다.",
+      "outline": [
+        "반복 업무",
+        "책임자",
+        "검수 기준",
+        "중단 조건"
+      ],
+      "twist": "도입 판단은 다른 회사의 성과보다 우리 업무의 확인 항목에서 시작합니다.",
+      "guardrail": "고객 진술을 보편 절감률·자체 성과로 전용 금지. Jeremy의 경험 없는 후기 금지. 본문 예시는 미실행 기획.",
+      "recommendation": "독자가 복사할 수 있는 업무 장부의 실제 작성 예시를 제공한다.",
+      "keywords": [
+        "업무 장부",
+        "담당자",
+        "검수 기준"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 같은 날 youtube-atv-small-business-task-map의 사례 장면과 달리 도입 판단표 제공"
+      },
+      "sources": [
+        {
+          "title": "원문 고객 사례·제품 발표",
+          "url": "https://www.youtube.com/watch?v=mPAmXQnhv2E",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "원문 고객 사례·제품 발표",
+          "publishedAt": null
+        },
+        {
+          "title": "ATV Big Air Tour의 공급사 고객 사례를 네 업무 영역으로 나누어 소개한다.",
+          "url": "https://openai.com/index/growing-atv-big-air-tour/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "ATV Big Air Tour의 공급사 고객 사례를 네 업무 영역으로 나누어 소개한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/blog-small-business-ai-task-ledger.png",
+        "alt": "2인 사업의 AI 도입, 성장률보다 업무 목록부터 기록하기",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "1절",
+          "visual": "반복 업무",
+          "narration": "예시: 행사 안내문 초안을 작성한다. 이 예시는 실행 결과가 아닌 도입 기획이다."
+        },
+        {
+          "time": "2절",
+          "visual": "책임자",
+          "narration": "일정·가격·연락처를 최종 확인할 담당자를 지정한다."
+        },
+        {
+          "time": "3절",
+          "visual": "검수 기준",
+          "narration": "초안을 원본 일정표와 대조하고 누락·잘못된 약속을 확인한다."
+        },
+        {
+          "time": "4절",
+          "visual": "중단 조건",
+          "narration": "근거 없는 문구가 반복되거나 확인 비용이 더 들면 자동화를 중단하고 수동 작성한다."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "반복 업무",
+          "body": "예시: 행사 안내문 초안을 작성한다. 이 예시는 실행 결과가 아닌 도입 기획이다."
+        },
+        {
+          "heading": "책임자",
+          "body": "일정·가격·연락처를 최종 확인할 담당자를 지정한다."
+        },
+        {
+          "heading": "검수 기준",
+          "body": "초안을 원본 일정표와 대조하고 누락·잘못된 약속을 확인한다."
+        },
+        {
+          "heading": "중단 조건",
+          "body": "근거 없는 문구가 반복되거나 확인 비용이 더 들면 자동화를 중단하고 수동 작성한다."
+        }
+      ]
+    },
+    {
+      "id": "blog-data-agent-permission-evidence-checklist",
+      "format": "blog",
+      "category": "AI 활용",
+      "title": "회사 데이터 에이전트, 연결 전에 권한·출처·실행 기록을 묻기",
+      "hook": "데이터를 연결하기 전에 읽을 범위와 변경할 범위를 따로 적어봅시다.",
+      "summary": "연결 데이터·답변 근거·실행 승인·복구 기록을 도입 검토표로 만든다.",
+      "duration": "기획형 글",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 제품 장면 재요약 대신 조직이 답할 검토 항목을 제공한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "제품 장면 재요약 대신 조직이 답할 검토 항목을 제공한다.",
+      "outline": [
+        "연결 데이터",
+        "답변 근거",
+        "실행 승인",
+        "실행·복구 기록"
+      ],
+      "twist": "도입 판단은 다른 회사의 성과보다 우리 업무의 확인 항목에서 시작합니다.",
+      "guardrail": "정확도·권한 통제·보안·성과가 검증됐다는 단정 금지. Jeremy의 경험 없는 후기 금지. 본문 예시는 미실행 기획.",
+      "recommendation": "제품 장면 재요약 대신 조직이 답할 검토 항목을 제공한다.",
+      "keywords": [
+        "데이터 연결",
+        "권한 범위",
+        "출처 확인"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 같은 날 youtube-chatgpt-work-data-agent-boundary의 사례 장면과 달리 도입 판단표 제공"
+      },
+      "sources": [
+        {
+          "title": "원문 고객 사례·제품 발표",
+          "url": "https://www.youtube.com/watch?v=MSiAd36bGeQ",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "원문 고객 사례·제품 발표",
+          "publishedAt": null
+        },
+        {
+          "title": "공식 발표의 질의·대시보드·작업 실행 경로를 출처·검토 지점과 함께 설명한다.",
+          "url": "https://openai.com/index/put-data-to-work/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "공식 발표의 질의·대시보드·작업 실행 경로를 출처·검토 지점과 함께 설명한다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/blog-data-agent-permission-evidence-checklist.png",
+        "alt": "회사 데이터 에이전트, 연결 전에 권한·출처·실행 기록을 묻기",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "1절",
+          "visual": "연결 데이터",
+          "narration": "대상 자료·기간·담당자를 적고 불필요한 자료는 연결 범위에서 뺀다."
+        },
+        {
+          "time": "2절",
+          "visual": "답변 근거",
+          "narration": "답변과 원자료를 비교할 방법 및 갱신 시점을 정한다."
+        },
+        {
+          "time": "3절",
+          "visual": "실행 승인",
+          "narration": "외부 변경 전 확인할 사람과 허용할 작업 종류를 명시한다."
+        },
+        {
+          "time": "4절",
+          "visual": "실행·복구 기록",
+          "narration": "무엇을 바꿨는지 남기고 되돌릴 수 있는지 사전에 확인한다. 복구 가능성을 보장하지 않는다."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "연결 데이터",
+          "body": "대상 자료·기간·담당자를 적고 불필요한 자료는 연결 범위에서 뺀다."
+        },
+        {
+          "heading": "답변 근거",
+          "body": "답변과 원자료를 비교할 방법 및 갱신 시점을 정한다."
+        },
+        {
+          "heading": "실행 승인",
+          "body": "외부 변경 전 확인할 사람과 허용할 작업 종류를 명시한다."
+        },
+        {
+          "heading": "실행·복구 기록",
+          "body": "무엇을 바꿨는지 남기고 되돌릴 수 있는지 사전에 확인한다. 복구 가능성을 보장하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "blog-astra-work-least-privilege-plan",
+      "format": "blog",
+      "category": "AI 활용",
+      "title": "컴퓨터를 움직이는 AI, 최소 권한으로 시작하는 기획안",
+      "hook": "처음부터 모든 앱을 맡기지 않고 한 앱의 제한된 작업부터 설계해봅시다.",
+      "summary": "연결 앱마다 읽기·작성·외부 전송을 나누고 승인자와 중단·복구 기준을 적는 기획안이다.",
+      "duration": "기획형 글",
+      "signal": "채널 적합",
+      "whyNow": "오늘의 상시 흥미 기획: 앱별 허용표를 실제 예시로 채워 추상적 최소 권한 설명과 구분한다. 최근 급상승 또는 신규 발표라는 주장은 하지 않는다.",
+      "fit": "앱별 허용표를 실제 예시로 채워 추상적 최소 권한 설명과 구분한다.",
+      "outline": [
+        "앱별 허용표",
+        "사전 승인",
+        "중단 기준",
+        "복구 준비"
+      ],
+      "twist": "도입 판단은 다른 회사의 성과보다 우리 업무의 확인 항목에서 시작합니다.",
+      "guardrail": "기획형 표시. 사용 후기·성능 최고·자동 승인·항상 복구 가능 주장 금지. Jeremy의 경험 없는 후기 금지. 본문 예시는 미실행 기획.",
+      "recommendation": "앱별 허용표를 실제 예시로 채워 추상적 최소 권한 설명과 구분한다.",
+      "keywords": [
+        "최소 권한",
+        "앱별 허용",
+        "복구 준비"
+      ],
+      "accent": "sage",
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "공개 직접 선행 없음 / 내부 후보와의 인접 / 이번 새 관점: 기존 Astra 소개·권한 감독·최소 권한 후보와 인접 / 이번은 앱별 허용표·사전 승인·중단·복구의 구체 적용"
+      },
+      "sources": [
+        {
+          "title": "원문 고객 사례·제품 발표",
+          "url": "https://www.youtube.com/watch?v=kuGjypoJKwk",
+          "publisher": "OpenAI 공식 영상",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:08+09:00",
+          "checkedUntil": "2026-09-11T05:21:14+09:00",
+          "note": "원문 고객 사례·제품 발표",
+          "publishedAt": null
+        },
+        {
+          "title": "Astra Work 발표를 모델 성능 재소개가 아닌 앱별 허용·사전 승인·중단·복구 관점으로 읽는다.",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "publisher": "OpenAI 공식 문서·사례",
+          "kind": "official-vendor-source",
+          "checkedAt": "2026-09-11T05:21:24+09:00",
+          "checkedUntil": "2026-09-11T05:21:26+09:00",
+          "note": "Astra Work 발표를 모델 성능 재소개가 아닌 앱별 허용·사전 승인·중단·복구 관점으로 읽는다.",
+          "publishedAt": null
+        }
+      ],
+      "image": {
+        "src": "assets/topics/blog-astra-work-least-privilege-plan.png",
+        "alt": "컴퓨터를 움직이는 AI, 최소 권한으로 시작하는 기획안",
+        "caption": "자체 생성한 설명용 삽화·개념도. 실제 촬영·제품 화면·고객 초상 아님."
+      },
+      "carriedFrom": null,
+      "scenes": [
+        {
+          "time": "1절",
+          "visual": "앱별 허용표",
+          "narration": "문서 앱: 읽기와 초안 작성까지만 허용하는 예시를 적는다. 메일 앱: 외부 전송은 사전 승인 대상으로 둔다."
+        },
+        {
+          "time": "2절",
+          "visual": "사전 승인",
+          "narration": "어떤 변경을 누가 승인할지, 승인 범위가 끝나는 지점을 기록한다."
+        },
+        {
+          "time": "3절",
+          "visual": "중단 기준",
+          "narration": "예상 밖 앱 접근·근거 없는 변경 요청이 나타나면 중단하고 담당자에게 넘긴다."
+        },
+        {
+          "time": "4절",
+          "visual": "복구 준비",
+          "narration": "원본 보존·변경 기록·되돌리기 가능 여부를 작업 전에 확인한다. 되돌릴 수 없으면 범위를 줄인다."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "앱별 허용표",
+          "body": "문서 앱: 읽기와 초안 작성까지만 허용하는 예시를 적는다. 메일 앱: 외부 전송은 사전 승인 대상으로 둔다."
+        },
+        {
+          "heading": "사전 승인",
+          "body": "어떤 변경을 누가 승인할지, 승인 범위가 끝나는 지점을 기록한다."
+        },
+        {
+          "heading": "중단 기준",
+          "body": "예상 밖 앱 접근·근거 없는 변경 요청이 나타나면 중단하고 담당자에게 넘긴다."
+        },
+        {
+          "heading": "복구 준비",
+          "body": "원본 보존·변경 기록·되돌리기 가능 여부를 작업 전에 확인한다. 되돌릴 수 없으면 범위를 줄인다."
+        }
+      ]
+    }
+  ],
+  "topIds": [
+    "shorts-sea-spider-gut-pump",
+    "shorts-wasp76b-iron-asymmetry",
+    "shorts-dung-beetle-milky-way-compass"
+  ]
+}

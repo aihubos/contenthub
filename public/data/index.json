@@ -1,8 +1,21 @@
 {
-  "latest": "2026-09-10",
-  "lastSuccessAt": "2026-09-10T11:23:32+09:00",
+  "latest": "2026-09-11",
+  "lastSuccessAt": "2026-09-11T05:54:19+09:00",
   "schedule": "매일 05:00 Asia/Seoul · 이 Mac의 Codex",
   "briefs": [
+    {
+      "date": "2026-09-11",
+      "count": 20,
+      "legacyEdition": "run-202609110554190900",
+      "currentEdition": "run-202609110554190900",
+      "editions": [
+        {
+          "id": "run-202609110554190900",
+          "generatedAt": "2026-09-11T05:54:19+09:00",
+          "count": 20
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "count": 20,
