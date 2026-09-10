@@ -1,0 +1,858 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T05:45:24+09:00",
+  "coverage": [
+    {
+      "title": "AI Builders Lab 공개 영상",
+      "status": "RSS 목록 확인",
+      "note": "최신 파커 탐사선 영상은 신규 주제에서 제외. RSS 조회수를 성과 예측으로 쓰지 않는다.",
+      "url": "https://www.youtube.com/shorts/61E0A7S1pGs"
+    },
+    {
+      "title": "블로그 공개 글",
+      "status": "최근 7일 신규 글 없음",
+      "note": "RSS 최신 글은 2026-08-23이며 최근 7일 신규 글로 표현하지 않는다.",
+      "url": "https://m.blog.naver.com/jeremylee0213/224387579480"
+    },
+    {
+      "title": "한국 Google Trends",
+      "status": "RSS 목록 대조",
+      "note": "수집된 10개 항목과 후보 핵심어 직접 일치는 0건. 수요 부재나 후보 우열을 뜻하지 않는다.",
+      "url": "https://trends.google.com/trending/rss?geo=KR"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "shorts-neptune-beyond-hidden-worlds",
+      "format": "shorts",
+      "title": "해왕성 너머, 아직 못 찾은 천체가 있었다?",
+      "hook": "같은 하늘을 두 망원경으로 보면, 놓쳤던 천체가 드러날까요?",
+      "outline": [
+        "해왕성 바깥 작은 천체를 찾는 관측 질문",
+        "Hubble 가시광과 Webb 적외선 자료의 결합",
+        "관측 결과와 태양계 전체에 대한 해석의 한계 구분"
+      ],
+      "guardrail": "미확인 수량·크기·행성 여부를 단정하지 않는다. 원본 영상 음악의 사용권을 NASA 출처만으로 추정하지 않는다.",
+      "category": "우주·관측",
+      "summary": "서로 다른 파장으로 관측한 자료를 결합해 해왕성 바깥의 작은 천체를 찾는 과정을 설명하는 쇼츠 기획.",
+      "whyNow": "2026-09-08 NASA 공개 자료를 설명하는 기획이다. 검색 수요나 조회 성과가 확인됐다는 의미는 아니다.",
+      "fit": "짧은 시각적 질문에서 출발해 관측 또는 지질 구조 한 가지를 설명하는 과학 쇼츠에 적합하다.",
+      "signal": "시의성",
+      "duration": "45~60초",
+      "keywords": [
+        "해왕성 바깥 천체",
+        "허블",
+        "웹",
+        "파장 결합"
+      ],
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/shorts-neptune-beyond-hidden-worlds.png",
+        "alt": "해왕성을 나타내는 파란 구체와 서로 다른 관측 빛줄기, 먼 빛점",
+        "caption": "AI 생성 설명 이미지이며 실제 관측 사진이 아닙니다. 천체의 크기·거리와 빛 경로는 개념적으로 표현했습니다.",
+        "sourceUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/"
+      },
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "해왕성 바깥 천체의 내부 액체 대신 관측 파장 결합에 의한 검출·분류를 다룬다."
+      },
+      "sources": [
+        {
+          "title": "Hubble and Webb find far-out solar system objects",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+          "publisher": "NASA Science",
+          "kind": "official-primary",
+          "publishedAt": "2026-09-08",
+          "checkedAt": "2026-09-09T05:10:00+09:00",
+          "note": "가시광·적외선 결합 관측 결과를 설명한 NASA 본문. 발견 범위를 전체 천체 목록이나 행성 발견으로 확대하지 않는다."
+        },
+        {
+          "title": "NASA SVS 15092",
+          "url": "https://svs.gsfc.nasa.gov/15092",
+          "publisher": "NASA SVS",
+          "kind": "official-primary",
+          "publishedAt": "2026-09-08",
+          "checkedAt": "2026-09-09T05:10:00+09:00",
+          "note": "영상·자막 자료와 별도 음악 크레딧이 있는 자료 페이지. 출처 표기가 파일 사용 허가를 뜻하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-vasquez-tilted-strata",
+      "format": "shorts",
+      "title": "이 바위는 왜 비스듬히 서 있을까?",
+      "hook": "바위의 기울기에도, 땅이 움직인 흔적이 남아 있습니다.",
+      "outline": [
+        "비스듬한 퇴적층의 형태를 질문으로 제시",
+        "퇴적 이후 지각변형으로 기울어진 구조 설명",
+        "위성 촬영일·기사 공개일·지질 형성 시기 구분"
+      ],
+      "guardrail": "적외선 색상 해설을 중심으로 삼지 않는다. 평균 기울기를 모든 암석의 정확한 각도로 표현하지 않는다. 촬영일을 지질 사건 발생일이나 기사 공개일로 바꾸지 않는다. 거짓색·적외선 해설은 제외한다.",
+      "category": "지구·지질",
+      "summary": "기울어진 지층을 통해 퇴적 이후 땅의 변형을 읽는 쇼츠 기획.",
+      "whyNow": "2026-09-08 NASA 공개 자료를 설명하는 기획이다. 검색 수요나 조회 성과가 확인됐다는 의미는 아니다.",
+      "fit": "짧은 시각적 질문에서 출발해 관측 또는 지질 구조 한 가지를 설명하는 과학 쇼츠에 적합하다.",
+      "signal": "시의성",
+      "duration": "45~60초",
+      "keywords": [
+        "바스케즈 록스",
+        "퇴적층",
+        "지각변형",
+        "지질구조"
+      ],
+      "accent": "peach",
+      "image": {
+        "src": "assets/topics/shorts-vasquez-tilted-strata.png",
+        "alt": "수평 지층과 기울어진 지층을 나란히 보여 주는 색 띠와 변형 방향 화살표",
+        "caption": "AI 생성 설명 이미지이며 실제 장소 사진이 아닙니다. 지층의 각도와 변형 과정은 개념적으로 단순화했습니다.",
+        "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/"
+      },
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "적외선 거짓색 설명 대신 퇴적층의 경사와 지각변형을 다룬다."
+      },
+      "sources": [
+        {
+          "title": "The Otherworldly Geology of Vasquez Rocks",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/",
+          "publisher": "NASA Earth Observatory",
+          "kind": "official-primary",
+          "publishedAt": "2026-09-08",
+          "checkedAt": "2026-09-09T05:10:00+09:00",
+          "note": "지층 평균 경사와 퇴적 이후 변형 설명. 위성 촬영일 2026-07-28과 기사 공개일 2026-09-08을 구분한다."
+        },
+        {
+          "title": "Apwinga Loop Trail",
+          "url": "https://trails.lacounty.gov/Trail/1853/apwinga-loop-trail",
+          "publisher": "LA County Parks",
+          "kind": "official-background",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:10:00+09:00",
+          "note": "공식 장소 배경을 제공하는 보조 출처. 지질 수치 전체를 독립적으로 입증하는 자료로 취급하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-dragonfly-warm-wiring",
+      "format": "shorts",
+      "category": "과학·기술",
+      "title": "타이탄 탐사선, 왜 배선부터 추위를 대비할까?",
+      "hook": "탐사선의 전선은 전기만 통하면 끝일까요?",
+      "summary": "단열층 아래 배선과 내부 공기 순환을 함께 고려하는 탐사선 설계 이야기.",
+      "whyNow": "2026-09-02 공개 원문의 설명 기획. 최근 수요·성과 우열을 뜻하지 않는다.",
+      "fit": "하나의 질문과 개념 도식으로 기술의 작동 조건을 설명하는 과학 쇼츠 기획.",
+      "signal": "시의성",
+      "duration": "45~60초",
+      "outline": [
+        "배선이 담당하는 전력·데이터 전달",
+        "단열층과 내부 따뜻한 공기 순환의 설계 관계",
+        "발사·도착 예정과 현재 조립 단계 구분"
+      ],
+      "guardrail": "발사·도착 일정은 예정이다. 타이탄 착륙 완료나 생명 발견으로 표현하지 않는다. USGS 명명 자료는 NASA 배선 수치의 독립 검증 근거가 아니다.",
+      "keywords": [
+        "드래곤플라이",
+        "타이탄",
+        "탐사선 배선"
+      ],
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/shorts-dragonfly-warm-wiring.png",
+        "alt": "단열층으로 둘러싸인 타원형 단면 속 배선과 따뜻한 공기 흐름 화살표",
+        "caption": "AI 생성 설명 이미지이며 실제 탐사선 설계도가 아닙니다. 배선과 공기 흐름은 개념적으로 단순화했습니다.",
+        "sourceUrl": "https://science.nasa.gov/blogs/dragonfly/2026/09/02/nasas-dragonfly-gets-wired-up-while-titan-landing-area-is-named/"
+      },
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "생명 탐사 전망 대신 탐사선 배선과 보온 설계의 관계를 다룬다. 핵심을 이 범위에 한정한다."
+      },
+      "sources": [
+        {
+          "title": "타이탄 탐사선, 왜 배선부터 추위를 대비할까? — NASA 원문",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/09/02/nasas-dragonfly-gets-wired-up-while-titan-landing-area-is-named/",
+          "publisher": "NASA",
+          "kind": "official-primary",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:39+09:00",
+          "note": "탐사선 조립·배선 및 단열 설계에 관한 본문. 발사와 도착은 예정이며 탐사 완료를 뜻하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "착륙지 명명 자료",
+          "url": "https://planetarynames.wr.usgs.gov/Feature/16446",
+          "publisher": "USGS",
+          "kind": "official-background",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:40+09:00",
+          "note": "착륙지 명명만 보강하며 배선 수치의 교차검증 출처가 아니다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 발행일 없음; IAU 승인일 2026-04-13."
+        }
+      ]
+    },
+    {
+      "id": "shorts-swift-boost-scaled-back",
+      "format": "shorts",
+      "category": "과학·기술",
+      "title": "위성에 다가간 구조선, 왜 임무가 축소됐을까?",
+      "hook": "12~15km까지 접근했지만 더 가까이 가지 않기로 했습니다. 무엇이 달라졌을까요?",
+      "summary": "LINK 자세 제어 문제로 Swift 고도 상승 임무가 축소되고 기술시연이 이어지는 상황을 설명.",
+      "whyNow": "2026-09-04 공개 원문의 설명 기획. 최근 수요·성과 우열을 뜻하지 않는다.",
+      "fit": "하나의 질문과 개념 도식으로 기술의 작동 조건을 설명하는 과학 쇼츠 기획.",
+      "signal": "시의성",
+      "duration": "45~60초",
+      "outline": [
+        "Swift 고도 상승 임무의 목적",
+        "LINK 자세 제어 문제로 임무 축소, 12~15km 접근 후 추가 접근하지 않을 계획",
+        "고도 상승 성공과 계속되는 기술시연 구분"
+      ],
+      "guardrail": "도킹·고도 상승 성공으로 표현하지 않는다. 임무 축소를 모든 기술시연의 종료로 바꾸지 않는다.",
+      "keywords": [
+        "스위프트",
+        "위성 임무",
+        "자세 제어"
+      ],
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/shorts-swift-boost-scaled-back.png",
+        "alt": "서로 떨어진 두 단순 위성 아이콘과 분리된 궤도선",
+        "caption": "AI 생성 설명 이미지이며 실제 관측 사진·위성 설계도가 아닙니다. 두 위성의 거리와 궤도는 개념적으로 표현했습니다.",
+        "sourceUrl": "https://science.nasa.gov/blogs/swift/2026/09/04/commercial-spacecraft-for-nasas-swift-boost-continues-tech-demo/"
+      },
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "위성 구조 성공이 아닌 임무 축소와 기술시연의 구분을 다룬다. 핵심을 이 범위에 한정한다."
+      },
+      "sources": [
+        {
+          "title": "위성 구조선, 가까이 갔는데 왜 멈췄을까? — NASA 원문",
+          "url": "https://science.nasa.gov/blogs/swift/2026/09/04/commercial-spacecraft-for-nasas-swift-boost-continues-tech-demo/",
+          "publisher": "NASA",
+          "kind": "official-primary",
+          "publishedAt": "2026-09-04",
+          "checkedAt": "2026-09-09T05:40:41+09:00",
+          "note": "자세 제어 문제에 따른 임무 축소와 계속되는 기술시연을 설명한 본문. 도킹·고도 상승 성공을 뜻하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "Swift 임무 다음 단계",
+          "url": "https://www.nasa.gov/news-release/nasa-updates-next-steps-for-commercial-swift-boost-mission/",
+          "publisher": "NASA",
+          "kind": "official-background",
+          "publishedAt": "2026-08-19",
+          "checkedAt": "2026-09-09T05:40:42+09:00",
+          "note": "포획·고도 상승 취소와 기술시연 지속을 구분한다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        }
+      ]
+    },
+    {
+      "id": "shorts-dstretch-ancient-colors",
+      "format": "shorts",
+      "category": "과학·기술",
+      "title": "우주 사진의 대비 기술, 고대 그림 읽기에 쓰였다",
+      "hook": "없는 그림을 그리는 대신, 남아 있는 색의 차이를 키운다면?",
+      "summary": "위성 영상 대비 강화 기법이 고고학 이미지 분석에 활용된 기술 이전 이야기.",
+      "whyNow": "2026-09-08 공개 원문의 설명 기획. 최근 수요·성과 우열을 뜻하지 않는다.",
+      "fit": "하나의 질문과 개념 도식으로 기술의 작동 조건을 설명하는 과학 쇼츠 기획.",
+      "signal": "시의성",
+      "duration": "45~60초",
+      "outline": [
+        "희미한 색 차이를 읽기 어려운 문제",
+        "약 2005년 NASA 자료에서 착안한 DStretch의 고고학 활용",
+        "Angkor Wat 그림 발견은 2010~2012년이며 2026년은 소개 기사 공개 시점임을 구분"
+      ],
+      "guardrail": "생성 AI 복원이나 2026 신규 고대그림 발견으로 쓰지 않는다. Mount Michael 적외선 해설 대신 고고학 활용에 한정한다.",
+      "keywords": [
+        "디스트레치",
+        "영상 대비",
+        "고고학"
+      ],
+      "accent": "sage",
+      "image": {
+        "src": "assets/topics/shorts-dstretch-ancient-colors.png",
+        "alt": "낮은 대비와 높은 대비의 추상 색 질감을 좌우로 비교한 이미지",
+        "caption": "AI 생성 설명 이미지이며 실제 유물·고대 그림 복원 결과가 아닙니다. 색 대비 차이를 개념적으로 표현했습니다.",
+        "sourceUrl": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-technique-for-manipulating-satellite-photos-now-reveals-ancient-images/"
+      },
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "적외선 영상 해설 대신 대비 강화 기술의 고고학 활용을 다룬다. 핵심을 이 범위에 한정한다."
+      },
+      "sources": [
+        {
+          "title": "흐린 고대 그림, 우주 사진 기술로 읽는다? — NASA 원문",
+          "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-technique-for-manipulating-satellite-photos-now-reveals-ancient-images/",
+          "publisher": "NASA",
+          "kind": "official-primary",
+          "publishedAt": "2026-09-08",
+          "checkedAt": "2026-09-09T05:40:42+09:00",
+          "note": "영상 대비 강화 기법의 고고학 활용을 소개한 본문. 2026년 신규 발견이나 생성 AI 복원이 아니다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "영상 대비 기술의 고고학 활용",
+          "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+          "publisher": "NASA Spinoff",
+          "kind": "official-background",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:44+09:00",
+          "note": "같은 NASA 계열 자료로 독립 교차검증을 뜻하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 명시 일자 미확인."
+        }
+      ]
+    },
+    {
+      "id": "youtube-alphagenome-atlas-prediction-boundary",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "90억 DNA 변화 지도, 실험 결과와 무엇이 다를까?",
+      "summary": "단일 염기 변이의 분자 영향 예측 지도와 실험 검증 경계를 설명한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "예측 지도가 커질수록, 어디까지 믿어도 되는지 먼저 봐야 합니다.",
+      "outline": [
+        "단일 염기 변화와 분자 영향 예측의 질문",
+        "AVI 점수와 대규모 예측 지도의 의미",
+        "실험·진단·치료 확정과 구분하는 읽기 기준"
+      ],
+      "keywords": [
+        "DNA 변이",
+        "예측 지도",
+        "실험 검증"
+      ],
+      "sources": [
+        {
+          "title": "90억 DNA 변화 지도, 실험 결과와 무엇이 다를까? — Google DeepMind",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "publisher": "Google DeepMind",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-08",
+          "checkedAt": "2026-09-09T05:40:45+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 90억 실험 완료·진단·치료 확정으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "90억 DNA 변화 지도, 실험 결과와 무엇이 다를까? — Google DeepMind",
+          "url": "https://github.com/google-deepmind/alphagenome",
+          "publisher": "Google DeepMind",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:46+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 90억 실험 완료·진단·치료 확정으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 저장소에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "집단 간 유전체 전이 대신 변이 예측 지도와 실험 검증의 경계에 한정한다."
+      },
+      "guardrail": "90억 실험 완료·진단·치료 확정으로 쓰지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-alphagenome-atlas-prediction-boundary.png",
+        "alt": "분자 격자와 DNA 모형이 있는 예측 영역, 분리된 현미경 실험 영역",
+        "caption": "AI 생성 설명 이미지이며 실제 연구 실험 화면이 아닙니다. 예측과 실험의 구분을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+      }
+    },
+    {
+      "id": "youtube-male-fly-connectome-human-proofreading",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "초파리 뇌 지도, AI 다음에 사람이 한 일",
+      "summary": "수컷 초파리 연결 지도 구축에서 AI 재구성과 전문가 주석·교정의 역할을 설명한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "AI가 연결을 그린 뒤에도 전문가의 교정이 남아 있었습니다.",
+      "outline": [
+        "뉴런과 시냅스 연결을 지도화하는 문제",
+        "AI 재구성과 전문가 교정 단계",
+        "초파리 결과와 인간 뇌에 대한 해석의 한계"
+      ],
+      "keywords": [
+        "초파리",
+        "연결 지도",
+        "전문가 교정"
+      ],
+      "sources": [
+        {
+          "title": "초파리 뇌 지도, AI 다음에 사람이 한 일 — Google Research",
+          "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+          "publisher": "Google Research",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-09T05:40:46+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 인간 뇌 해독·치료법·AI 단독 완성으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "초파리 뇌 지도, AI 다음에 사람이 한 일 — Janelia",
+          "url": "https://www.janelia.org/project-team/flyem/male-cns-connectome",
+          "publisher": "Janelia",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:47+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 인간 뇌 해독·치료법·AI 단독 완성으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 페이지 발행일 없음; News에 공식 논문 공개 2026-09-03."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "뇌 연결 지도 제작에서 사람의 교정 단계를 다루며 다른 생물 예측 모델 비교로 확장하지 않는다."
+      },
+      "guardrail": "인간 뇌 해독·치료법·AI 단독 완성으로 쓰지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-male-fly-connectome-human-proofreading.png",
+        "alt": "초파리 실루엣과 확대된 신경망, 돋보기",
+        "caption": "AI 생성 설명 이미지이며 실제 뇌 관측 이미지가 아닙니다. 사람의 검토 단계를 개념적으로 표현했습니다.",
+        "sourceUrl": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
+      }
+    },
+    {
+      "id": "youtube-text-audiobox-dialogue-boundary",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "겹쳐 말하는 AI 음성, 더빙 연구는 어디까지 왔을까?",
+      "summary": "Text-Audiobox 더빙·동시대화 연구의 범위와 벤치마크 해석을 소개한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "자연스럽게 들리는 예시와 모든 언어에서 검증된 제품은 다릅니다.",
+      "outline": [
+        "더빙과 동시대화 합성의 차이",
+        "학습·평가 조건과 논문의 연구 범위",
+        "제품 제공·언어 범위·음성 권리 확인 항목"
+      ],
+      "keywords": [
+        "음성 합성",
+        "더빙",
+        "동시대화"
+      ],
+      "sources": [
+        {
+          "title": "겹쳐 말하는 AI 음성, 더빙 연구는 어디까지 왔을까? — Meta AI",
+          "url": "https://ai.meta.com/research/publications/alignment-free-text-audiobox-for-voice-dubbing-and-full-duplex-dialogue-synthesis/",
+          "publisher": "Meta AI",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-06",
+          "checkedAt": "2026-09-09T05:40:49+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 제품 출시·전 언어 지원·음성 권리 해결을 단정하지 않는다. 성능은 논문 평가 범위다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "겹쳐 말하는 AI 음성, 더빙 연구는 어디까지 왔을까? — arXiv",
+          "url": "https://arxiv.org/abs/2609.03992",
+          "publisher": "arXiv",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-03",
+          "checkedAt": "2026-09-09T05:40:49+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 제품 출시·전 언어 지원·음성 권리 해결을 단정하지 않는다. 성능은 논문 평가 범위다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 최초 제출일."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "음성 더빙과 동시대화 합성 연구의 적용 경계에 한정한다."
+      },
+      "guardrail": "제품 출시·전 언어 지원·음성 권리 해결을 단정하지 않는다. 성능은 논문 평가 범위다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-text-audiobox-dialogue-boundary.png",
+        "alt": "서로 겹치는 푸른색과 주황색의 추상 음성 파형",
+        "caption": "AI 생성 설명 이미지이며 실제 음성 녹음 파형이나 제품 화면이 아닙니다. 두 대화 흐름을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://ai.meta.com/research/publications/alignment-free-text-audiobox-for-voice-dubbing-and-full-duplex-dialogue-synthesis/"
+      }
+    },
+    {
+      "id": "youtube-cwnet-self-driving-explanations",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "자율주행이 틀릴 순간, 설명을 보면 알아챌까?",
+      "summary": "CW-Net의 설명이 사람의 자율주행 행동 예측에 어떤 역할을 하는지 연구 범위로 설명한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "자동차의 판단을 사람이 읽을 수 있는 개념으로 바꾸면 무엇이 달라질까요?",
+      "outline": [
+        "주행 계획을 사람이 이해하기 어려운 문제",
+        "사람이 읽는 개념으로 설명하는 방식",
+        "실차·온라인 연구 결과와 안전 보장의 차이"
+      ],
+      "keywords": [
+        "자율주행",
+        "설명",
+        "행동 예측"
+      ],
+      "sources": [
+        {
+          "title": "자율주행이 틀릴 순간, 설명을 보면 알아챌까? — MIT CSAIL",
+          "url": "https://www.csail.mit.edu/news/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes",
+          "publisher": "MIT CSAIL",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:50+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 행동 예측 개선을 사고 방지·안전 보장·전 차량 일반화로 확대하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "자율주행이 틀릴 순간, 설명을 보면 알아챌까? — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10950-5",
+          "publisher": "Nature",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:52+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 행동 예측 개선을 사고 방지·안전 보장·전 차량 일반화로 확대하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. Version of record."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "운전 행동 설명을 통한 사람의 예측에 집중하며 자율주행 성능 순위로 바꾸지 않는다."
+      },
+      "guardrail": "행동 예측 개선을 사고 방지·안전 보장·전 차량 일반화로 확대하지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-cwnet-self-driving-explanations.png",
+        "alt": "세 갈래 경로와 작은 자동차, 사람이 경로 신호를 살피는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 주행 화면·안전 보장 표시가 아닙니다. 가능한 경로와 사람의 해석을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://www.csail.mit.edu/news/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes"
+      }
+    },
+    {
+      "id": "youtube-calibatt-sparse-video-attention",
+      "format": "youtube",
+      "category": "AI·연구 해설",
+      "title": "영상 AI 계산, 덜 하면서 빨라질 수 있을까?",
+      "summary": "CalibAtt 희소 어텐션의 영상 생성 계산 최적화와 시험 조건을 설명한다.",
+      "whyNow": "2026-09-02 ECCV 참가 공지를 계기로 기존 계산 최적화 연구를 설명한다. 연구 페이지의 2026년 7월과 arXiv의 3월을 신규 발표일로 바꾸지 않는다.",
+      "fit": "개념과 한계를 시각적 사례로 풀어 설명하는 영상에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "6~8분",
+      "hook": "줄인 계산의 이득은 모델과 실행 조건에 따라 달라집니다.",
+      "outline": [
+        "영상 생성 계산에서 어텐션이 차지하는 역할",
+        "희소화와 보정의 개념",
+        "시험 모델의 최대 가속과 일반 성능의 차이"
+      ],
+      "keywords": [
+        "영상 생성",
+        "희소 어텐션",
+        "계산 최적화"
+      ],
+      "sources": [
+        {
+          "title": "영상 AI 계산, 덜 하면서 빨라질 수 있을까? — Apple ML Research",
+          "url": "https://machinelearning.apple.com/updates/apple-at-eccv-2026",
+          "publisher": "Apple ML Research",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:53+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 최대 1.58배를 모든 모델·환경의 가속으로 쓰지 않는다. 논문은 7월, arXiv는 3월이며 새 9월 논문으로 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "영상 AI 계산, 덜 하면서 빨라질 수 있을까? — Apple ML Research",
+          "url": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
+          "publisher": "Apple ML Research",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 최대 1.58배를 모든 모델·환경의 가속으로 쓰지 않는다. 논문은 7월, arXiv는 3월이며 새 9월 논문으로 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 페이지는 July 2026만 표시; 날짜 창작 금지."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "영상 구간 선택이 아닌 생성 모델 내부 계산 최적화에 한정한다."
+      },
+      "guardrail": "최대 1.58배를 모든 모델·환경의 가속으로 쓰지 않는다. 논문은 7월, arXiv는 3월이며 새 9월 논문으로 표현하지 않는다.",
+      "accent": "blue",
+      "image": {
+        "src": "assets/topics/youtube-calibatt-sparse-video-attention.png",
+        "alt": "촘촘한 연결망에서 선택된 연결망으로 바뀌는 노드 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 모델 내부 화면이 아닙니다. 계산 연결 선택을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://machinelearning.apple.com/updates/apple-at-eccv-2026"
+      }
+    },
+    {
+      "id": "blog-hydrafusion-routing-cost-gates",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI 모델을 섞으면 싸질까? 호출 전체부터 세어보기",
+      "summary": "HydraFusion의 single·cascade·critique 라우팅을 전체 호출 비용으로 읽는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "첫 호출이 저렴해도 추가 비평과 재시도 비용이 붙을 수 있습니다.",
+      "outline": [
+        "세 라우팅 방식의 역할",
+        "추가 호출을 포함한 비용 기록표 제안",
+        "벤치마크별 품질 차이와 실사용 검증 조건"
+      ],
+      "keywords": [
+        "모델 라우팅",
+        "전체 비용",
+        "추가 호출"
+      ],
+      "sources": [
+        {
+          "title": "AI 모델을 섞으면 싸질까? 호출 전체부터 세어보기 — GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "publisher": "GitHub",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-04",
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. TerminalBench 결과와 추정 비용 절감을 보편 실사용 우위로 확대하지 않는다. 다른 평가의 품질 하락도 생략하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI 모델을 섞으면 싸질까? 호출 전체부터 세어보기 — GitHub Docs",
+          "url": "https://docs.github.com/en/copilot/concepts/models/auto-model-selection",
+          "publisher": "GitHub Docs",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. TerminalBench 결과와 추정 비용 절감을 보편 실사용 우위로 확대하지 않는다. 다른 평가의 품질 하락도 생략하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 문서에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "모델 라우팅의 전체 호출 회계에 한정하며 다음 글의 출력 축약·복구 호출 문제와 구분한다."
+      },
+      "guardrail": "TerminalBench 결과와 추정 비용 절감을 보편 실사용 우위로 확대하지 않는다. 다른 평가의 품질 하락도 생략하지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-hydrafusion-routing-cost-gates.png",
+        "alt": "한 입력이 세 갈래 경로를 지나 비용 토큰으로 모이는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 서비스 화면·비용 수치가 아닙니다. 여러 호출 경로의 합산을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
+      }
+    },
+    {
+      "id": "blog-agent-efficiency-local-metric-trap",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI 답변을 줄였는데, 왜 다시 읽는 일이 늘까?",
+      "summary": "출력 축약이 재열람·재실행을 유발하는 국소 최적화 문제를 다루는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "한 번의 출력 절약이 다음 호출의 복구 비용이 될 수 있습니다.",
+      "outline": [
+        "짧아진 출력과 사라진 맥락의 관계",
+        "재열람·재실행까지 기록하는 실험 설계",
+        "특정 실험 수치를 내 업무에 일반화하지 않는 결론"
+      ],
+      "keywords": [
+        "출력 축약",
+        "복구 호출",
+        "국소 최적화"
+      ],
+      "sources": [
+        {
+          "title": "AI 답변을 줄였는데, 왜 다시 읽는 일이 늘까? — GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "publisher": "GitHub",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:54+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 줄번호 제거 약 5%·온라인 약 3% 수치를 보편화하지 않는다. 직접 실험한 경험담으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI 답변을 줄였는데, 왜 다시 읽는 일이 늘까? — GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+          "publisher": "GitHub",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-06-25",
+          "checkedAt": "2026-09-09T05:40:55+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 줄번호 제거 약 5%·온라인 약 3% 수치를 보편화하지 않는다. 직접 실험한 경험담으로 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 최근 7일 원문 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "useful-yield 경영 지표로 확장하지 않고 국소 절약이 복구 호출을 늘리는 문제에만 한정한다."
+      },
+      "guardrail": "줄번호 제거 약 5%·온라인 약 3% 수치를 보편화하지 않는다. 직접 실험한 경험담으로 쓰지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-agent-efficiency-local-metric-trap.png",
+        "alt": "많은 빈 카드와 적은 카드 사이를 순환하는 두 화살표",
+        "caption": "AI 생성 설명 이미지이며 실제 업무 기록이 아닙니다. 출력 축약 뒤 재열람 흐름을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/"
+      }
+    },
+    {
+      "id": "blog-agent-memory-expire-consolidate-prune",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI 기억, 언제 지우고 언제 남겨야 할까?",
+      "summary": "TTL·관련성·통합·삭제를 구분해 메모리 수명주기를 설계하는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "기억을 저장하는 규칙만큼 잊는 규칙도 필요합니다.",
+      "outline": [
+        "보존 기간과 관련성 판단 구분",
+        "별도 pruner와 통합·삭제 흐름",
+        "손실 가능한 통합의 원본 보존과 사람 검토 조건"
+      ],
+      "keywords": [
+        "기억 수명주기",
+        "만료",
+        "통합"
+      ],
+      "sources": [
+        {
+          "title": "AI 기억, 언제 지우고 언제 남겨야 할까? — AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+          "publisher": "AWS",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-04",
+          "checkedAt": "2026-09-09T05:40:56+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. AgentCore 내장 자동삭제 TTL로 오인하지 않는다. 예시 기본값을 표준으로 쓰거나 실제 삭제를 수행하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI 기억, 언제 지우고 언제 남겨야 할까? — AWS Samples",
+          "url": "https://github.com/aws-samples/sample-memory-lifecycle-policies-for-bedrock-agentcore",
+          "publisher": "AWS Samples",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:57+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. AgentCore 내장 자동삭제 TTL로 오인하지 않는다. 예시 기본값을 표준으로 쓰거나 실제 삭제를 수행하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 저장소에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "LLM Wiki 저장 방법과 달리 기억을 언제 만료·통합·삭제하는지에 집중한다."
+      },
+      "guardrail": "AgentCore 내장 자동삭제 TTL로 오인하지 않는다. 예시 기본값을 표준으로 쓰거나 실제 삭제를 수행하지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-agent-memory-expire-consolidate-prune.png",
+        "alt": "빈 카드가 보관함·통합 카드·흩어지는 점으로 갈라지는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 메모리 시스템 화면이 아닙니다. 보존·통합·만료의 선택을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/"
+      }
+    },
+    {
+      "id": "blog-speculative-decoding-acceptance-overhead",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "작은 AI가 먼저 쓰면, 큰 AI는 항상 빨라질까?",
+      "summary": "draft 제안과 target 검증 구조를 채택률·추가 계산 비용으로 읽는 기획형 글.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "초안을 얼마나 받아들이는지와 초안 비용이 함께 중요합니다.",
+      "outline": [
+        "작은 모델의 토큰 제안과 큰 모델의 검증",
+        "채택률과 draft 오버헤드의 상쇄 관계",
+        "작업·하드웨어 조건을 적는 비교 기준"
+      ],
+      "keywords": [
+        "추측 디코딩",
+        "채택률",
+        "추가 계산"
+      ],
+      "sources": [
+        {
+          "title": "작은 AI가 먼저 쓰면, 큰 AI는 항상 빨라질까? — NVIDIA",
+          "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+          "publisher": "NVIDIA",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:57+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 모든 환경 가속이나 정확도 향상으로 쓰지 않는다. 직접 측정한 속도인 것처럼 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "작은 AI가 먼저 쓰면, 큰 AI는 항상 빨라질까? — NVIDIA on Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/speed-bench",
+          "publisher": "NVIDIA on Hugging Face",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-03-19",
+          "checkedAt": "2026-09-09T05:40:57+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 모든 환경 가속이나 정확도 향상으로 쓰지 않는다. 직접 측정한 속도인 것처럼 표현하지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 최근 7일 원문 아님."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "모델 라우팅이 아닌 토큰 초안 제안·검증 계산 경계에 한정한다."
+      },
+      "guardrail": "모든 환경 가속이나 정확도 향상으로 쓰지 않는다. 직접 측정한 속도인 것처럼 표현하지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-speculative-decoding-acceptance-overhead.png",
+        "alt": "작은 블록이 기하 토큰을 제안하고 큰 블록이 일부를 선택하는 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 모델 출력·성능 수치가 아닙니다. 제안과 선택 흐름을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/"
+      }
+    },
+    {
+      "id": "blog-video-to-sop-source-timestamps",
+      "format": "blog",
+      "category": "AI·업무 기획",
+      "title": "AI가 만든 업무 절차서, 원본 영상으로 돌아갈 수 있나요?",
+      "summary": "생성 SOP 단계에서 원본 영상 시각으로 돌아가 검수·수정하는 절차를 제안한다.",
+      "whyNow": "공개 연구·문서를 바탕으로 적용 조건을 설명하는 기획이다. 최신 발표일이나 검색 수요의 우열을 단정하지 않는다.",
+      "fit": "실행 전 점검할 질문과 기록 항목을 제시하는 실무 기획 글에 적합하다.",
+      "signal": "채널 적합",
+      "duration": "읽기 5~7분",
+      "hook": "각 단계의 근거 시각이 있어야 사람이 수정할 수 있습니다.",
+      "outline": [
+        "생성 절차서의 근거가 사라지는 문제",
+        "각 단계와 원본 영상 시각 연결",
+        "사람이 검수·수정하는 운영 절차 제안"
+      ],
+      "keywords": [
+        "업무 절차서",
+        "원본 시각",
+        "사람 검수"
+      ],
+      "sources": [
+        {
+          "title": "AI가 만든 업무 절차서, 원본 영상으로 돌아갈 수 있나요? — AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+          "publisher": "AWS",
+          "kind": "research-or-official-document",
+          "publishedAt": "2026-09-02",
+          "checkedAt": "2026-09-09T05:40:58+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 사례 80% 수치를 일반화하지 않는다. 두 번째 문서는 구성요소 근거이며 SOP 성과 독립 검증이 아니다. 직접 실행 후기처럼 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다."
+        },
+        {
+          "title": "AI가 만든 업무 절차서, 원본 영상으로 돌아갈 수 있나요? — AWS Documentation",
+          "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/strands-sdk-memory.html",
+          "publisher": "AWS Documentation",
+          "kind": "research-or-official-document",
+          "publishedAt": null,
+          "checkedAt": "2026-09-09T05:40:58+09:00",
+          "note": "본문 또는 문서에서 확인한 주장 범위에 한정한다. 사례 80% 수치를 일반화하지 않는다. 두 번째 문서는 구성요소 근거이며 SOP 성과 독립 검증이 아니다. 직접 실행 후기처럼 쓰지 않는다. HTTP 본문 응답 확인 시각이며 브라우저 화면 검수 시각이 아니다. 문서에 단일 발행일 없음."
+        }
+      ],
+      "duplicate": {
+        "type": "new",
+        "related": [],
+        "note": "영상 요약·구간 선택 대신 절차서 각 단계의 원본 시각 추적과 사람의 수정에만 한정한다."
+      },
+      "guardrail": "사례 80% 수치를 일반화하지 않는다. 두 번째 문서는 구성요소 근거이며 SOP 성과 독립 검증이 아니다. 직접 실행 후기처럼 쓰지 않는다.",
+      "accent": "lavender",
+      "image": {
+        "src": "assets/topics/blog-video-to-sop-source-timestamps.png",
+        "alt": "색 점이 있는 가로 타임라인과 빈 절차 카드가 연결된 도식",
+        "caption": "AI 생성 설명 이미지이며 실제 영상·절차서 화면이 아닙니다. 원본 시점과 단계 연결을 개념적으로 표현했습니다.",
+        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/"
+      }
+    }
+  ],
+  "topIds": [
+    "shorts-neptune-beyond-hidden-worlds",
+    "youtube-male-fly-connectome-human-proofreading",
+    "blog-agent-memory-expire-consolidate-prune"
+  ]
+}
